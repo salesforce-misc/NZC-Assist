@@ -1,0 +1,82 @@
+# Reference & emission-factor data rules — confirm the committed seed in
+# `data/reference/` actually loaded, before any source/energy-use/footprint
+# rule downstream is trusted. Field/object names must be confirmed via
+# describe_sobject against the current org before relying on a failure here.
+---
+id: electricity-factors-loaded
+group: reference-data
+description: At least one electricity emission factor set is loaded
+severity: error
+check:
+  type: soql
+  query: SELECT COUNT() FROM ElectricityEmssnFctrSet
+  expect:
+    operator: '>'
+    value: 0
+remediation: Run /nzc:load-reference-data
+docs: skills/nzc-reference-data/SKILL.md
+---
+id: procurement-factor-items-loaded
+group: reference-data
+description: At least 300 procurement emission factor items are loaded (spend-based method needs category-level coverage)
+severity: warning
+check:
+  type: soql
+  query: SELECT COUNT() FROM PcmtEmssnFctrItem
+  expect:
+    operator: '>='
+    value: 300
+remediation: Run /nzc:load-reference-data; confirm data/reference/reference-load-order.json ran to completion
+docs: skills/nzc-scope3-procurement/SKILL.md
+---
+id: waste-factor-items-loaded
+group: reference-data
+description: At least 150 waste disposal emission factor items are loaded (covering the common disposal methods)
+severity: warning
+check:
+  type: soql
+  query: SELECT COUNT() FROM WstDispoEmssnFctrItm
+  expect:
+    operator: '>='
+    value: 150
+remediation: Run /nzc:load-reference-data
+docs: skills/nzc-waste/SKILL.md
+---
+id: scope-allocation-present
+group: reference-data
+description: At least one carbon emission scope allocation record exists
+severity: error
+check:
+  type: soql
+  query: SELECT COUNT() FROM CrbnEmssnScopeAlloc
+  expect:
+    operator: '>'
+    value: 0
+remediation: Run /nzc:load-reference-data
+docs: skills/nzc-reference-data/SKILL.md
+---
+id: inflation-rate-present
+group: reference-data
+description: At least one inflation rate record exists (required to normalize procurement spend across years)
+severity: warning
+check:
+  type: soql
+  query: SELECT COUNT() FROM InflationRate
+  expect:
+    operator: '>'
+    value: 0
+remediation: Run /nzc:load-reference-data
+docs: skills/nzc-scope3-procurement/SKILL.md
+---
+id: building-energy-intensity-loaded
+group: reference-data
+description: At least one building energy intensity benchmark value is loaded
+severity: warning
+check:
+  type: soql
+  query: SELECT COUNT() FROM BldgEnrgyIntensityVal
+  expect:
+    operator: '>'
+    value: 0
+remediation: Run /nzc:load-reference-data after /nzc:configure-record-types
+docs: skills/nzc-stationary-buildings/SKILL.md

@@ -1,0 +1,96 @@
+# Data integrity rules — catch orphaned or miswired records after sources,
+# energy/activity use, and footprints have been loaded. Lookup field API
+# names must be confirmed via describe_sobject before finalizing/trusting
+# these queries against a specific org (names below are the design-time
+# model — see CLAUDE.md § "Always describe_sobject").
+---
+id: annual-inventory-exists
+group: data-integrity
+description: At least one Annual Emissions Inventory exists for the current fiscal year
+severity: error
+check:
+  type: soql
+  query: SELECT COUNT() FROM AnnualEmssnInventory
+  expect:
+    operator: '>'
+    value: 0
+remediation: Run /nzc:build-annual-inventory before loading any source or footprint data
+docs: skills/nzc-annual-inventory/SKILL.md
+---
+id: footprints-linked-to-inventory
+group: data-integrity
+description: No stationary carbon footprint is missing its Annual Emissions Inventory link
+severity: error
+check:
+  type: soql
+  query: SELECT COUNT() FROM StnryAssetCrbnFtprnt WHERE AnnualEmssnInventoryId = null
+  expect:
+    operator: '='
+    value: 0
+remediation: Every footprint must be created with a non-null AnnualEmssnInventoryId — see knowledge/data-model.md
+docs: skills/nzc-carbon-footprint-calc/SKILL.md
+---
+id: vehicle-footprints-linked-to-inventory
+group: data-integrity
+description: No vehicle carbon footprint is missing its Annual Emissions Inventory link
+severity: error
+check:
+  type: soql
+  query: SELECT COUNT() FROM VehicleAssetCrbnFtprnt WHERE AnnualEmssnInventoryId = null
+  expect:
+    operator: '='
+    value: 0
+remediation: Every footprint must be created with a non-null AnnualEmssnInventoryId — see knowledge/data-model.md
+docs: skills/nzc-carbon-footprint-calc/SKILL.md
+---
+id: scope3-footprints-linked-to-inventory
+group: data-integrity
+description: No Scope 3 carbon footprint is missing its Annual Emissions Inventory link
+severity: error
+check:
+  type: soql
+  query: SELECT COUNT() FROM Scope3CrbnFtprnt WHERE AnnualEmssnInventoryId = null
+  expect:
+    operator: '='
+    value: 0
+remediation: Every footprint must be created with a non-null AnnualEmssnInventoryId — see knowledge/data-model.md
+docs: skills/nzc-carbon-footprint-calc/SKILL.md
+---
+id: stationary-sources-have-account
+group: data-integrity
+description: No stationary asset source is missing its owning Account
+severity: warning
+check:
+  type: soql
+  query: SELECT COUNT() FROM StnryAssetEnvrSrc WHERE AccountId = null
+  expect:
+    operator: '='
+    value: 0
+remediation: Load accounts (step 10) before sources (step 12) — see JOURNEY_MAP.md Part 2
+docs: skills/nzc-data-model/SKILL.md
+---
+id: scope3-procurement-sources-have-supplier
+group: data-integrity
+description: No Scope 3 procurement emission source is missing its Supplier link
+severity: warning
+check:
+  type: soql
+  query: SELECT COUNT() FROM Scope3EmssnSrc WHERE RecordType.DeveloperName = 'Procurement' AND SupplierId = null
+  expect:
+    operator: '='
+    value: 0
+remediation: Load suppliers (step 10) before Scope 3 procurement sources (step 12) — see JOURNEY_MAP.md Part 2
+docs: skills/nzc-scope3-procurement/SKILL.md
+---
+id: energy-use-has-source
+group: data-integrity
+description: No stationary asset energy use record is missing its parent source
+severity: error
+check:
+  type: soql
+  query: SELECT COUNT() FROM StnryAssetEnrgyUse WHERE StnryAssetEnvrSrcId = null
+  expect:
+    operator: '='
+    value: 0
+remediation: Periodic energy use (step 13) must always thread off an existing source (step 12)
+docs: skills/nzc-stationary-buildings/SKILL.md

@@ -1,0 +1,35 @@
+# Net Zero Cloud Validation Rule Schema
+# Each rule is a YAML doc with these fields. Files in this directory are
+# multi-document YAML (`---`-separated); the loader skips any file whose
+# basename starts with `_` (like this one).
+
+# Required:
+#   id: unique kebab-case slug (matches the rule's purpose, not the file basename)
+#   group: rule group (foundation | reference-data | data-integrity)
+#   description: one-line human-readable description
+#   severity: error | warning | info
+#   check:
+#     type: sobject-exists | psl-license-assignment | psl-assignment | metadata | industries-setting | soql
+#     # type-specific fields below
+#
+#   sobject-exists      → { sobject: <API name> }                       — probe via describe_sobject; used for the license-gate check
+#   psl-license-assignment → { psl: <DeveloperName>, target: all-active-users | <criteria> }
+#   psl-assignment       → { permissionSet: <API name>, target: all-active-users | <criteria> }
+#   metadata              → { object: <API name>, hasRecordTypes: [<dev names>] }
+#   industries-setting   → { flag: <enableSC* field name> }
+#   soql                 → { query: <SOQL>, expect: { operator: '=' | '>' | '>=' | '<', value: <number> } }
+#
+# Optional:
+#   remediation: short remediation hint (Setup path or command)
+#   docs: link to the relevant skill / SKILL.md
+#
+# Example:
+# id: nzc-license-provisioned
+# group: foundation
+# description: Net Zero Cloud license is provisioned (StnryAssetEnvrSrc is describable)
+# severity: error
+# check:
+#   type: sobject-exists
+#   sobject: StnryAssetEnvrSrc
+# remediation: File a Net Zero Cloud license request with Salesforce — this cannot be self-service enabled
+# docs: skills/nzc-foundation-licensing/SKILL.md

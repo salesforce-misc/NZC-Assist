@@ -1,0 +1,121 @@
+# Foundation rules — licensing, PSLs, permission sets, settings, and the
+# record-type splits every downstream domain depends on.
+#
+# NOTE: `industries-setting` flag names below (`enableSC*`) are the plugin's
+# design-time best guess at the Industries.settings field names. Confirm the
+# exact field name against the connected org (e.g. via `sf org list metadata`
+# or a settings retrieve) before trusting a failure from this file — see
+# `CLAUDE.md` § "Always describe_sobject" for the general principle.
+---
+id: nzc-license-provisioned
+group: foundation
+description: Net Zero Cloud is licensed and enabled (StnryAssetEnvrSrc is describable)
+severity: error
+check:
+  type: sobject-exists
+  sobject: StnryAssetEnvrSrc
+remediation: File a Net Zero Cloud license request with Salesforce — this cannot be self-service enabled
+docs: skills/nzc-foundation-licensing/SKILL.md
+---
+id: nzc-user-psl-assigned
+group: foundation
+description: Every active user who needs Net Zero Cloud access has the NetZeroCloudUserPsl permission set license
+severity: error
+check:
+  type: psl-license-assignment
+  psl: NetZeroCloudUserPsl
+  target: all-active-users
+remediation: Assign the Net Zero Cloud User PSL via /nzc:assign-permissions
+docs: skills/nzc-foundation-licensing/SKILL.md
+---
+id: dpe-psl-assigned
+group: foundation
+description: Users who run footprint calculations have the Data Processing Engine PSL
+severity: warning
+check:
+  type: psl-license-assignment
+  psl: DataProcessingEnginePsl
+  target: all-active-users
+remediation: Assign the Data Processing Engine PSL via /nzc:assign-permissions
+docs: skills/nzc-carbon-footprint-calc/SKILL.md
+---
+id: tcrm-sustainability-psl-assigned
+group: foundation
+description: Admin/user roles have the TCRM-for-Sustainability permission set license layered on top of the foundation PSL
+severity: warning
+check:
+  type: psl-license-assignment
+  psl: TCRMforSustainabilityPsl
+  target: all-active-users
+remediation: Assign the TCRM-for-Sustainability PSL via /nzc:assign-permissions
+docs: skills/nzc-foundation-licensing/SKILL.md
+---
+id: netzero-manager-permset
+group: foundation
+description: Sustainability program managers have the NetZeroManager permission set assigned
+severity: warning
+check:
+  type: psl-assignment
+  permissionSet: NetZeroManager
+  target: all-active-users
+remediation: Assign the NetZeroManager permission set via /nzc:assign-permissions
+docs: skills/nzc-foundation-licensing/SKILL.md
+---
+id: sustainability-cloud-enabled
+group: foundation
+description: The core Sustainability Cloud / stationary-assets settings flag is enabled
+severity: error
+check:
+  type: industries-setting
+  flag: enableSCStationaryAssets
+remediation: Deploy metadata/settings/ via /nzc:enable-net-zero
+docs: skills/nzc-foundation-licensing/SKILL.md
+---
+id: carbon-accounting-enabled
+group: foundation
+description: The Scope 3 carbon-accounting settings flag is enabled
+severity: warning
+check:
+  type: industries-setting
+  flag: enableSCScope3
+remediation: Deploy metadata/settings/ via /nzc:enable-net-zero
+docs: skills/nzc-foundation-licensing/SKILL.md
+---
+id: stationary-source-record-types
+group: foundation
+description: StnryAssetEnvrSrc has Commercial_Building and Data_Center record types
+severity: error
+check:
+  type: metadata
+  object: StnryAssetEnvrSrc
+  hasRecordTypes:
+    - Commercial_Building
+    - Data_Center
+remediation: Deploy metadata/record-types/ via /nzc:configure-record-types
+docs: skills/nzc-stationary-buildings/SKILL.md
+---
+id: vehicle-source-record-types
+group: foundation
+description: VehicleAssetEmssnSrc has Fleet_Vehicle and Private_Jet record types
+severity: warning
+check:
+  type: metadata
+  object: VehicleAssetEmssnSrc
+  hasRecordTypes:
+    - Fleet_Vehicle
+    - Private_Jet
+remediation: Deploy metadata/record-types/ via /nzc:configure-record-types
+docs: skills/nzc-vehicles-fleet/SKILL.md
+---
+id: bldg-intensity-record-types
+group: foundation
+description: BldgEnrgyIntensity has Building_Energy_Intensity and Regional_Building_Energy_Intensity record types
+severity: warning
+check:
+  type: metadata
+  object: BldgEnrgyIntensity
+  hasRecordTypes:
+    - Building_Energy_Intensity
+    - Regional_Building_Energy_Intensity
+remediation: Deploy metadata/record-types/ via /nzc:configure-record-types
+docs: skills/nzc-stationary-buildings/SKILL.md
