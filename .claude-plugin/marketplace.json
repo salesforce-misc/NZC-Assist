@@ -1,0 +1,15 @@
+{
+  "name": "nzc",
+  "description": "Net Zero Cloud plugins for Claude Code",
+  "owner": {
+    "name": "SC Carbon Warriors"
+  },
+  "plugins": [
+    {
+      "name": "nzc",
+      "source": ".",
+      "description": "Salesforce Net Zero Cloud — knowledge, skills, commands, agents, and Salesforce org tools for sustainability and carbon-accounting implementations",
+      "version": "0.1.0"
+    }
+  ]
+}
