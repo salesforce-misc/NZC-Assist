@@ -1,0 +1,364 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef1"
+            },
+            "Name": "(3.2) Freight Hauling - Aircraft - DEFRA 2022",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef5",
+            "FreightHaulingMode": "Air",
+            "Co2EmissionsFactor": 1.1563,
+            "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+            "Ch4EmissionsFactor": 0.0204,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+            "N2oEmissionsFactor": 0.0367198,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion factors 2022: full set\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "EmissionFactorUpdateYear": "2022",
+            "External_ID__c": "SDO.012"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef2"
+            },
+            "Name": "(3.2) Freight Hauling - Medium- and Heavy-Duty Truck - DEFRA 2022",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef5",
+            "FreightHaulingMode": "Road",
+            "Co2EmissionsFactor": 0.21675875,
+            "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+            "Ch4EmissionsFactor": 0.001552,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+            "N2oEmissionsFactor": 0.00916544,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion factors 2022: full set\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "EmissionFactorUpdateYear": "2022",
+            "External_ID__c": "SDO.011"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef3"
+            },
+            "Name": "(3.2) Freight Hauling - Rail - DEFRA 2022",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef5",
+            "FreightHaulingMode": "Rail",
+            "Co2EmissionsFactor": 0.02749,
+            "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+            "Ch4EmissionsFactor": 0.0008,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+            "N2oEmissionsFactor": 0.00104027,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion factors 2022: full set\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "EmissionFactorUpdateYear": "2022",
+            "External_ID__c": "SDO.010"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef4"
+            },
+            "Name": "(3.2) Freight Hauling - Waterborne Craft - DEFRA 2022",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef5",
+            "FreightHaulingMode": "Water",
+            "Co2EmissionsFactor": 0.0459242,
+            "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+            "Ch4EmissionsFactor": 0.000548,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+            "N2oEmissionsFactor": 0.00209866,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion factors 2022: full set\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "EmissionFactorUpdateYear": "2022",
+            "External_ID__c": "SDO.009"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef5"
+            },
+            "Name": "(4.0) Freight Hauling - Aircraft - EPA 2023",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+            "FreightHaulingMode": "Air",
+            "Co2EmissionsFactor": 698,
+            "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "Ch4EmissionsFactor": 0,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "N2oEmissionsFactor": 0.0215,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+            "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (March 2023).\" Last accessed April, 2023. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "EmissionFactorUpdateYear": "2023",
+            "External_ID__c": "SDO.018"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef6"
+            },
+            "Name": "(4.0) Freight Hauling - Medium- and Heavy-Duty Truck - EPA 2023",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+            "FreightHaulingMode": "Road",
+            "Co2EmissionsFactor": 170,
+            "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "Ch4EmissionsFactor": 0.0016,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "N2oEmissionsFactor": 0.0047,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+            "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (March 2023).\" Last accessed April, 2023. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "EmissionFactorUpdateYear": "2023",
+            "External_ID__c": "SDO.019"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef7"
+            },
+            "Name": "(4.0) Freight Hauling - Rail - EPA 2023",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+            "FreightHaulingMode": "Rail",
+            "Co2EmissionsFactor": 21,
+            "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "Ch4EmissionsFactor": 0.0016,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "N2oEmissionsFactor": 0.0005,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+            "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (March 2023).\" Last accessed April, 2023. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "EmissionFactorUpdateYear": "2023",
+            "External_ID__c": "SDO.020"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef8"
+            },
+            "Name": "(4.0) Freight Hauling - Waterborne Craft - EPA 2023",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+            "FreightHaulingMode": "Water",
+            "Co2EmissionsFactor": 44,
+            "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "Ch4EmissionsFactor": 0.0254,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "N2oEmissionsFactor": 0.0011,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+            "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (March 2023).\" Last accessed April, 2023. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "EmissionFactorUpdateYear": "2023",
+            "External_ID__c": "SDO.017"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef9"
+            },
+            "Name": "Freight Hauling - Aircraft - EPA 2020",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "FreightHaulingMode": "Air",
+            "Co2EmissionsFactor": 0.8664549731,
+            "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+            "Ch4EmissionsFactor": 0,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+            "N2oEmissionsFactor": 0.0266443466,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+            "EmissionFactorDataSource": "https://www.epa.gov/sites/production/files/2020-04/documents/ghg-emission-factors-hub.pdf",
+            "EmissionFactorUpdateYear": "2020",
+            "External_ID__c": "SDO.004"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef10"
+            },
+            "Name": "Freight Hauling - Aircraft - EPA 2021",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "FreightHaulingMode": "Air",
+            "Co2EmissionsFactor": 1160,
+            "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "Ch4EmissionsFactor": 0,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "N2oEmissionsFactor": 0.0357,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+            "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2021).\" Last accessed October 25, 2021. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "EmissionFactorUpdateYear": "2021",
+            "External_ID__c": "SDO.005"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef11"
+            },
+            "Name": "Freight Hauling - Aircraft - EPA 2022",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "FreightHaulingMode": "Air",
+            "Co2EmissionsFactor": 1165,
+            "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "Ch4EmissionsFactor": 0,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "N2oEmissionsFactor": 0.0359,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+            "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2022).\" Last accessed June 22, 2022. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "EmissionFactorUpdateYear": "2022",
+            "External_ID__c": "SDO.016"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef12"
+            },
+            "Name": "Freight Hauling - Medium- and Heavy-Duty Truck - EPA 2020",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "FreightHaulingMode": "Road",
+            "Co2EmissionsFactor": 0.1417835411,
+            "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+            "Ch4EmissionsFactor": 0.001369889286,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+            "N2oEmissionsFactor": 0.003150745357,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+            "EmissionFactorDataSource": "https://www.epa.gov/sites/production/files/2020-04/documents/ghg-emission-factors-hub.pdf",
+            "EmissionFactorUpdateYear": "2020",
+            "External_ID__c": "SDO.001"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef13"
+            },
+            "Name": "Freight Hauling - Medium- and Heavy-Duty Truck - EPA 2021",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "FreightHaulingMode": "Road",
+            "Co2EmissionsFactor": 211,
+            "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "Ch4EmissionsFactor": 0.002,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "N2oEmissionsFactor": 0.0049,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+            "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2021).\" Last accessed October 25, 2021. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "EmissionFactorUpdateYear": "2021",
+            "External_ID__c": "SDO.006"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef14"
+            },
+            "Name": "Freight Hauling - Medium- and Heavy-Duty Truck - EPA 2022",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "FreightHaulingMode": "Road",
+            "Co2EmissionsFactor": 211,
+            "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "Ch4EmissionsFactor": 0.002,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "N2oEmissionsFactor": 0.0049,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+            "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2022).\" Last accessed June 22, 2022. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "EmissionFactorUpdateYear": "2022",
+            "External_ID__c": "SDO.015"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef15"
+            },
+            "Name": "Freight Hauling - Rail - EPA 2020",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "FreightHaulingMode": "Rail",
+            "Co2EmissionsFactor": 0.0143838375,
+            "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+            "Ch4EmissionsFactor": 0.001164405893,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+            "N2oEmissionsFactor": 0.0003424723214,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+            "EmissionFactorDataSource": "https://www.epa.gov/sites/production/files/2020-04/documents/ghg-emission-factors-hub.pdf",
+            "EmissionFactorUpdateYear": "2020",
+            "External_ID__c": "SDO.002"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef16"
+            },
+            "Name": "Freight Hauling - Rail - EPA 2021",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "FreightHaulingMode": "Rail",
+            "Co2EmissionsFactor": 22,
+            "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "Ch4EmissionsFactor": 0.0017,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "N2oEmissionsFactor": 0.0005,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+            "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2021).\" Last accessed October 25, 2021. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "EmissionFactorUpdateYear": "2021",
+            "External_ID__c": "SDO.007"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef17"
+            },
+            "Name": "Freight Hauling - Rail - EPA 2022",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "FreightHaulingMode": "Rail",
+            "Co2EmissionsFactor": 22,
+            "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "Ch4EmissionsFactor": 0.0017,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "N2oEmissionsFactor": 0.0006,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+            "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2022).\" Last accessed June 22, 2022. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "EmissionFactorUpdateYear": "2022",
+            "External_ID__c": "SDO.014"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef18"
+            },
+            "Name": "Freight Hauling - Waterborne Craft - EPA 2020",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "FreightHaulingMode": "Water",
+            "Co2EmissionsFactor": 0.02739778571,
+            "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+            "Ch4EmissionsFactor": 0.008356324642,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+            "N2oEmissionsFactor": 0.001164405893,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+            "EmissionFactorDataSource": "https://www.epa.gov/sites/production/files/2020-04/documents/ghg-emission-factors-hub.pdf",
+            "EmissionFactorUpdateYear": "2020",
+            "External_ID__c": "SDO.003"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef19"
+            },
+            "Name": "Freight Hauling - Waterborne Craft - EPA 2021",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "FreightHaulingMode": "Water",
+            "Co2EmissionsFactor": 36,
+            "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "Ch4EmissionsFactor": 0.0116,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "N2oEmissionsFactor": 0.0016,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+            "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2021).\" Last accessed October 25, 2021. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "EmissionFactorUpdateYear": "2021",
+            "External_ID__c": "SDO.008"
+        },
+        {
+            "attributes": {
+                "type": "FrgtHaulingEmssnFctr",
+                "referenceId": "FrgtHaulingEmssnFctrRef20"
+            },
+            "Name": "Freight Hauling - Waterborne Craft - EPA 2022",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "FreightHaulingMode": "Water",
+            "Co2EmissionsFactor": 41,
+            "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "Ch4EmissionsFactor": 0.0183,
+            "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+            "N2oEmissionsFactor": 0.0008,
+            "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+            "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2022).\" Last accessed June 22, 2022. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "EmissionFactorUpdateYear": "2022",
+            "External_ID__c": "SDO.013"
+        }
+    ]
+}

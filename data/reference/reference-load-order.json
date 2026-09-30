@@ -54,5 +54,13 @@
   {
     "sobject": "CrbnEmssnScopeAlloc",
     "files": ["14-carbon-scope-allocation.json"]
+  },
+  {
+    "sobject": "RentalCarEmssnFctr",
+    "files": ["15-rental-car-emission-factors.json"]
+  },
+  {
+    "sobject": "FrgtHaulingEmssnFctr",
+    "files": ["16-freight-hauling-emission-factors.json"]
   }
 ]

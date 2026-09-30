@@ -1,0 +1,284 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef1"
+            },
+            "Name": "(4.0) Rental Car - Compact class - US EPA 2023",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+            "Description": "Salesforce-derived values from US EPA data. Average of 2020-2024 MPG of EPA vehicle size class Compact.",
+            "EmissionFactorDataSource": "EPA. \"Vehicle\",\"comb08\" column. Last accessed April 06 2023. https://fueleconomy.gov/feg/ws/",
+            "EmissionFactorUpdateYear": "2023",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 24.16263526,
+            "External_ID__c": "SDO.016"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef2"
+            },
+            "Name": "(4.0) Rental Car - Full Size class - US EPA 2023",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+            "Description": "Salesforce-derived values from US EPA data. Average of 2020-2024 MPG of EPA vehicle size class Large.",
+            "EmissionFactorDataSource": "EPA. \"Vehicle\",\"comb08\" column. Last accessed April 06 2023. https://fueleconomy.gov/feg/ws/",
+            "EmissionFactorUpdateYear": "2023",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 23.04659358,
+            "External_ID__c": "SDO.017"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef3"
+            },
+            "Name": "(4.0) Rental Car - Minivan class - US EPA 2023",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+            "Description": "Salesforce-derived values from US EPA data. Average of 2020-2024 MPG of EPA vehicle size classes Minivan - 2WD and Minivan - 4WD.",
+            "EmissionFactorDataSource": "EPA. \"Vehicle\",\"comb08\" column. Last accessed April 06 2023. https://fueleconomy.gov/feg/ws/",
+            "EmissionFactorUpdateYear": "2023",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 19.64719101,
+            "External_ID__c": "SDO.018"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef4"
+            },
+            "Name": "(4.0) Rental Car - Standard class - US EPA 2023",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+            "Description": "Salesforce-derived values from US EPA data. Average of 2020-2024 MPG of EPA vehicle size class Midsize.",
+            "EmissionFactorDataSource": "EPA. \"Vehicle\",\"comb08\" column. Last accessed April 06 2023. https://fueleconomy.gov/feg/ws/",
+            "EmissionFactorUpdateYear": "2023",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 23.98966642,
+            "External_ID__c": "SDO.019"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef5"
+            },
+            "Name": "(4.0) Rental Car - SUV class - US EPA 2023",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+            "Description": "Salesforce-derived values from US EPA data. Average of 2020-2024 MPG of EPA vehicle size classes Small Sport Utility Vehicle 2WD, Small Sport Utility Vehicle 4WD, Standard Sport Utility Vehicle 4WD, and Standard Sport Utility Vehicle 2WD.",
+            "EmissionFactorDataSource": "EPA. \"Vehicle\",\"comb08\" column. Last accessed April 06 2023. https://fueleconomy.gov/feg/ws/",
+            "EmissionFactorUpdateYear": "2023",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 24.2284689,
+            "External_ID__c": "SDO.020"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef6"
+            },
+            "Name": "Rental Car - Compact class - US EPA 2020",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "Description": "Fuel Conversion Factors - DEFRA EPA 2018 for Rental Car - Compact class - US EPA 2020",
+            "EmissionFactorDataSource": "Salesforce-derived values from US EPA data&#44; accessed at www.fueleconomy.gov",
+            "EmissionFactorUpdateYear": "2020",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 27.3,
+            "External_ID__c": "SDO.001"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef7"
+            },
+            "Name": "Rental Car - Compact class - US EPA 2021",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "Description": "Salesforce-derived values from US EPA data. Average of 2018-2022 MPG of EPA vehicle size class Compact.",
+            "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed October 25, 2021. https://fueleconomy.gov/feg/ws/",
+            "EmissionFactorUpdateYear": "2021",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 27.66514806,
+            "External_ID__c": "SDO.006"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef8"
+            },
+            "Name": "Rental Car - Compact class - US EPA 2022",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "Description": "Salesforce-derived values from US EPA data. Average of 2019-2023 MPG of EPA vehicle size class Compact.",
+            "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed June 22, 2022. https://fueleconomy.gov/feg/ws/",
+            "EmissionFactorUpdateYear": "2022",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 28.45924453,
+            "External_ID__c": "SDO.011"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef9"
+            },
+            "Name": "Rental Car - Full Size class - US EPA 2020",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "Description": "Fuel Conversion Factors - DEFRA EPA 2018 for Rental Car - Full Size class - US EPA 2020",
+            "EmissionFactorDataSource": "Salesforce-derived values from US EPA data&#44; accessed at www.fueleconomy.gov",
+            "EmissionFactorUpdateYear": "2020",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 20.7,
+            "External_ID__c": "SDO.003"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef10"
+            },
+            "Name": "Rental Car - Full Size class - US EPA 2021",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "Description": "Salesforce-derived values from US EPA data. Average of 2018-2022 MPG of EPA vehicle size class Large.",
+            "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed October 25, 2021. https://fueleconomy.gov/feg/ws/",
+            "EmissionFactorUpdateYear": "2021",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 26.81697613,
+            "External_ID__c": "SDO.007"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef11"
+            },
+            "Name": "Rental Car - Full Size class - US EPA 2022",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "Description": "Salesforce-derived values from US EPA data. Average of 2019-2023 MPG of EPA vehicle size class Large.",
+            "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed June 22, 2022. https://fueleconomy.gov/feg/ws/",
+            "EmissionFactorUpdateYear": "2022",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 30.3902439,
+            "External_ID__c": "SDO.012"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef12"
+            },
+            "Name": "Rental Car - Minivan class - US EPA 2020",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "Description": "Fuel Conversion Factors - DEFRA EPA 2018 for Rental Car - Minivan class - US EPA 2020",
+            "EmissionFactorDataSource": "Salesforce-derived values from US EPA data&#44; accessed at www.fueleconomy.gov",
+            "EmissionFactorUpdateYear": "2020",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 18.5,
+            "External_ID__c": "SDO.004"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef13"
+            },
+            "Name": "Rental Car - Minivan class - US EPA 2021",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "Description": "Salesforce-derived values from US EPA data. Average of 2018-2022 MPG of EPA vehicle size classes Minivan - 2WD and Minivan - 4WD.",
+            "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed October 25, 2021. https://fueleconomy.gov/feg/ws/",
+            "EmissionFactorUpdateYear": "2021",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 21.12962963,
+            "External_ID__c": "SDO.008"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef14"
+            },
+            "Name": "Rental Car - Minivan class - US EPA 2022",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "Description": "Salesforce-derived values from US EPA data. Average of 2019-2023 MPG of EPA vehicle size classes Minivan - 2WD and Minivan - 4WD.",
+            "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed June 22, 2022. https://fueleconomy.gov/feg/ws/",
+            "EmissionFactorUpdateYear": "2022",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 23.97619048,
+            "External_ID__c": "SDO.013"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef15"
+            },
+            "Name": "Rental Car - Standard class  - US EPA 2020",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "Description": "Fuel Conversion Factors - DEFRA EPA 2018 for Rental Car - Standard class  - US EPA 2020",
+            "EmissionFactorDataSource": "Salesforce-derived values from US EPA data&#44; accessed at www.fueleconomy.gov",
+            "EmissionFactorUpdateYear": "2020",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 24.2,
+            "External_ID__c": "SDO.002"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef16"
+            },
+            "Name": "Rental Car - Standard class - US EPA 2021",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "Description": "Salesforce-derived values from US EPA data. Average of 2018-2022 MPG of EPA vehicle size class Midsize.",
+            "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed October 25, 2021. https://fueleconomy.gov/feg/ws/",
+            "EmissionFactorUpdateYear": "2021",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 32.23178808,
+            "External_ID__c": "SDO.009"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef17"
+            },
+            "Name": "Rental Car - Standard class - US EPA 2022",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "Description": "Salesforce-derived values from US EPA data. Average of 2019-2023 MPG of EPA vehicle size class Midsize.",
+            "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed June 22, 2022. https://fueleconomy.gov/feg/ws/",
+            "EmissionFactorUpdateYear": "2022",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 32.8938401,
+            "External_ID__c": "SDO.014"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef18"
+            },
+            "Name": "Rental Car - SUV class - US EPA 2020",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "Description": "Fuel Conversion Factors - DEFRA EPA 2018 for Rental Car - SUV class - US EPA 2020",
+            "EmissionFactorDataSource": "Salesforce-derived values from US EPA data&#44; accessed at www.fueleconomy.gov",
+            "EmissionFactorUpdateYear": "2020",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 16.7,
+            "External_ID__c": "SDO.005"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef19"
+            },
+            "Name": "Rental Car - SUV class - US EPA 2021",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "Description": "Salesforce-derived values from US EPA data. Average of 2018-2022 MPG of EPA vehicle size classes Small Sport Utility Vehicle 2WD, Small Sport Utility Vehicle 4WD, Standard Sport Utility Vehicle 4WD, and Standard Sport Utility Vehicle 2WD.",
+            "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed October 25, 2021. https://fueleconomy.gov/feg/ws/",
+            "EmissionFactorUpdateYear": "2021",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 22.96025383,
+            "External_ID__c": "SDO.010"
+        },
+        {
+            "attributes": {
+                "type": "RentalCarEmssnFctr",
+                "referenceId": "RentalCarEmssnFctrRef20"
+            },
+            "Name": "Rental Car - SUV class - US EPA 2022",
+            "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+            "Description": "Salesforce-derived values from US EPA data. Average of 2019-2023 MPG of EPA vehicle size classes Small Sport Utility Vehicle 2WD, Small Sport Utility Vehicle 4WD, Standard Sport Utility Vehicle 4WD, and Standard Sport Utility Vehicle 2WD.",
+            "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed June 22, 2022. https://fueleconomy.gov/feg/ws/",
+            "EmissionFactorUpdateYear": "2022",
+            "FuelEfficiencyUnit": "MILES_PER_GALLON",
+            "FuelEfficiency": 24.52449383,
+            "External_ID__c": "SDO.015"
+        }
+    ]
+}
