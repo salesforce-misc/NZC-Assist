@@ -1,0 +1,21 @@
+# Tunable generation config for StnryAssetEnrgyUse (tier 6 — generated transactional records).
+# Consumed by generateStnryAssetEnergyUse() in src/nzc/sample-data.ts.
+# Parent pool: every StnryAssetEnvrSrc created earlier in the same scaffold_sample_data run
+# (round-robin distributed via distributeEvenly — see sample-data.ts). Each generated row reuses
+# its own parent's already-resolved factor Id (ElectricityEmssnFctrId/OtherEmssnFctrId/
+# RefrigerantEmssnFctrId) rather than re-resolving one independently.
+sobject: StnryAssetEnrgyUse
+targetCount: 134
+dateWindow:
+  start: "2025-01-01"
+  end: "2025-12-31"
+fuelTypePool:
+  - Electricity
+  - NaturalGas
+  - FuelOil
+  - Diesel
+refrigerantChance: 0.08
+fuelConsumptionRange: [500, 50000]
+notes: >
+  134 matches the NZCwithSampleData reference count for this tier. Records are spread evenly
+  across all seeded StnryAssetEnvrSrc parents with one random calendar month each (period cadence).

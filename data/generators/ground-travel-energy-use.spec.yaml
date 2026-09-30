@@ -1,0 +1,14 @@
+# Tunable generation config for GroundTravelEnrgyUse (tier 6 — generated transactional records).
+# Consumed by generateGroundTravel() in src/nzc/sample-data.ts.
+# Single fixed parent: the "Employee Ground Travel" Scope3EmssnSrc seed record. Listed as optional
+# in the plan's load order — included here because the seed already provides the one source it
+# needs and the marginal generator cost is small.
+sobject: GroundTravelEnrgyUse
+targetCount: 150
+dateWindow:
+  start: "2025-01-01"
+  end: "2025-12-31"
+notes: >
+  150 is not in the original NZCwithSampleData count table for this optional tier; chosen to be
+  proportionate to the other Scope 3 travel tiers. Each row is a single-day ground-travel expense,
+  reusing the parent source's own GroundTravelEmssnFctrId.

@@ -1,0 +1,13 @@
+# Tunable generation config for AirTravelEnrgyUse (tier 6 — generated transactional records).
+# Consumed by generateAirTravel() in src/nzc/sample-data.ts.
+# Single fixed parent: the "Corporate Air Travel" Scope3EmssnSrc seed record — this tier has no
+# pooling ambiguity (see file header in sample-data.ts for the 1:1 Scope3EmssnSrc-to-tier mapping).
+sobject: AirTravelEnrgyUse
+targetCount: 400
+dateWindow:
+  start: "2025-01-01"
+  end: "2025-12-31"
+tripLengthDaysRange: [1, 5]
+notes: >
+  400 matches the NZCwithSampleData reference count for this tier. Each row is one flight segment
+  on a random trip date within the year, reusing the parent source's own AirTravelEmssnFctrId.

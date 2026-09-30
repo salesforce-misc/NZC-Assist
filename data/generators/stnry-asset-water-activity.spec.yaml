@@ -1,0 +1,14 @@
+# Tunable generation config for StnryAssetWaterActvty (tier 6 — generated transactional records).
+# Consumed by generateStnryAssetWaterActivity() in src/nzc/sample-data.ts.
+# Parent pool: every StnryAssetEnvrSrc created earlier in the same run, evenly distributed.
+# This object has no per-parent factor lookup field on StnryAssetEnvrSrc to reuse, so rows are
+# generated from a small realistic activity-type/quantity pool instead.
+sobject: StnryAssetWaterActvty
+targetCount: 48
+dateWindow:
+  start: "2025-01-01"
+  end: "2025-12-31"
+notes: >
+  48 is not in the original NZCwithSampleData count table (that reference project does not seed
+  this tier); chosen here (12 per parent across the 4 seeded StnryAssetEnvrSrc sources) to keep
+  proportion with the other stationary-asset tiers for a coherent-looking org.

@@ -1,0 +1,12 @@
+# Tunable generation config for HotelStayEnrgyUse (tier 6 — generated transactional records).
+# Consumed by generateHotelStay() in src/nzc/sample-data.ts.
+# Single fixed parent: the "Business Travel Hotel Stays" Scope3EmssnSrc seed record.
+sobject: HotelStayEnrgyUse
+targetCount: 345
+dateWindow:
+  start: "2025-01-01"
+  end: "2025-12-31"
+stayNightsRange: [1, 5]
+notes: >
+  345 matches the NZCwithSampleData reference count for this tier. Each row is one hotel stay,
+  reusing the parent source's own HotelStayEmssnFctrId.

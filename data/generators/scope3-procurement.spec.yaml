@@ -1,0 +1,18 @@
+# Tunable generation config for Scope3PcmtItem (tier 6 — generated transactional records).
+# Consumed by generateScope3Procurement() in src/nzc/sample-data.ts.
+# This is the one tier with an inverted dependency: Scope3PcmtItem.ProcurementSummaryId is
+# required, so this generator first creates one minimal Scope3CrbnFtprnt shell + one
+# Scope3PcmtSummary (both single ad-hoc createRecord calls, not bulk-loaded) before bulk-loading
+# the line items below. Parent source: "Inbound Freight & Logistics" Scope3EmssnSrc — the one
+# seeded Scope3EmssnSrc record with no dedicated per-record USE tier of its own.
+sobject: Scope3PcmtItem
+targetCount: 202
+dateWindow:
+  start: "2025-01-01"
+  end: "2025-12-31"
+spendCategoryTheme: "Upstream Transportation and Distribution" # PcmtEmssnFctrSetItem.Scope3GhgCategory filter
+spentAmountRange: [500, 250000]
+notes: >
+  202 matches the NZCwithSampleData reference count for this tier. Per-row SpendingCategory1 and
+  PcmtEmssnFctrSetItemId are drawn from real PcmtEmssnFctrSetItem reference rows themed to freight/
+  transportation when available (see generateScope3Procurement's fallback chain otherwise).

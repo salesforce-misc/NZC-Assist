@@ -1,0 +1,12 @@
+# Tunable generation config for RentalCarEnrgyUse (tier 6 — generated transactional records).
+# Consumed by generateRentalCar() in src/nzc/sample-data.ts.
+# Single fixed parent: the "Business Travel Rental Cars" Scope3EmssnSrc seed record.
+sobject: RentalCarEnrgyUse
+targetCount: 277
+dateWindow:
+  start: "2025-01-01"
+  end: "2025-12-31"
+rentalLengthDaysRange: [1, 6]
+notes: >
+  277 matches the NZCwithSampleData reference count for this tier. Each row is one rental,
+  reusing the parent source's own RentalCarEmssnFctrId.

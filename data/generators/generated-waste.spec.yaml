@@ -1,0 +1,12 @@
+# Tunable generation config for GeneratedWaste (tier 6 — generated transactional records).
+# Consumed by generateWaste() in src/nzc/sample-data.ts.
+# Parent pool: every StnryAssetEnvrSrc created earlier in the same run, evenly distributed.
+# Each row reuses its own parent's WstDispoEmssnFctrSetId for factor coherence.
+sobject: GeneratedWaste
+targetCount: 40
+dateWindow:
+  start: "2025-01-01"
+  end: "2025-12-31"
+notes: >
+  40 matches the NZCwithSampleData reference count for this tier. Distributed evenly (10 per
+  parent) across the 4 seeded StnryAssetEnvrSrc sources, one random calendar month each.

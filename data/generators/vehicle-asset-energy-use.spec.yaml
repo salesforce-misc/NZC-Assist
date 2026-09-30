@@ -1,0 +1,14 @@
+# Tunable generation config for VehicleAssetEnrgyUse (tier 6 — generated transactional records).
+# Consumed by generateVehicleAssetEnergyUse() in src/nzc/sample-data.ts.
+# Unlike the pooled stationary tiers, the 2 seeded VehicleAssetEmssnSrc parents ("Corporate Fleet -
+# Sedans" and "Executive Aviation - Private Jet N421MI") are resolved by exact Name, not pooled,
+# because each drives materially different fields (fleet mileage vs. flight hours/aircraft type).
+sobject: VehicleAssetEnrgyUse
+targetCount: 42
+dateWindow:
+  start: "2025-01-01"
+  end: "2025-12-31"
+split: [30, 12] # [fleet sedan rows, private jet rows] — sums to targetCount
+notes: >
+  42 matches the NZCwithSampleData reference count for this tier. The 30/12 split reflects that
+  fleet sedan usage is logged far more frequently than the one corporate jet's flights.
