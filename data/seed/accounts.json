@@ -1,0 +1,862 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "Meridian Industries, Inc.",
+            "Type": "Enterprise",
+            "Industry": "Manufacturing",
+            "BillingCity": "Chicago",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Enterprise / Manufacturing).",
+            "BillingState": "IL",
+            "AnnualRevenue": 4200000000,
+            "NumberOfEmployees": 18500
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "Meridian Industries – North America Operations",
+            "Type": "Enterprise",
+            "Industry": "Manufacturing",
+            "BillingCity": "Chicago",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Enterprise / Manufacturing).",
+            "BillingState": "IL",
+            "ParentId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "Meridian Industries – EMEA Operations",
+            "Type": "Enterprise",
+            "Industry": "Manufacturing",
+            "BillingCity": "Rotterdam",
+            "BillingCountry": "NL",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Enterprise / Manufacturing).",
+            "ParentId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef4"
+            },
+            "Name": "Meridian Industries – APAC Operations",
+            "Type": "Enterprise",
+            "Industry": "Manufacturing",
+            "BillingCity": "Singapore",
+            "BillingCountry": "SG",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Enterprise / Manufacturing).",
+            "ParentId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef5"
+            },
+            "Name": "Meridian Industries – Austin Technology Campus",
+            "Type": "Mid-Market",
+            "Industry": "Technology",
+            "BillingCity": "Austin",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Technology).",
+            "BillingState": "TX",
+            "ParentId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef6"
+            },
+            "Name": "Meridian Industries – Columbus Manufacturing Division",
+            "Type": "Mid-Market",
+            "Industry": "Manufacturing",
+            "BillingCity": "Columbus",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Manufacturing).",
+            "BillingState": "OH",
+            "ParentId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef7"
+            },
+            "Name": "Meridian Industries – Sacramento Distribution",
+            "Type": "Mid-Market",
+            "Industry": "Transportation",
+            "BillingCity": "Sacramento",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Transportation).",
+            "BillingState": "CA",
+            "ParentId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef8"
+            },
+            "Name": "Meridian Industries – Ashburn Data Operations",
+            "Type": "Mid-Market",
+            "Industry": "Technology",
+            "BillingCity": "Ashburn",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Technology).",
+            "BillingState": "VA",
+            "ParentId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef9"
+            },
+            "Name": "Meridian Industries – Fleet Services",
+            "Type": "Mid-Market",
+            "Industry": "Transportation",
+            "BillingCity": "Chicago",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Transportation).",
+            "BillingState": "IL",
+            "ParentId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef10"
+            },
+            "Name": "Meridian Industries – Corporate Aviation",
+            "Type": "Small Business",
+            "Industry": "Transportation",
+            "BillingCity": "Chicago",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Transportation).",
+            "BillingState": "IL",
+            "ParentId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef11"
+            },
+            "Name": "Atlas Steel & Alloys Corp",
+            "Type": "Mid-Market",
+            "Industry": "Manufacturing",
+            "BillingCity": "Pittsburgh",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Manufacturing).",
+            "BillingState": "PA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef12"
+            },
+            "Name": "Cascade Timber & Pulp Co.",
+            "Type": "Mid-Market",
+            "Industry": "Manufacturing",
+            "BillingCity": "Portland",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Manufacturing).",
+            "BillingState": "OR"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef13"
+            },
+            "Name": "BrightGrid Utilities LLC",
+            "Type": "Mid-Market",
+            "Industry": "Utilities",
+            "BillingCity": "Columbus",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Utilities).",
+            "BillingState": "OH"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef14"
+            },
+            "Name": "Pacific Coast Power Cooperative",
+            "Type": "Mid-Market",
+            "Industry": "Utilities",
+            "BillingCity": "Sacramento",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Utilities).",
+            "BillingState": "CA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef15"
+            },
+            "Name": "Dominion Ridge Energy Partners",
+            "Type": "Mid-Market",
+            "Industry": "Utilities",
+            "BillingCity": "Richmond",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Utilities).",
+            "BillingState": "VA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef16"
+            },
+            "Name": "Lone Star Gas & Electric",
+            "Type": "Mid-Market",
+            "Industry": "Utilities",
+            "BillingCity": "Austin",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Utilities).",
+            "BillingState": "TX"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef17"
+            },
+            "Name": "Summit Packaging Solutions",
+            "Type": "Mid-Market",
+            "Industry": "Manufacturing",
+            "BillingCity": "Grand Rapids",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Manufacturing).",
+            "BillingState": "MI"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef18"
+            },
+            "Name": "Ironclad Fasteners Ltd.",
+            "Type": "Mid-Market",
+            "Industry": "Manufacturing",
+            "BillingCity": "Birmingham",
+            "BillingCountry": "GB",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Manufacturing)."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef19"
+            },
+            "Name": "Gulfstream Polymers Inc.",
+            "Type": "Mid-Market",
+            "Industry": "Chemicals",
+            "BillingCity": "Houston",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Chemicals).",
+            "BillingState": "TX"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef20"
+            },
+            "Name": "Redwood Freight & Logistics",
+            "Type": "Mid-Market",
+            "Industry": "Transportation",
+            "BillingCity": "Oakland",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Transportation).",
+            "BillingState": "CA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef21"
+            },
+            "Name": "TransGlobal Shipping Lines",
+            "Type": "Mid-Market",
+            "Industry": "Shipping",
+            "BillingCity": "Rotterdam",
+            "BillingCountry": "NL",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Shipping)."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef22"
+            },
+            "Name": "Nordic Components AB",
+            "Type": "Mid-Market",
+            "Industry": "Electronics",
+            "BillingCity": "Gothenburg",
+            "BillingCountry": "SE",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Electronics)."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef23"
+            },
+            "Name": "Sunrise Semiconductor Corp.",
+            "Type": "Mid-Market",
+            "Industry": "Technology",
+            "BillingCity": "San Jose",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Technology).",
+            "BillingState": "CA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef24"
+            },
+            "Name": "Delta Precision Machining",
+            "Type": "Mid-Market",
+            "Industry": "Manufacturing",
+            "BillingCity": "Cleveland",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Manufacturing).",
+            "BillingState": "OH"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef25"
+            },
+            "Name": "Highland Textiles Group",
+            "Type": "Mid-Market",
+            "Industry": "Apparel",
+            "BillingCity": "Ho Chi Minh City",
+            "BillingCountry": "VN",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Apparel)."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef26"
+            },
+            "Name": "Beacon Office Supply Co.",
+            "Type": "Mid-Market",
+            "Industry": "Retail",
+            "BillingCity": "Denver",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Retail).",
+            "BillingState": "CO"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef27"
+            },
+            "Name": "Golden Valley Foods Inc.",
+            "Type": "Mid-Market",
+            "Industry": "Food & Beverage",
+            "BillingCity": "Fresno",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Food & Beverage).",
+            "BillingState": "CA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef28"
+            },
+            "Name": "Anchor Chemical Solutions",
+            "Type": "Mid-Market",
+            "Industry": "Chemicals",
+            "BillingCity": "Baton Rouge",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Chemicals).",
+            "BillingState": "LA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef29"
+            },
+            "Name": "Skyline Construction Materials",
+            "Type": "Mid-Market",
+            "Industry": "Construction",
+            "BillingCity": "Phoenix",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Construction).",
+            "BillingState": "AZ"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef30"
+            },
+            "Name": "Vertex IT Solutions",
+            "Type": "Mid-Market",
+            "Industry": "Technology",
+            "BillingCity": "Austin",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Technology).",
+            "BillingState": "TX"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef31"
+            },
+            "Name": "Coastal Cold Chain Logistics",
+            "Type": "Mid-Market",
+            "Industry": "Transportation",
+            "BillingCity": "Savannah",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Mid-Market / Transportation).",
+            "BillingState": "GA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef32"
+            },
+            "Name": "Northgate Financial Services",
+            "Type": "Small Business",
+            "Industry": "Financial Services",
+            "BillingCity": "Charlotte",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Financial Services).",
+            "BillingState": "NC"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef33"
+            },
+            "Name": "Pinecrest Insurance Group",
+            "Type": "Small Business",
+            "Industry": "Insurance",
+            "BillingCity": "Hartford",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Insurance).",
+            "BillingState": "CT"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef34"
+            },
+            "Name": "Union Health Partners",
+            "Type": "Small Business",
+            "Industry": "Healthcare & Life Sciences",
+            "BillingCity": "Minneapolis",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Healthcare & Life Sciences).",
+            "BillingState": "MN"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef35"
+            },
+            "Name": "BlueSky Telecom",
+            "Type": "Small Business",
+            "Industry": "Telecommunications",
+            "BillingCity": "Denver",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Telecommunications).",
+            "BillingState": "CO"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef36"
+            },
+            "Name": "Ridgeline Consulting Group",
+            "Type": "Small Business",
+            "Industry": "Consulting",
+            "BillingCity": "Boston",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Consulting).",
+            "BillingState": "MA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef37"
+            },
+            "Name": "Cornerstone Education Systems",
+            "Type": "Small Business",
+            "Industry": "Education",
+            "BillingCity": "Raleigh",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Education).",
+            "BillingState": "NC"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef38"
+            },
+            "Name": "Harborview Hospitality Group",
+            "Type": "Small Business",
+            "Industry": "Hospitality",
+            "BillingCity": "Miami",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Hospitality).",
+            "BillingState": "FL"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef39"
+            },
+            "Name": "GreenAcre AgriBusiness",
+            "Type": "Small Business",
+            "Industry": "Agriculture",
+            "BillingCity": "Des Moines",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Agriculture).",
+            "BillingState": "IA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef40"
+            },
+            "Name": "Falcon Aerospace Components",
+            "Type": "Small Business",
+            "Industry": "Manufacturing",
+            "BillingCity": "Wichita",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Manufacturing).",
+            "BillingState": "KS"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef41"
+            },
+            "Name": "Crescent Media Holdings",
+            "Type": "Small Business",
+            "Industry": "Media",
+            "BillingCity": "Los Angeles",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Media).",
+            "BillingState": "CA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef42"
+            },
+            "Name": "Argosy Marine Services",
+            "Type": "Small Business",
+            "Industry": "Shipping",
+            "BillingCity": "Norfolk",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Shipping).",
+            "BillingState": "VA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef43"
+            },
+            "Name": "Bayview Retail Group",
+            "Type": "Small Business",
+            "Industry": "Retail",
+            "BillingCity": "San Diego",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Retail).",
+            "BillingState": "CA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef44"
+            },
+            "Name": "Stonebridge Engineering Partners",
+            "Type": "Small Business",
+            "Industry": "Engineering",
+            "BillingCity": "Denver",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Engineering).",
+            "BillingState": "CO"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef45"
+            },
+            "Name": "Lakeside Entertainment Corp.",
+            "Type": "Small Business",
+            "Industry": "Entertainment",
+            "BillingCity": "Orlando",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Entertainment).",
+            "BillingState": "FL"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef46"
+            },
+            "Name": "Summit Government Services",
+            "Type": "Small Business",
+            "Industry": "Government",
+            "BillingCity": "Washington",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Government).",
+            "BillingState": "DC"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef47"
+            },
+            "Name": "TrueNorth Environmental Consulting",
+            "Type": "Small Business",
+            "Industry": "Environmental",
+            "BillingCity": "Seattle",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Environmental).",
+            "BillingState": "WA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef48"
+            },
+            "Name": "Whitfield Biotechnology Inc.",
+            "Type": "Small Business",
+            "Industry": "Biotechnology",
+            "BillingCity": "Cambridge",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Biotechnology).",
+            "BillingState": "MA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef49"
+            },
+            "Name": "Cobalt Communications Ltd.",
+            "Type": "Small Business",
+            "Industry": "Communications",
+            "BillingCity": "Toronto",
+            "BillingCountry": "CA",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Communications)."
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef50"
+            },
+            "Name": "Meadowbrook Realty Holdings",
+            "Type": "Small Business",
+            "Industry": "Other",
+            "BillingCity": "Nashville",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Other).",
+            "BillingState": "TN"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef51"
+            },
+            "Name": "Ashford Recreation Group",
+            "Type": "Small Business",
+            "Industry": "Recreation",
+            "BillingCity": "Salt Lake City",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Recreation).",
+            "BillingState": "UT"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef52"
+            },
+            "Name": "Ironwood Machinery Co.",
+            "Type": "Small Business",
+            "Industry": "Machinery",
+            "BillingCity": "Milwaukee",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Machinery).",
+            "BillingState": "WI"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef53"
+            },
+            "Name": "Silverline Banking Corp.",
+            "Type": "Small Business",
+            "Industry": "Banking",
+            "BillingCity": "Charlotte",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Banking).",
+            "BillingState": "NC"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef54"
+            },
+            "Name": "Palisade Apparel Brands",
+            "Type": "Small Business",
+            "Industry": "Apparel",
+            "BillingCity": "New York",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Apparel).",
+            "BillingState": "NY"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef55"
+            },
+            "Name": "Continental Grain & Foods",
+            "Type": "Small Business",
+            "Industry": "Food & Beverage",
+            "BillingCity": "Kansas City",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Food & Beverage).",
+            "BillingState": "MO"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef56"
+            },
+            "Name": "Frontier Telecommunications",
+            "Type": "Small Business",
+            "Industry": "Telecommunications",
+            "BillingCity": "Dallas",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Telecommunications).",
+            "BillingState": "TX"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef57"
+            },
+            "Name": "Bright Horizon Solar Co.",
+            "Type": "Small Business",
+            "Industry": "Energy",
+            "BillingCity": "Phoenix",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Energy).",
+            "BillingState": "AZ"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef58"
+            },
+            "Name": "Westcove Shipyards",
+            "Type": "Small Business",
+            "Industry": "Manufacturing",
+            "BillingCity": "San Diego",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Manufacturing).",
+            "BillingState": "CA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef59"
+            },
+            "Name": "Alderbrook Consulting Partners",
+            "Type": "Small Business",
+            "Industry": "Consulting",
+            "BillingCity": "Atlanta",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Consulting).",
+            "BillingState": "GA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef60"
+            },
+            "Name": "Riverside Public Utilities Commission",
+            "Type": "Small Business",
+            "Industry": "Utilities",
+            "BillingCity": "Riverside",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Utilities).",
+            "BillingState": "CA"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef61"
+            },
+            "Name": "Cedarwood Furniture Co.",
+            "Type": "Small Business",
+            "Industry": "Manufacturing",
+            "BillingCity": "High Point",
+            "BillingCountry": "US",
+            "Phone": "+1-312-555-0100",
+            "Description": "Sample data for NZC-Assist. Fictional account used to illustrate Net Zero Cloud carbon accounting relationships (Small Business / Manufacturing).",
+            "BillingState": "NC"
+        }
+    ]
+}

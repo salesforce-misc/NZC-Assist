@@ -8,6 +8,8 @@ dist/
 coverage/
 *.tsbuildinfo
 .idea/
+# Runtime fixture manifests written by scaffold_sample_data for teardown — not committed content.
+data/fixtures/
 .AppleDouble
 .LSOverride
 ._*

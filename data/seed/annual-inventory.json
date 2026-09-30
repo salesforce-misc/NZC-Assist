@@ -1,0 +1,18 @@
+{
+  "_comment": "Symbolic seed format (NOT sf data import tree). See stnry-sources.json for the lookup-resolution contract. AnnualEmssnInventory is self-contained (no dependency on other seed tiers besides Account), but its lookup still needs runtime resolution since Account is loaded via a separate tree-import call.",
+  "sobject": "AnnualEmssnInventory",
+  "records": [
+    {
+      "referenceId": "AnnualInventory1",
+      "fields": {
+        "Name": "FY2025 Global Emissions Inventory",
+        "Year": "2025",
+        "Scope2EmissionsType": "LocationBased",
+        "Scope3EmissionsType": "LocationBased"
+      },
+      "lookups": {
+        "AccountNameId": { "sobject": "Account", "field": "Name", "value": "Meridian Industries, Inc." }
+      }
+    }
+  ]
+}

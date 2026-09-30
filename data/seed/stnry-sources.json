@@ -1,0 +1,125 @@
+{
+  "_comment": "Symbolic seed format (NOT sf data import tree). Each record's `lookups` map names a field on this sobject that must resolve at runtime to a real Id by querying the target org for a record on `sobject` whose `field` equals `value`. Resolution happens in src/nzc/sample-data.ts BEFORE the record is created, because these lookups point at records loaded by the separate, earlier data/reference/ tree-import call — a boundary sf data import tree's own @Ref mechanism cannot cross. See plan §9.",
+  "sobject": "StnryAssetEnvrSrc",
+  "records": [
+    {
+      "referenceId": "StnrySrc1",
+      "recordType": "Commercial_Building",
+      "fields": {
+        "Name": "Austin Technology Campus - HQ Office",
+        "StationaryAssetType": "Office",
+        "BusinessRegion": "North America",
+        "City": "Austin",
+        "State": "TX",
+        "Country": "US",
+        "PostalCode": "78701",
+        "StreetAddress": "500 Congress Ave",
+        "IsCompanyOwnedAsset": true,
+        "IsLeedCertified": true,
+        "TotalFloorArea": 45000,
+        "TotalFloorAreaUnit": "sqft",
+        "OccupiedFloorArea": 42000,
+        "OccupiedFloorAreaUnit": "sqft",
+        "Description": "Primary corporate headquarters and technology campus office building."
+      },
+      "lookups": {
+        "AccountNameId": { "sobject": "Account", "field": "Name", "value": "Meridian Industries – Austin Technology Campus" },
+        "CrbnEmssnScopeAllocId": { "sobject": "CrbnEmssnScopeAlloc", "field": "Name", "value": "Standard GHG Protocol Fuel-to-Scope Allocation" },
+        "ElectricityEmssnFctrId": { "sobject": "ElectricityEmssnFctrSet", "field": "Name", "value": "ERCT - ERCOT All - (5.0) eGRID2021" },
+        "OtherEmssnFctrId": { "sobject": "OtherEmssnFctrSet", "field": "Name", "value": "Stationary Fuel Conversion Factors - EPA 2023 4.0" },
+        "RefrigerantEmssnFctrId": { "sobject": "RefrigerantEmssnFctr", "field": "Name", "value": "R-410A - IPCC AR4 2007" },
+        "WstDispoEmssnFctrSetId": { "sobject": "WstDispoEmssnFctrSet", "field": "Name", "value": "Waste Disposal Factors - EPA 2020" },
+        "RegionalBldgEnergyIntensityId": { "sobject": "BldgEnrgyIntensity", "field": "Name", "value": "South - West South Central - 25,001 to 50,000 sqft - CBECS 2012" }
+      }
+    },
+    {
+      "referenceId": "StnrySrc2",
+      "recordType": "Commercial_Building",
+      "fields": {
+        "Name": "Columbus Manufacturing Plant",
+        "StationaryAssetType": "Manufacturing",
+        "BusinessRegion": "North America",
+        "City": "Columbus",
+        "State": "OH",
+        "Country": "US",
+        "PostalCode": "43215",
+        "StreetAddress": "1200 Manufacturing Way",
+        "IsCompanyOwnedAsset": true,
+        "TotalFloorArea": 150000,
+        "TotalFloorAreaUnit": "sqft",
+        "OccupiedFloorArea": 150000,
+        "OccupiedFloorAreaUnit": "sqft",
+        "Description": "Primary durable-goods manufacturing facility."
+      },
+      "lookups": {
+        "AccountNameId": { "sobject": "Account", "field": "Name", "value": "Meridian Industries – Columbus Manufacturing Division" },
+        "CrbnEmssnScopeAllocId": { "sobject": "CrbnEmssnScopeAlloc", "field": "Name", "value": "Standard GHG Protocol Fuel-to-Scope Allocation" },
+        "ElectricityEmssnFctrId": { "sobject": "ElectricityEmssnFctrSet", "field": "Name", "value": "RFCW - RFC West - (5.0) eGRID2021" },
+        "OtherEmssnFctrId": { "sobject": "OtherEmssnFctrSet", "field": "Name", "value": "Stationary Fuel Conversion Factors - EPA 2023 4.0" },
+        "RefrigerantEmssnFctrId": { "sobject": "RefrigerantEmssnFctr", "field": "Name", "value": "R-410A - IPCC AR4 2007" },
+        "WstDispoEmssnFctrSetId": { "sobject": "WstDispoEmssnFctrSet", "field": "Name", "value": "Waste Disposal Factors - EPA 2020" },
+        "RegionalBldgEnergyIntensityId": { "sobject": "BldgEnrgyIntensity", "field": "Name", "value": "Midwest - East North Central - 100,001 to 200,000 sqft - CBECS 2012" }
+      }
+    },
+    {
+      "referenceId": "StnrySrc3",
+      "recordType": "Commercial_Building",
+      "fields": {
+        "Name": "Sacramento Distribution Warehouse",
+        "StationaryAssetType": "Warehouse",
+        "BusinessRegion": "North America",
+        "City": "Sacramento",
+        "State": "CA",
+        "Country": "US",
+        "PostalCode": "95814",
+        "StreetAddress": "800 Distribution Pkwy",
+        "IsCompanyOwnedAsset": false,
+        "LeaseIdentifier": "LEASE-SAC-0042",
+        "LeaseExpirationDate": "2029-12-31",
+        "TotalFloorArea": 320000,
+        "TotalFloorAreaUnit": "sqft",
+        "OccupiedFloorArea": 300000,
+        "OccupiedFloorAreaUnit": "sqft",
+        "Description": "Leased regional distribution and logistics warehouse."
+      },
+      "lookups": {
+        "AccountNameId": { "sobject": "Account", "field": "Name", "value": "Meridian Industries – Sacramento Distribution" },
+        "CrbnEmssnScopeAllocId": { "sobject": "CrbnEmssnScopeAlloc", "field": "Name", "value": "Standard GHG Protocol Fuel-to-Scope Allocation" },
+        "ElectricityEmssnFctrId": { "sobject": "ElectricityEmssnFctrSet", "field": "Name", "value": "CAMX - WECC California - (5.0) eGRID2021" },
+        "OtherEmssnFctrId": { "sobject": "OtherEmssnFctrSet", "field": "Name", "value": "Stationary Fuel Conversion Factors - EPA 2023 4.0" },
+        "RefrigerantEmssnFctrId": { "sobject": "RefrigerantEmssnFctr", "field": "Name", "value": "R-410A - IPCC AR4 2007" },
+        "WstDispoEmssnFctrSetId": { "sobject": "WstDispoEmssnFctrSet", "field": "Name", "value": "Waste Disposal Factors - EPA 2020" },
+        "RegionalBldgEnergyIntensityId": { "sobject": "BldgEnrgyIntensity", "field": "Name", "value": "West - Pacific - 200,001 to 500,000 sqft - CBECS 2012" }
+      }
+    },
+    {
+      "referenceId": "StnrySrc4",
+      "recordType": "Data_Center",
+      "fields": {
+        "Name": "Ashburn Data Center",
+        "StationaryAssetType": "Data Center",
+        "BusinessRegion": "North America",
+        "City": "Ashburn",
+        "State": "VA",
+        "Country": "US",
+        "PostalCode": "20147",
+        "StreetAddress": "44100 Data Dr",
+        "IsCompanyOwnedAsset": true,
+        "TotalFloorArea": 85000,
+        "TotalFloorAreaUnit": "sqft",
+        "OccupiedFloorArea": 85000,
+        "OccupiedFloorAreaUnit": "sqft",
+        "Description": "Primary enterprise data center supporting global IT operations."
+      },
+      "lookups": {
+        "AccountNameId": { "sobject": "Account", "field": "Name", "value": "Meridian Industries – Ashburn Data Operations" },
+        "CrbnEmssnScopeAllocId": { "sobject": "CrbnEmssnScopeAlloc", "field": "Name", "value": "Standard GHG Protocol Fuel-to-Scope Allocation" },
+        "ElectricityEmssnFctrId": { "sobject": "ElectricityEmssnFctrSet", "field": "Name", "value": "SRVC - SERC Virginia/Carolina - (5.0) eGRID2021" },
+        "OtherEmssnFctrId": { "sobject": "OtherEmssnFctrSet", "field": "Name", "value": "Stationary Fuel Conversion Factors - EPA 2023 4.0" },
+        "RefrigerantEmssnFctrId": { "sobject": "RefrigerantEmssnFctr", "field": "Name", "value": "R-410A - IPCC AR4 2007" },
+        "WstDispoEmssnFctrSetId": { "sobject": "WstDispoEmssnFctrSet", "field": "Name", "value": "Waste Disposal Factors - EPA 2020" },
+        "RegionalBldgEnergyIntensityId": { "sobject": "BldgEnrgyIntensity", "field": "Name", "value": "South - South Atlantic - 50,001 to 100,000 sqft - CBECS 2012" }
+      }
+    }
+  ]
+}

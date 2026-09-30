@@ -1,0 +1,91 @@
+{
+  "_comment": "Symbolic seed format (NOT sf data import tree). See stnry-sources.json for the lookup-resolution contract. Scope3EmssnSrc has no RecordType. Scope3EmissionSourceType is a free-text string field on this object (not a picklist) — confirmed via live describe against AF1 (API v68).",
+  "sobject": "Scope3EmssnSrc",
+  "records": [
+    {
+      "referenceId": "Scope3Src1",
+      "fields": {
+        "Name": "Corporate Air Travel",
+        "Scope3EmissionSourceType": "Business Air Travel",
+        "BusinessRegion": "North America",
+        "City": "Chicago",
+        "State": "IL",
+        "Country": "US",
+        "PostalCode": "60601",
+        "Description": "Employee air travel booked for business purposes across all business units."
+      },
+      "lookups": {
+        "AccountNameId": { "sobject": "Account", "field": "Name", "value": "Meridian Industries, Inc." },
+        "AirTravelEmssnFctrId": { "sobject": "AirTravelEmssnFctr", "field": "Name", "value": "Air Travel Factors - US EPA 2022" }
+      }
+    },
+    {
+      "referenceId": "Scope3Src2",
+      "fields": {
+        "Name": "Employee Ground Travel",
+        "Scope3EmissionSourceType": "Ground Transportation",
+        "BusinessRegion": "North America",
+        "City": "Chicago",
+        "State": "IL",
+        "Country": "US",
+        "PostalCode": "60601",
+        "Description": "Employee taxi, rideshare, and personal-vehicle mileage reimbursed for business travel."
+      },
+      "lookups": {
+        "AccountNameId": { "sobject": "Account", "field": "Name", "value": "Meridian Industries, Inc." },
+        "GroundTravelEmssnFctrId": { "sobject": "GroundTravelEmssnFctr", "field": "Name", "value": "Scope 3 Ground Travel - AMER - US EPA 2022" }
+      }
+    },
+    {
+      "referenceId": "Scope3Src3",
+      "fields": {
+        "Name": "Business Travel Hotel Stays",
+        "Scope3EmissionSourceType": "Hotel Accommodations",
+        "BusinessRegion": "North America",
+        "City": "Chicago",
+        "State": "IL",
+        "Country": "US",
+        "PostalCode": "60601",
+        "Description": "Hotel room-nights booked for business travel across all business units."
+      },
+      "lookups": {
+        "AccountNameId": { "sobject": "Account", "field": "Name", "value": "Meridian Industries, Inc." },
+        "HotelStayEmssnFctrId": { "sobject": "HotelStayEmssnFctr", "field": "Name", "value": "United States - DEFRA 2022" }
+      }
+    },
+    {
+      "referenceId": "Scope3Src4",
+      "fields": {
+        "Name": "Business Travel Rental Cars",
+        "Scope3EmissionSourceType": "Rental Vehicles",
+        "BusinessRegion": "North America",
+        "City": "Chicago",
+        "State": "IL",
+        "Country": "US",
+        "PostalCode": "60601",
+        "Description": "Rental car usage booked for business travel across all business units."
+      },
+      "lookups": {
+        "AccountNameId": { "sobject": "Account", "field": "Name", "value": "Meridian Industries, Inc." },
+        "RentalCarEmssnFctrId": { "sobject": "RentalCarEmssnFctr", "field": "Name", "value": "Rental Car - Compact class - US EPA 2022" }
+      }
+    },
+    {
+      "referenceId": "Scope3Src5",
+      "fields": {
+        "Name": "Inbound Freight & Logistics",
+        "Scope3EmissionSourceType": "Purchased Goods Transportation",
+        "BusinessRegion": "North America",
+        "City": "Chicago",
+        "State": "IL",
+        "Country": "US",
+        "PostalCode": "60601",
+        "Description": "Upstream freight hauling for purchased goods and materials moving into Meridian facilities."
+      },
+      "lookups": {
+        "AccountNameId": { "sobject": "Account", "field": "Name", "value": "Meridian Industries, Inc." },
+        "FrgtHaulingEmssnFctrId": { "sobject": "FrgtHaulingEmssnFctr", "field": "Name", "value": "Freight Hauling - Medium- and Heavy-Duty Truck - EPA 2022" }
+      }
+    }
+  ]
+}

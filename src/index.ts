@@ -18,13 +18,14 @@
  *                       health_check
  *
  * Org/data/metadata/permission/knowledge/status tools are wired to real
- * handlers, as are enable_net_zero_settings (see src/nzc/settings.ts) and
- * load_reference_data (see src/nzc/reference-data.ts). The remaining two NZC
- * helper tools and the three validation tools are registered (stable names +
- * schemas, so skills/commands can already refer to them) but dispatch to a
- * clear "not yet implemented" stub — their real implementations depend on
- * data/metadata content authored in later milestones (see JOURNEY_MAP.md and
- * the project plan §13, M5/M6).
+ * handlers, as are enable_net_zero_settings (see src/nzc/settings.ts),
+ * load_reference_data (see src/nzc/reference-data.ts), and
+ * scaffold_sample_data (see src/nzc/sample-data.ts — also handles its own
+ * teardownId branch). calculate_footprints and the three validation tools
+ * are still registered (stable names + schemas, so skills/commands can
+ * already refer to them) but dispatch to a clear "not yet implemented" stub
+ * — their real implementations depend on data/metadata content authored in
+ * later milestones (see JOURNEY_MAP.md and the project plan §13, M5/M6).
  */
 
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
@@ -45,6 +46,7 @@ import * as statusTools from "./salesforce/status.js";
 import * as knowledge from "./knowledge-loader.js";
 import * as nzcSettings from "./nzc/settings.js";
 import * as referenceData from "./nzc/reference-data.js";
+import * as sampleData from "./nzc/sample-data.js";
 
 const SERVER_NAME = "nzc";
 const SERVER_VERSION = "0.1.0";
@@ -283,12 +285,23 @@ const tools: Tool[] = [
   },
   {
     name: "scaffold_sample_data",
-    description: "Generate and load hybrid sample data (seed + runtime-generated transactional records) across configured domains.",
+    description:
+      "Load the hybrid seed tier (data/seed/*: accounts, suppliers, annual inventory, stationary/vehicle/scope3 " +
+      "sources) against the connected org — requires load_reference_data to have run first. Refuses by default " +
+      "if its anchor Account already exists (would duplicate the graph); pass force: true to override. Runtime-" +
+      "generated transactional/footprint tiers are not yet implemented — see the result's notYetImplemented field. " +
+      "Pass teardownId instead of loading to delete a prior run's records in reverse order.",
     inputSchema: {
       type: "object",
       properties: {
-        profile: { type: "string", enum: ["small", "full"], default: "small" },
-        teardownId: { type: "string", description: "Optional fixture manifest id to tear down instead of loading." },
+        profile: {
+          type: "string",
+          enum: ["small", "full"],
+          default: "small",
+          description: "Currently has no effect — the seed tier is fixed-size. Reserved for when generated tiers exist to scale.",
+        },
+        force: { type: "boolean", description: "Required (true) to proceed when the seed's anchor Account already exists." },
+        teardownId: { type: "string", description: "Fixture manifest id (from a prior load's result) to tear down instead of loading." },
         confirmProductionWrite: { type: "boolean", description: "Required (true) to write against a production-type org." },
       },
     },
@@ -380,7 +393,6 @@ const MUTATING_TOOLS = new Set([
 ]);
 
 const PENDING_MILESTONE: Record<string, string> = {
-  scaffold_sample_data: "M5",
   calculate_footprints: "M5",
   audit_nzc_config: "M6",
   list_validation_groups: "M6",
@@ -491,9 +503,17 @@ async function dispatch(toolName: string, args: Args): Promise<CallToolResult> {
       return ok(await nzcSettings.enableNetZeroSettings());
     case "load_reference_data":
       return ok(await referenceData.loadReferenceData({ force: args.force as boolean | undefined }));
+    case "scaffold_sample_data":
+      return ok(
+        args.teardownId
+          ? await sampleData.teardownSampleData(args.teardownId as string)
+          : await sampleData.scaffoldSampleData({
+              force: args.force as boolean | undefined,
+              profile: args.profile as string | undefined,
+            })
+      );
 
     // NZC helper tools — pending M5
-    case "scaffold_sample_data":
     case "calculate_footprints":
       return notImplemented(toolName);
 

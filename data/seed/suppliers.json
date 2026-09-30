@@ -1,0 +1,214 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef1"
+            },
+            "Name": "Atlas Steel & Alloys Corp – Supplier Record",
+            "AccountId": "@AccountRef11",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef2"
+            },
+            "Name": "Cascade Timber & Pulp Co. – Supplier Record",
+            "AccountId": "@AccountRef12",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef3"
+            },
+            "Name": "BrightGrid Utilities LLC – Supplier Record",
+            "AccountId": "@AccountRef13",
+            "CompanyRelationshipType": "Utility Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Utility Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef4"
+            },
+            "Name": "Pacific Coast Power Cooperative – Supplier Record",
+            "AccountId": "@AccountRef14",
+            "CompanyRelationshipType": "Utility Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Utility Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef5"
+            },
+            "Name": "Dominion Ridge Energy Partners – Supplier Record",
+            "AccountId": "@AccountRef15",
+            "CompanyRelationshipType": "Utility Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Utility Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef6"
+            },
+            "Name": "Lone Star Gas & Electric – Supplier Record",
+            "AccountId": "@AccountRef16",
+            "CompanyRelationshipType": "Utility Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Utility Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef7"
+            },
+            "Name": "Summit Packaging Solutions – Supplier Record",
+            "AccountId": "@AccountRef17",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef8"
+            },
+            "Name": "Ironclad Fasteners Ltd. – Supplier Record",
+            "AccountId": "@AccountRef18",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef9"
+            },
+            "Name": "Gulfstream Polymers Inc. – Supplier Record",
+            "AccountId": "@AccountRef19",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef10"
+            },
+            "Name": "Redwood Freight & Logistics – Supplier Record",
+            "AccountId": "@AccountRef20",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef11"
+            },
+            "Name": "TransGlobal Shipping Lines – Supplier Record",
+            "AccountId": "@AccountRef21",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef12"
+            },
+            "Name": "Nordic Components AB – Supplier Record",
+            "AccountId": "@AccountRef22",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef13"
+            },
+            "Name": "Sunrise Semiconductor Corp. – Supplier Record",
+            "AccountId": "@AccountRef23",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef14"
+            },
+            "Name": "Delta Precision Machining – Supplier Record",
+            "AccountId": "@AccountRef24",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef15"
+            },
+            "Name": "Highland Textiles Group – Supplier Record",
+            "AccountId": "@AccountRef25",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef16"
+            },
+            "Name": "Beacon Office Supply Co. – Supplier Record",
+            "AccountId": "@AccountRef26",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef17"
+            },
+            "Name": "Golden Valley Foods Inc. – Supplier Record",
+            "AccountId": "@AccountRef27",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef18"
+            },
+            "Name": "Anchor Chemical Solutions – Supplier Record",
+            "AccountId": "@AccountRef28",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef19"
+            },
+            "Name": "Skyline Construction Materials – Supplier Record",
+            "AccountId": "@AccountRef29",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef20"
+            },
+            "Name": "Vertex IT Solutions – Supplier Record",
+            "AccountId": "@AccountRef30",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        },
+        {
+            "attributes": {
+                "type": "Supplier",
+                "referenceId": "SupplierRef21"
+            },
+            "Name": "Coastal Cold Chain Logistics – Supplier Record",
+            "AccountId": "@AccountRef31",
+            "CompanyRelationshipType": "Value Chain Supplier",
+            "Description": "Sample supplier relationship for NZC-Assist Scope 3 procurement demo data (Value Chain Supplier)."
+        }
+    ]
+}

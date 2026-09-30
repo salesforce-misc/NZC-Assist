@@ -1,0 +1,51 @@
+{
+  "_comment": "Symbolic seed format (NOT sf data import tree). See stnry-sources.json for the lookup-resolution contract. Note: VehicleAssetEmssnSrc.CrbnEmssnScopeAlloc is a plain picklist FIELD on this object (Scope 1 | Scope 2 | Scope 3 ...), not a lookup to the CrbnEmssnScopeAlloc object — confirmed via live describe against AF1 (API v68). It belongs in `fields`, not `lookups`.",
+  "sobject": "VehicleAssetEmssnSrc",
+  "records": [
+    {
+      "referenceId": "VehicleSrc1",
+      "recordType": "Fleet_Vehicle",
+      "fields": {
+        "Name": "Corporate Fleet - Sedans",
+        "VehicleType": "Fleet Vehicle",
+        "FleetVehicleType": "InternalCombustionEngine",
+        "BusinessRegion": "North America",
+        "City": "Chicago",
+        "State": "IL",
+        "Country": "US",
+        "PostalCode": "60601",
+        "StreetAddress": "1 Meridian Plaza",
+        "IsCompanyOwnedAsset": true,
+        "VehicleIdentifier": "FLEET-SEDAN-POOL-01",
+        "CrbnEmssnScopeAlloc": "Scope 1",
+        "Description": "Pooled sedan fleet used for regional sales and site visits."
+      },
+      "lookups": {
+        "AccountNameId": { "sobject": "Account", "field": "Name", "value": "Meridian Industries – Fleet Services" },
+        "OtherEmssnFctrId": { "sobject": "OtherEmssnFctrSet", "field": "Name", "value": "Mobile Fuel Conversion Factors - EPA 2023 4.0" }
+      }
+    },
+    {
+      "referenceId": "VehicleSrc2",
+      "recordType": "Private_Jet",
+      "fields": {
+        "Name": "Executive Aviation - Private Jet N421MI",
+        "VehicleType": "Private Jet",
+        "BusinessRegion": "North America",
+        "City": "Chicago",
+        "State": "IL",
+        "Country": "US",
+        "PostalCode": "60666",
+        "StreetAddress": "Chicago Executive Airport, Hangar 4",
+        "IsCompanyOwnedAsset": true,
+        "VehicleIdentifier": "N421MI",
+        "CrbnEmssnScopeAlloc": "Scope 1",
+        "Description": "Company-owned aircraft used for executive business travel."
+      },
+      "lookups": {
+        "AccountNameId": { "sobject": "Account", "field": "Name", "value": "Meridian Industries – Corporate Aviation" },
+        "OtherEmssnFctrId": { "sobject": "OtherEmssnFctrSet", "field": "Name", "value": "Mobile Fuel Conversion Factors - EPA 2023 4.0" }
+      }
+    }
+  ]
+}
