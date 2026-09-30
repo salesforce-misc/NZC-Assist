@@ -1,0 +1,124 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "GroundTravelEmssnFctr",
+                "referenceId": "GroundTravelEmssnFctrRef1"
+            },
+            "Name": "Scope 3 Ground Travel - EMEA - DEFRA 2018",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2018",
+            "CurrencyCode": "USD",
+            "DistanceUnit": "Miles",
+            "EmissionFactorDataSource": "DEFRA",
+            "PersCarEmssnInKgCo2eDstnUnit": 0.29881,
+            "TaxiEmssnInKgCo2eDstnUnit": 0.347,
+            "TaxiRateForDstnUnit": 7.21,
+            "TrainEmssnInKgCo2eDstnUnit": 0.06,
+            "TrainRateForDstnUnit": 0.21,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.001"
+        },
+        {
+            "attributes": {
+                "type": "GroundTravelEmssnFctr",
+                "referenceId": "GroundTravelEmssnFctrRef2"
+            },
+            "Name": "Scope 3 Ground Travel - APAC - DEFRA 2018",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2018",
+            "CurrencyCode": "USD",
+            "DistanceUnit": "Miles",
+            "EmissionFactorDataSource": "DEFRA",
+            "PersCarEmssnInKgCo2eDstnUnit": 0.29881,
+            "TaxiEmssnInKgCo2eDstnUnit": 0.347,
+            "TaxiRateForDstnUnit": 2,
+            "TrainEmssnInKgCo2eDstnUnit": 0.06,
+            "TrainRateForDstnUnit": 0.25,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.002"
+        },
+        {
+            "attributes": {
+                "type": "GroundTravelEmssnFctr",
+                "referenceId": "GroundTravelEmssnFctrRef3"
+            },
+            "Name": "Scope 3 Ground Travel - AMER - US EPA 2021",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2021",
+            "CurrencyCode": "USD",
+            "DistanceUnit": "Miles",
+            "EmissionFactorDataSource": "US EPA",
+            "PersCarEmssnInKgCo2eDstnUnit": 0.341,
+            "TaxiEmssnInKgCo2eDstnUnit": 0.341,
+            "TaxiRateForDstnUnit": 2,
+            "TrainEmssnInKgCo2eDstnUnit": 0.113,
+            "TrainRateForDstnUnit": 0.25,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.004"
+        },
+        {
+            "attributes": {
+                "type": "GroundTravelEmssnFctr",
+                "referenceId": "GroundTravelEmssnFctrRef4"
+            },
+            "Name": "Scope 3 Ground Travel - AMER - US EPA 2018",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2018",
+            "CurrencyCode": "USD",
+            "DistanceUnit": "Miles",
+            "EmissionFactorDataSource": "US Environmental Protection Agency",
+            "PersCarEmssnInKgCo2eDstnUnit": 0.34675,
+            "TaxiEmssnInKgCo2eDstnUnit": 0.433,
+            "TaxiRateForDstnUnit": 2,
+            "TrainEmssnInKgCo2eDstnUnit": 0.14,
+            "TrainRateForDstnUnit": 0.25,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.003"
+        },
+        {
+            "attributes": {
+                "type": "GroundTravelEmssnFctr",
+                "referenceId": "GroundTravelEmssnFctrRef5"
+            },
+            "Name": "Scope 3 Ground Travel - AMER - US EPA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "CurrencyCode": "USD",
+            "DistanceUnit": "Miles",
+            "EmissionFactorDataSource": "US EPA",
+            "PersCarEmssnInKgCo2eDstnUnit": 0.332,
+            "TaxiEmssnInKgCo2eDstnUnit": 0.332,
+            "TaxiRateForDstnUnit": 2,
+            "TrainEmssnInKgCo2eDstnUnit": 0.113,
+            "TrainRateForDstnUnit": 0.25,
+            "TaxiEmssnInKgN2oDstnUnit": 0.462,
+            "TaxiEmssnInKgCh4DstnUnit": 0.745,
+            "TrainEmssnInKgN2oDstnUnit": 0.035,
+            "TrainEmssnInKgCh4DstnUnit": 0.079,
+            "PersCarEmssnInKgN2oDstnUnit": 0.123,
+            "PersCarEmssnInKgCh4DstnUnit": 0.513,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.005"
+        },
+        {
+            "attributes": {
+                "type": "GroundTravelEmssnFctr",
+                "referenceId": "GroundTravelEmssnFctrRef6"
+            },
+            "Name": "Scope 3 Ground Travel - EMEA - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "CurrencyCode": "USD",
+            "DistanceUnit": "Kilometers",
+            "EmissionFactorDataSource": "DEFRA",
+            "PersCarEmssnInKgCo2eDstnUnit": 0.16749,
+            "TaxiEmssnInKgCo2eDstnUnit": 0.14876,
+            "TaxiRateForDstnUnit": 7.21,
+            "TrainEmssnInKgCo2eDstnUnit": 0.00446,
+            "TrainRateForDstnUnit": 0.25,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.006"
+        }
+    ]
+}

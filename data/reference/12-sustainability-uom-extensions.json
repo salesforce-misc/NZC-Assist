@@ -1,0 +1,19 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "SustainabilityUom",
+                "referenceId": "SustainabilityUomRef1"
+            },
+            "DeveloperName": "Cubic_Meters",
+            "Language": "en_US",
+            "MasterLabel": "Cubic Meters (M3)",
+            "Description": "Used in conversions from volume to energy content",
+            "UnitType": "Volume",
+            "IsStationaryAssetUom": false,
+            "IsVehicleAssetUom": false,
+            "IsProductUom": false,
+            "IsWasteUom": true
+        }
+    ]
+}

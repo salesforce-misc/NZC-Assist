@@ -1,0 +1,171 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "CrbnEmssnScopeAlloc",
+                "referenceId": "CrbnEmssnScopeAllocRef1"
+            },
+            "Name": "Standard GHG Protocol Fuel-to-Scope Allocation",
+            "CurrencyIsoCode": "USD",
+            "External_Id__c": "NZC-ASSIST-SEED.001",
+            "ScopeAllocationValues": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "CrbnEmssnScopeAllocVal",
+                            "referenceId": "CrbnEmssnScopeAllocValRef1"
+                        },
+                        "CurrencyIsoCode": "USD",
+                        "CrbnEmssnScopeAllocId": "@CrbnEmssnScopeAllocRef1",
+                        "FuelTypeAllocation": "SCOPE1",
+                        "FuelType": "NaturalGas",
+                        "External_Id__c": "NZC-ASSIST-SEED.002"
+                    },
+                    {
+                        "attributes": {
+                            "type": "CrbnEmssnScopeAllocVal",
+                            "referenceId": "CrbnEmssnScopeAllocValRef2"
+                        },
+                        "CurrencyIsoCode": "USD",
+                        "CrbnEmssnScopeAllocId": "@CrbnEmssnScopeAllocRef1",
+                        "FuelTypeAllocation": "SCOPE1",
+                        "FuelType": "Diesel",
+                        "External_Id__c": "NZC-ASSIST-SEED.003"
+                    },
+                    {
+                        "attributes": {
+                            "type": "CrbnEmssnScopeAllocVal",
+                            "referenceId": "CrbnEmssnScopeAllocValRef3"
+                        },
+                        "CurrencyIsoCode": "USD",
+                        "CrbnEmssnScopeAllocId": "@CrbnEmssnScopeAllocRef1",
+                        "FuelTypeAllocation": "SCOPE1",
+                        "FuelType": "FuelOil",
+                        "External_Id__c": "NZC-ASSIST-SEED.004"
+                    },
+                    {
+                        "attributes": {
+                            "type": "CrbnEmssnScopeAllocVal",
+                            "referenceId": "CrbnEmssnScopeAllocValRef4"
+                        },
+                        "CurrencyIsoCode": "USD",
+                        "CrbnEmssnScopeAllocId": "@CrbnEmssnScopeAllocRef1",
+                        "FuelTypeAllocation": "SCOPE1",
+                        "FuelType": "HeavyOil",
+                        "External_Id__c": "NZC-ASSIST-SEED.005"
+                    },
+                    {
+                        "attributes": {
+                            "type": "CrbnEmssnScopeAllocVal",
+                            "referenceId": "CrbnEmssnScopeAllocValRef5"
+                        },
+                        "CurrencyIsoCode": "USD",
+                        "CrbnEmssnScopeAllocId": "@CrbnEmssnScopeAllocRef1",
+                        "FuelTypeAllocation": "SCOPE1",
+                        "FuelType": "LightOil",
+                        "External_Id__c": "NZC-ASSIST-SEED.006"
+                    },
+                    {
+                        "attributes": {
+                            "type": "CrbnEmssnScopeAllocVal",
+                            "referenceId": "CrbnEmssnScopeAllocValRef6"
+                        },
+                        "CurrencyIsoCode": "USD",
+                        "CrbnEmssnScopeAllocId": "@CrbnEmssnScopeAllocRef1",
+                        "FuelTypeAllocation": "SCOPE1",
+                        "FuelType": "Kerosene",
+                        "External_Id__c": "NZC-ASSIST-SEED.007"
+                    },
+                    {
+                        "attributes": {
+                            "type": "CrbnEmssnScopeAllocVal",
+                            "referenceId": "CrbnEmssnScopeAllocValRef7"
+                        },
+                        "CurrencyIsoCode": "USD",
+                        "CrbnEmssnScopeAllocId": "@CrbnEmssnScopeAllocRef1",
+                        "FuelTypeAllocation": "SCOPE1",
+                        "FuelType": "LiquidNaturalGasLNG",
+                        "External_Id__c": "NZC-ASSIST-SEED.008"
+                    },
+                    {
+                        "attributes": {
+                            "type": "CrbnEmssnScopeAllocVal",
+                            "referenceId": "CrbnEmssnScopeAllocValRef8"
+                        },
+                        "CurrencyIsoCode": "USD",
+                        "CrbnEmssnScopeAllocId": "@CrbnEmssnScopeAllocRef1",
+                        "FuelTypeAllocation": "SCOPE1",
+                        "FuelType": "Propane",
+                        "External_Id__c": "NZC-ASSIST-SEED.009"
+                    },
+                    {
+                        "attributes": {
+                            "type": "CrbnEmssnScopeAllocVal",
+                            "referenceId": "CrbnEmssnScopeAllocValRef9"
+                        },
+                        "CurrencyIsoCode": "USD",
+                        "CrbnEmssnScopeAllocId": "@CrbnEmssnScopeAllocRef1",
+                        "FuelTypeAllocation": "SCOPE1",
+                        "FuelType": "CityGas",
+                        "External_Id__c": "NZC-ASSIST-SEED.010"
+                    },
+                    {
+                        "attributes": {
+                            "type": "CrbnEmssnScopeAllocVal",
+                            "referenceId": "CrbnEmssnScopeAllocValRef10"
+                        },
+                        "CurrencyIsoCode": "USD",
+                        "CrbnEmssnScopeAllocId": "@CrbnEmssnScopeAllocRef1",
+                        "FuelTypeAllocation": "SCOPE1",
+                        "FuelType": "Refrigerant",
+                        "External_Id__c": "NZC-ASSIST-SEED.011"
+                    },
+                    {
+                        "attributes": {
+                            "type": "CrbnEmssnScopeAllocVal",
+                            "referenceId": "CrbnEmssnScopeAllocValRef11"
+                        },
+                        "CurrencyIsoCode": "USD",
+                        "CrbnEmssnScopeAllocId": "@CrbnEmssnScopeAllocRef1",
+                        "FuelTypeAllocation": "SCOPE2",
+                        "FuelType": "Electricity",
+                        "External_Id__c": "NZC-ASSIST-SEED.012"
+                    },
+                    {
+                        "attributes": {
+                            "type": "CrbnEmssnScopeAllocVal",
+                            "referenceId": "CrbnEmssnScopeAllocValRef12"
+                        },
+                        "CurrencyIsoCode": "USD",
+                        "CrbnEmssnScopeAllocId": "@CrbnEmssnScopeAllocRef1",
+                        "FuelTypeAllocation": "SCOPE2",
+                        "FuelType": "Heat",
+                        "External_Id__c": "NZC-ASSIST-SEED.013"
+                    },
+                    {
+                        "attributes": {
+                            "type": "CrbnEmssnScopeAllocVal",
+                            "referenceId": "CrbnEmssnScopeAllocValRef13"
+                        },
+                        "CurrencyIsoCode": "USD",
+                        "CrbnEmssnScopeAllocId": "@CrbnEmssnScopeAllocRef1",
+                        "FuelTypeAllocation": "SCOPE2",
+                        "FuelType": "Steam",
+                        "External_Id__c": "NZC-ASSIST-SEED.014"
+                    },
+                    {
+                        "attributes": {
+                            "type": "CrbnEmssnScopeAllocVal",
+                            "referenceId": "CrbnEmssnScopeAllocValRef14"
+                        },
+                        "CurrencyIsoCode": "USD",
+                        "CrbnEmssnScopeAllocId": "@CrbnEmssnScopeAllocRef1",
+                        "FuelTypeAllocation": "SCOPE2",
+                        "FuelType": "Cooling",
+                        "External_Id__c": "NZC-ASSIST-SEED.015"
+                    }
+                ]
+            }
+        }
+    ]
+}

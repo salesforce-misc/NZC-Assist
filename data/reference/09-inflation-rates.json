@@ -1,0 +1,1759 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef1"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2021",
+            "InflationRate": 3.3952,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation133"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef2"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2024",
+            "InflationRate": 2.6,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation131"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef3"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2023",
+            "InflationRate": 3.6,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation130"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef4"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2021",
+            "InflationRate": 2.4461,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation134"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef5"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2020",
+            "InflationRate": 0.2481,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation92"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef6"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2021",
+            "InflationRate": 3.9411,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation128"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef7"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2021",
+            "InflationRate": 2.8639,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation135"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef8"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2021",
+            "InflationRate": -0.2333,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation141"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef9"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2000",
+            "InflationRate": 2.7194,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation93"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef10"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2001",
+            "InflationRate": 2.5251,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation94"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef11"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2002",
+            "InflationRate": 2.2584,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation95"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef12"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2003",
+            "InflationRate": 2.7586,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation96"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef13"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2004",
+            "InflationRate": 1.8573,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation97"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef14"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2005",
+            "InflationRate": 2.2136,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation98"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef15"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2009",
+            "InflationRate": 0.2995,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation102"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef16"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2010",
+            "InflationRate": 1.7769,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation103"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef17"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2006",
+            "InflationRate": 2.002,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation99"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef18"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2007",
+            "InflationRate": 2.1384,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation100"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef19"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2008",
+            "InflationRate": 2.3703,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation101"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef20"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2019",
+            "InflationRate": 1.8122,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation69"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef21"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2020",
+            "InflationRate": 1.2336,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation70"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef22"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2021",
+            "InflationRate": 1.2336,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation71"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef23"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2022",
+            "InflationRate": 7.5,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation129"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef24"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2000",
+            "InflationRate": 2.1046,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation72"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef25"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2001",
+            "InflationRate": 2.35,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation73"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef26"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2002",
+            "InflationRate": 2.2319,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation74"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef27"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2003",
+            "InflationRate": 2.0954,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation75"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef28"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2004",
+            "InflationRate": 2.1384,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation76"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef29"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2005",
+            "InflationRate": 2.1778,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation77"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef30"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2006",
+            "InflationRate": 2.1785,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation78"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef31"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2015",
+            "InflationRate": 0.1186,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation65"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef32"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2016",
+            "InflationRate": 1.2616,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation66"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef33"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2017",
+            "InflationRate": 2.1301,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation67"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef34"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2012",
+            "InflationRate": 1.5157,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation105"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef35"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2018",
+            "InflationRate": 2.4426,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation68"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef36"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2007",
+            "InflationRate": 2.1436,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation79"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef37"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2011",
+            "InflationRate": 2.9121,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation104"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef38"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2008",
+            "InflationRate": 3.8391,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation58"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef39"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2009",
+            "InflationRate": -0.3555,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation59"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef40"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2010",
+            "InflationRate": 1.64,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation60"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef41"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2008",
+            "InflationRate": 3.272,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation80"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef42"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2009",
+            "InflationRate": 0.295,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation81"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef43"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2010",
+            "InflationRate": 1.6122,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation82"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef44"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2011",
+            "InflationRate": 2.7123,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation83"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef45"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2012",
+            "InflationRate": 2.505,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation84"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef46"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2013",
+            "InflationRate": 1.3542,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation85"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef47"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2014",
+            "InflationRate": 0.432,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation86"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef48"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2015",
+            "InflationRate": 0.03,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation87"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef49"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2016",
+            "InflationRate": 0.24,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation88"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef50"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2017",
+            "InflationRate": 1.5363,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation89"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef51"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2018",
+            "InflationRate": 1.739,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation90"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef52"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "EUR",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2019",
+            "InflationRate": 1.2071,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation91"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef53"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2006",
+            "InflationRate": 0.2494,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation35"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef54"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2007",
+            "InflationRate": 0.06,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation36"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef55"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2008",
+            "InflationRate": 1.3801,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation37"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef56"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2009",
+            "InflationRate": -1.3528,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation38"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef57"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2010",
+            "InflationRate": -0.72,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation39"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef58"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2011",
+            "InflationRate": -0.2676,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation40"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef59"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2012",
+            "InflationRate": -0.0519,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation41"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef60"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2013",
+            "InflationRate": 0.3464,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation42"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef61"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2014",
+            "InflationRate": 2.762,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation43"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef62"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2013",
+            "InflationRate": 0.9383,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation106"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef63"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2014",
+            "InflationRate": 1.9066,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation107"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef64"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2015",
+            "InflationRate": 1.1252,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation108"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef65"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2016",
+            "InflationRate": 1.4288,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation109"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef66"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2017",
+            "InflationRate": 1.5969,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation110"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef67"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2018",
+            "InflationRate": 2.2682,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation111"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef68"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2019",
+            "InflationRate": 1.9493,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation112"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef69"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "CAD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2020",
+            "InflationRate": 0.7353,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation113"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef70"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2000",
+            "InflationRate": 3.1508,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation114"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef71"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2001",
+            "InflationRate": 3.374,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation115"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef72"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2002",
+            "InflationRate": 2.4244,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation116"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef73"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2003",
+            "InflationRate": 2.092,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation117"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef74"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2007",
+            "InflationRate": 2.5107,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation121"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef75"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2004",
+            "InflationRate": 2.2862,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation118"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef76"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2005",
+            "InflationRate": 2.4877,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation119"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef77"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2006",
+            "InflationRate": 2.6663,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation120"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef78"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2008",
+            "InflationRate": 4.165,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation122"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef79"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2009",
+            "InflationRate": 0.8393,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation123"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef80"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2010",
+            "InflationRate": 1.5311,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation124"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef81"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2010",
+            "InflationRate": 2.9183,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation18"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef82"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2006",
+            "InflationRate": 3.2259,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation56"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef83"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2007",
+            "InflationRate": 2.8527,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation57"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef84"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2007",
+            "InflationRate": 2.3276,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation15"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef85"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2008",
+            "InflationRate": 4.3503,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation16"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef86"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2009",
+            "InflationRate": 1.7711,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation17"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef87"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2014",
+            "InflationRate": 2.4879,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation22"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef88"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2011",
+            "InflationRate": 3.3039,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation19"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef89"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2012",
+            "InflationRate": 1.7628,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation20"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef90"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2013",
+            "InflationRate": 2.4499,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation21"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef91"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2015",
+            "InflationRate": 1.5084,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation23"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef92"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2016",
+            "InflationRate": 1.277,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation24"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef93"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2017",
+            "InflationRate": 1.9486,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation25"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef94"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2018",
+            "InflationRate": 1.9114,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation26"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef95"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2019",
+            "InflationRate": 1.6108,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation27"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef96"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2020",
+            "InflationRate": 0.8688,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation28"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef97"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2000",
+            "InflationRate": -0.6766,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation29"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef98"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2001",
+            "InflationRate": -0.7401,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation30"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef99"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2002",
+            "InflationRate": -0.9235,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation31"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef100"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2003",
+            "InflationRate": -0.2565,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation32"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef101"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2004",
+            "InflationRate": -0.0086,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation33"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef102"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2005",
+            "InflationRate": -0.2829,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation34"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef103"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2012",
+            "InflationRate": 2.6628,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation126"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef104"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2013",
+            "InflationRate": 1.22,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation127"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef105"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2019",
+            "InflationRate": 0.477,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation48"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef106"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2020",
+            "InflationRate": 0,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation49"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef107"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2000",
+            "InflationRate": 3.3769,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation50"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef108"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2001",
+            "InflationRate": 2.8262,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation51"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef109"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2002",
+            "InflationRate": 1.586,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation52"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef110"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2003",
+            "InflationRate": 2.2701,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation53"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef111"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2004",
+            "InflationRate": 2.6772,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation54"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef112"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2005",
+            "InflationRate": 3.3927,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation55"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef113"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2015",
+            "InflationRate": 0.7895,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation44"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef114"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2016",
+            "InflationRate": -0.1167,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation45"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef115"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2017",
+            "InflationRate": 0.4672,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation46"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef116"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "JPY",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2018",
+            "InflationRate": 0.9799,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation47"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef117"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2011",
+            "InflationRate": 3.1568,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation61"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef118"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2012",
+            "InflationRate": 2.0693,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation62"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef119"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2013",
+            "InflationRate": 1.4648,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation63"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef120"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "USD",
+            "DataSource": "Average CPI-U change from prior year average CPI-U. From https://www.bls.gov/",
+            "CalendarYear": "2014",
+            "InflationRate": 1.6222,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation64"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef121"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2011",
+            "InflationRate": 3.2894,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation125"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef122"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2014",
+            "InflationRate": 0.1993,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation1"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef123"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2015",
+            "InflationRate": -0.0616,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation2"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef124"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2016",
+            "InflationRate": 0.1833,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation3"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef125"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2017",
+            "InflationRate": 1.4291,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation4"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef126"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2018",
+            "InflationRate": 1.7386,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation5"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef127"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2001",
+            "InflationRate": 4.4071,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation9"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef128"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2019",
+            "InflationRate": 1.6305,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation6"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef129"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "NZD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2020",
+            "InflationRate": 1.7096,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation7"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef130"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2000",
+            "InflationRate": 4.4574,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation8"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef131"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2002",
+            "InflationRate": 2.9816,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation10"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef132"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2003",
+            "InflationRate": 2.7326,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation11"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef133"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2004",
+            "InflationRate": 2.3433,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation12"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef134"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2005",
+            "InflationRate": 2.6918,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation13"
+        },
+        {
+            "attributes": {
+                "type": "InflationRate",
+                "referenceId": "InflationRateRef135"
+            },
+            "CurrencyIsoCode": "USD",
+            "CurrencyCode": "AUD",
+            "DataSource": "Based on annual CPI change since prior year",
+            "CalendarYear": "2006",
+            "InflationRate": 3.5553,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "Inflation14"
+        }
+    ]
+}

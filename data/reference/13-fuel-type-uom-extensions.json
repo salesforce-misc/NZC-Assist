@@ -1,0 +1,26 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "FuelTypeSustnUom",
+                "referenceId": "FuelTypeSustnUomRef1"
+            },
+            "DeveloperName": "Hydrogenlbs",
+            "Language": "en_US",
+            "MasterLabel": "Hydrogenlbs",
+            "FuelType": "custom_Hydrogen",
+            "UnitOfMeasure": "lbs"
+        },
+        {
+            "attributes": {
+                "type": "FuelTypeSustnUom",
+                "referenceId": "FuelTypeSustnUomRef2"
+            },
+            "DeveloperName": "SAF_US_Gallons",
+            "Language": "en_US",
+            "MasterLabel": "SAF_US_Gallons",
+            "FuelType": "custom_Sustainable_Aviation_Fuel_1",
+            "UnitOfMeasure": "UsGallons"
+        }
+    ]
+}

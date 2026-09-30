@@ -1,0 +1,29 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "FuelType",
+                "referenceId": "FuelTypeRef1"
+            },
+            "DeveloperName": "Hydrogen",
+            "Language": "en_US",
+            "MasterLabel": "Hydrogen",
+            "Description": "used in vehicles",
+            "IsActive": true,
+            "IsStationaryAssetFuel": false,
+            "IsVehicleAssetFuel": true
+        },
+        {
+            "attributes": {
+                "type": "FuelType",
+                "referenceId": "FuelTypeRef2"
+            },
+            "DeveloperName": "Sustainable_Aviation_Fuel_1",
+            "Language": "en_US",
+            "MasterLabel": "Sustainable Aviation Fuel (SAF)",
+            "IsActive": true,
+            "IsStationaryAssetFuel": false,
+            "IsVehicleAssetFuel": true
+        }
+    ]
+}

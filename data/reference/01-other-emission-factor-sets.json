@@ -1,0 +1,3534 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef1"
+            },
+            "Name": "Stationary Fuel Conversion Factors - DEFRA 2022 3.1",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.003"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef2"
+            },
+            "Name": "Stationary Fuel Conversion Factors - EPA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2022-04/ghg_emission_factors_hub.pdf\n\nhttps://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.004"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef3"
+            },
+            "Name": "Mobile Fuel Conversion Factors - EPA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2022-04/ghg_emission_factors_hub.pdf\n\nhttps://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.002",
+            "EmissionFactorsRentalCar": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef1"
+                        },
+                        "Name": "Rental Car - Minivan class - US EPA 2021",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Description": "Salesforce-derived values from US EPA data. Average of 2018-2022 MPG of EPA vehicle size classes Minivan - 2WD and Minivan - 4WD.",
+                        "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed October 25, 2021. https://fueleconomy.gov/feg/ws/",
+                        "EmissionFactorUpdateYear": "2021",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 21.12962963,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.008"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef2"
+                        },
+                        "Name": "Rental Car - Full Size class - US EPA 2021",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Description": "Salesforce-derived values from US EPA data. Average of 2018-2022 MPG of EPA vehicle size class Large.",
+                        "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed October 25, 2021. https://fueleconomy.gov/feg/ws/",
+                        "EmissionFactorUpdateYear": "2021",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 26.81697613,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.007"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef3"
+                        },
+                        "Name": "Rental Car - Compact class - US EPA 2021",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Description": "Salesforce-derived values from US EPA data. Average of 2018-2022 MPG of EPA vehicle size class Compact.",
+                        "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed October 25, 2021. https://fueleconomy.gov/feg/ws/",
+                        "EmissionFactorUpdateYear": "2021",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 27.66514806,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.006"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef4"
+                        },
+                        "Name": "Rental Car - SUV class - US EPA 2020",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Description": "Fuel Conversion Factors - DEFRA EPA 2018 for Rental Car - SUV class - US EPA 2020",
+                        "EmissionFactorDataSource": "Salesforce-derived values from US EPA data&#44; accessed at www.fueleconomy.gov",
+                        "EmissionFactorUpdateYear": "2020",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 16.7,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.005"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef5"
+                        },
+                        "Name": "Rental Car - Minivan class - US EPA 2020",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Description": "Fuel Conversion Factors - DEFRA EPA 2018 for Rental Car - Minivan class - US EPA 2020",
+                        "EmissionFactorDataSource": "Salesforce-derived values from US EPA data&#44; accessed at www.fueleconomy.gov",
+                        "EmissionFactorUpdateYear": "2020",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 18.5,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.004"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef6"
+                        },
+                        "Name": "Rental Car - Standard class  - US EPA 2020",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Description": "Fuel Conversion Factors - DEFRA EPA 2018 for Rental Car - Standard class  - US EPA 2020",
+                        "EmissionFactorDataSource": "Salesforce-derived values from US EPA data&#44; accessed at www.fueleconomy.gov",
+                        "EmissionFactorUpdateYear": "2020",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 24.2,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.002"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef7"
+                        },
+                        "Name": "Rental Car - Compact class - US EPA 2020",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Description": "Fuel Conversion Factors - DEFRA EPA 2018 for Rental Car - Compact class - US EPA 2020",
+                        "EmissionFactorDataSource": "Salesforce-derived values from US EPA data&#44; accessed at www.fueleconomy.gov",
+                        "EmissionFactorUpdateYear": "2020",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 27.3,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.001"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef8"
+                        },
+                        "Name": "Rental Car - SUV class - US EPA 2022",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Description": "Salesforce-derived values from US EPA data. Average of 2019-2023 MPG of EPA vehicle size classes Small Sport Utility Vehicle 2WD, Small Sport Utility Vehicle 4WD, Standard Sport Utility Vehicle 4WD, and Standard Sport Utility Vehicle 2WD.",
+                        "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed June 22, 2022. https://fueleconomy.gov/feg/ws/",
+                        "EmissionFactorUpdateYear": "2022",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 24.52449383,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.015"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef9"
+                        },
+                        "Name": "Rental Car - Full Size class - US EPA 2020",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Description": "Fuel Conversion Factors - DEFRA EPA 2018 for Rental Car - Full Size class - US EPA 2020",
+                        "EmissionFactorDataSource": "Salesforce-derived values from US EPA data&#44; accessed at www.fueleconomy.gov",
+                        "EmissionFactorUpdateYear": "2020",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 20.7,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.003"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef10"
+                        },
+                        "Name": "Rental Car - Minivan class - US EPA 2022",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Description": "Salesforce-derived values from US EPA data. Average of 2019-2023 MPG of EPA vehicle size classes Minivan - 2WD and Minivan - 4WD.",
+                        "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed June 22, 2022. https://fueleconomy.gov/feg/ws/",
+                        "EmissionFactorUpdateYear": "2022",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 23.97619048,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.013"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef11"
+                        },
+                        "Name": "Rental Car - Full Size class - US EPA 2022",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Description": "Salesforce-derived values from US EPA data. Average of 2019-2023 MPG of EPA vehicle size class Large.",
+                        "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed June 22, 2022. https://fueleconomy.gov/feg/ws/",
+                        "EmissionFactorUpdateYear": "2022",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 30.3902439,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.012"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef12"
+                        },
+                        "Name": "Rental Car - Standard class - US EPA 2022",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Description": "Salesforce-derived values from US EPA data. Average of 2019-2023 MPG of EPA vehicle size class Midsize.",
+                        "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed June 22, 2022. https://fueleconomy.gov/feg/ws/",
+                        "EmissionFactorUpdateYear": "2022",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 32.8938401,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.014"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef13"
+                        },
+                        "Name": "Rental Car - Compact class - US EPA 2022",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Description": "Salesforce-derived values from US EPA data. Average of 2019-2023 MPG of EPA vehicle size class Compact.",
+                        "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed June 22, 2022. https://fueleconomy.gov/feg/ws/",
+                        "EmissionFactorUpdateYear": "2022",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 28.45924453,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.011"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef14"
+                        },
+                        "Name": "Rental Car - SUV class - US EPA 2021",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Description": "Salesforce-derived values from US EPA data. Average of 2018-2022 MPG of EPA vehicle size classes Small Sport Utility Vehicle 2WD, Small Sport Utility Vehicle 4WD, Standard Sport Utility Vehicle 4WD, and Standard Sport Utility Vehicle 2WD.",
+                        "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed October 25, 2021. https://fueleconomy.gov/feg/ws/",
+                        "EmissionFactorUpdateYear": "2021",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 22.96025383,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.010"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef15"
+                        },
+                        "Name": "Rental Car - Standard class - US EPA 2021",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Description": "Salesforce-derived values from US EPA data. Average of 2018-2022 MPG of EPA vehicle size class Midsize.",
+                        "EmissionFactorDataSource": "EPA. \"Vehicle.\" Last accessed October 25, 2021. https://fueleconomy.gov/feg/ws/",
+                        "EmissionFactorUpdateYear": "2021",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 32.23178808,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.009"
+                    }
+                ]
+            },
+            "FrgtHaulingEmssnFctrOtherEmssnFctr": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef1"
+                        },
+                        "Name": "Freight Hauling - Waterborne Craft - EPA 2021",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Ch4EmissionsFactor": 0.0116,
+                        "Co2EmissionsFactor": 36,
+                        "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2021).\" Last accessed October 25, 2021. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+                        "EmissionFactorUpdateYear": "2021",
+                        "FreightHaulingMode": "Water",
+                        "N2oEmissionsFactor": 0.0016,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.008"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef2"
+                        },
+                        "Name": "Freight Hauling - Waterborne Craft - EPA 2020",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Ch4EmissionsFactor": 0.008356324642,
+                        "Co2EmissionsFactor": 0.02739778571,
+                        "EmissionFactorDataSource": "https://www.epa.gov/sites/production/files/2020-04/documents/ghg-emission-factors-hub.pdf",
+                        "EmissionFactorUpdateYear": "2020",
+                        "FreightHaulingMode": "Water",
+                        "N2oEmissionsFactor": 0.001164405893,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.003"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef3"
+                        },
+                        "Name": "Freight Hauling - Rail - EPA 2021",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Ch4EmissionsFactor": 0.0017,
+                        "Co2EmissionsFactor": 22,
+                        "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2021).\" Last accessed October 25, 2021. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+                        "EmissionFactorUpdateYear": "2021",
+                        "FreightHaulingMode": "Rail",
+                        "N2oEmissionsFactor": 0.0005,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.007"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef4"
+                        },
+                        "Name": "Freight Hauling - Rail - EPA 2020",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Ch4EmissionsFactor": 0.001164405893,
+                        "Co2EmissionsFactor": 0.0143838375,
+                        "EmissionFactorDataSource": "https://www.epa.gov/sites/production/files/2020-04/documents/ghg-emission-factors-hub.pdf",
+                        "EmissionFactorUpdateYear": "2020",
+                        "FreightHaulingMode": "Rail",
+                        "N2oEmissionsFactor": 0.0003424723214,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.002"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef5"
+                        },
+                        "Name": "Freight Hauling - Medium- and Heavy-Duty Truck - EPA 2021",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Ch4EmissionsFactor": 0.002,
+                        "Co2EmissionsFactor": 211,
+                        "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2021).\" Last accessed October 25, 2021. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+                        "EmissionFactorUpdateYear": "2021",
+                        "FreightHaulingMode": "Road",
+                        "N2oEmissionsFactor": 0.0049,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.006"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef6"
+                        },
+                        "Name": "Freight Hauling - Medium- and Heavy-Duty Truck - EPA 2020",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Ch4EmissionsFactor": 0.001369889286,
+                        "Co2EmissionsFactor": 0.1417835411,
+                        "EmissionFactorDataSource": "https://www.epa.gov/sites/production/files/2020-04/documents/ghg-emission-factors-hub.pdf",
+                        "EmissionFactorUpdateYear": "2020",
+                        "FreightHaulingMode": "Road",
+                        "N2oEmissionsFactor": 0.003150745357,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.001"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef7"
+                        },
+                        "Name": "Freight Hauling - Aircraft - EPA 2021",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Ch4EmissionsFactor": 0,
+                        "Co2EmissionsFactor": 1160,
+                        "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2021).\" Last accessed October 25, 2021. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+                        "EmissionFactorUpdateYear": "2021",
+                        "FreightHaulingMode": "Air",
+                        "N2oEmissionsFactor": 0.0357,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.005"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef8"
+                        },
+                        "Name": "Freight Hauling - Aircraft - EPA 2020",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Ch4EmissionsFactor": 0,
+                        "Co2EmissionsFactor": 0.8664549731,
+                        "EmissionFactorDataSource": "https://www.epa.gov/sites/production/files/2020-04/documents/ghg-emission-factors-hub.pdf",
+                        "EmissionFactorUpdateYear": "2020",
+                        "FreightHaulingMode": "Air",
+                        "N2oEmissionsFactor": 0.0266443466,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.004"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef9"
+                        },
+                        "Name": "Freight Hauling - Medium- and Heavy-Duty Truck - EPA 2022",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Ch4EmissionsFactor": 0.002,
+                        "Co2EmissionsFactor": 211,
+                        "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2022).\" Last accessed June 22, 2022. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+                        "EmissionFactorUpdateYear": "2022",
+                        "FreightHaulingMode": "Road",
+                        "N2oEmissionsFactor": 0.0049,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.015"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef10"
+                        },
+                        "Name": "Freight Hauling - Aircraft - EPA 2022",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Ch4EmissionsFactor": 0,
+                        "Co2EmissionsFactor": 1165,
+                        "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2022).\" Last accessed June 22, 2022. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+                        "EmissionFactorUpdateYear": "2022",
+                        "FreightHaulingMode": "Air",
+                        "N2oEmissionsFactor": 0.0359,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.016"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef11"
+                        },
+                        "Name": "Freight Hauling - Waterborne Craft - EPA 2022",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Ch4EmissionsFactor": 0.0183,
+                        "Co2EmissionsFactor": 41,
+                        "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2022).\" Last accessed June 22, 2022. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+                        "EmissionFactorUpdateYear": "2022",
+                        "FreightHaulingMode": "Water",
+                        "N2oEmissionsFactor": 0.0008,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.013"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef12"
+                        },
+                        "Name": "Freight Hauling - Rail - EPA 2022",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef3",
+                        "Ch4EmissionsFactor": 0.0017,
+                        "Co2EmissionsFactor": 22,
+                        "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (April 2022).\" Last accessed June 22, 2022. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+                        "EmissionFactorUpdateYear": "2022",
+                        "FreightHaulingMode": "Rail",
+                        "N2oEmissionsFactor": 0.0006,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.014"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef4"
+            },
+            "Name": "Mobile Fuel Conversion Factors - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.034",
+            "EmissionFactorsRentalCar": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef16"
+                        },
+                        "Name": "(4.0) Rental Car - SUV class - US EPA 2023",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+                        "Description": "Salesforce-derived values from US EPA data. Average of 2020-2024 MPG of EPA vehicle size classes Small Sport Utility Vehicle 2WD, Small Sport Utility Vehicle 4WD, Standard Sport Utility Vehicle 4WD, and Standard Sport Utility Vehicle 2WD.",
+                        "EmissionFactorDataSource": "EPA. \"Vehicle\",\"comb08\" column. Last accessed April 06 2023. https://fueleconomy.gov/feg/ws/",
+                        "EmissionFactorUpdateYear": "2023",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 24.2284689,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.020"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef17"
+                        },
+                        "Name": "(4.0) Rental Car - Full Size class - US EPA 2023",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+                        "Description": "Salesforce-derived values from US EPA data. Average of 2020-2024 MPG of EPA vehicle size class Large.",
+                        "EmissionFactorDataSource": "EPA. \"Vehicle\",\"comb08\" column. Last accessed April 06 2023. https://fueleconomy.gov/feg/ws/",
+                        "EmissionFactorUpdateYear": "2023",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 23.04659358,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.017"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef18"
+                        },
+                        "Name": "(4.0) Rental Car - Standard class - US EPA 2023",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+                        "Description": "Salesforce-derived values from US EPA data. Average of 2020-2024 MPG of EPA vehicle size class Midsize.",
+                        "EmissionFactorDataSource": "EPA. \"Vehicle\",\"comb08\" column. Last accessed April 06 2023. https://fueleconomy.gov/feg/ws/",
+                        "EmissionFactorUpdateYear": "2023",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 23.98966642,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.019"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef19"
+                        },
+                        "Name": "(4.0) Rental Car - Minivan class - US EPA 2023",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+                        "Description": "Salesforce-derived values from US EPA data. Average of 2020-2024 MPG of EPA vehicle size classes Minivan - 2WD and Minivan - 4WD.",
+                        "EmissionFactorDataSource": "EPA. \"Vehicle\",\"comb08\" column. Last accessed April 06 2023. https://fueleconomy.gov/feg/ws/",
+                        "EmissionFactorUpdateYear": "2023",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 19.64719101,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.018"
+                    },
+                    {
+                        "attributes": {
+                            "type": "RentalCarEmssnFctr",
+                            "referenceId": "RentalCarEmssnFctrRef20"
+                        },
+                        "Name": "(4.0) Rental Car - Compact class - US EPA 2023",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+                        "Description": "Salesforce-derived values from US EPA data. Average of 2020-2024 MPG of EPA vehicle size class Compact.",
+                        "EmissionFactorDataSource": "EPA. \"Vehicle\",\"comb08\" column. Last accessed April 06 2023. https://fueleconomy.gov/feg/ws/",
+                        "EmissionFactorUpdateYear": "2023",
+                        "FuelEfficiencyUnit": "MILES_PER_GALLON",
+                        "FuelEfficiency": 24.16263526,
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.016"
+                    }
+                ]
+            },
+            "FrgtHaulingEmssnFctrOtherEmssnFctr": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef13"
+                        },
+                        "Name": "(4.0) Freight Hauling - Aircraft - EPA 2023",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+                        "Ch4EmissionsFactor": 0,
+                        "Co2EmissionsFactor": 698,
+                        "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (March 2023).\" Last accessed April, 2023. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+                        "EmissionFactorUpdateYear": "2023",
+                        "FreightHaulingMode": "Air",
+                        "N2oEmissionsFactor": 0.0215,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.018"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef14"
+                        },
+                        "Name": "(4.0) Freight Hauling - Waterborne Craft - EPA 2023",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+                        "Ch4EmissionsFactor": 0.0254,
+                        "Co2EmissionsFactor": 44,
+                        "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (March 2023).\" Last accessed April, 2023. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+                        "EmissionFactorUpdateYear": "2023",
+                        "FreightHaulingMode": "Water",
+                        "N2oEmissionsFactor": 0.0011,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.017"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef15"
+                        },
+                        "Name": "(4.0) Freight Hauling - Rail - EPA 2023",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+                        "Ch4EmissionsFactor": 0.0016,
+                        "Co2EmissionsFactor": 21,
+                        "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (March 2023).\" Last accessed April, 2023. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+                        "EmissionFactorUpdateYear": "2023",
+                        "FreightHaulingMode": "Rail",
+                        "N2oEmissionsFactor": 0.0005,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.020"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef16"
+                        },
+                        "Name": "(4.0) Freight Hauling - Medium- and Heavy-Duty Truck - EPA 2023",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef4",
+                        "Ch4EmissionsFactor": 0.0016,
+                        "Co2EmissionsFactor": 170,
+                        "EmissionFactorDataSource": "EPA. \"GHG Emission Factors Hub (March 2023).\" Last accessed April, 2023. https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+                        "EmissionFactorUpdateYear": "2023",
+                        "FreightHaulingMode": "Road",
+                        "N2oEmissionsFactor": 0.0047,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "Co2EmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_MI",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.019"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef5"
+            },
+            "Name": "Mobile Fuel Conversion Factors - DEFRA 2022 3.2",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.001",
+            "FrgtHaulingEmssnFctrOtherEmssnFctr": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef17"
+                        },
+                        "Name": "(3.2) Freight Hauling - Waterborne Craft - DEFRA 2022",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef5",
+                        "Ch4EmissionsFactor": 0.000548,
+                        "Co2EmissionsFactor": 0.0459242,
+                        "EmissionFactorDataSource": "DEFRA. \"Conversion factors 2022: full set\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+                        "EmissionFactorUpdateYear": "2022",
+                        "FreightHaulingMode": "Water",
+                        "N2oEmissionsFactor": 0.00209866,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.009"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef18"
+                        },
+                        "Name": "(3.2) Freight Hauling - Rail - DEFRA 2022",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef5",
+                        "Ch4EmissionsFactor": 0.0008,
+                        "Co2EmissionsFactor": 0.02749,
+                        "EmissionFactorDataSource": "DEFRA. \"Conversion factors 2022: full set\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+                        "EmissionFactorUpdateYear": "2022",
+                        "FreightHaulingMode": "Rail",
+                        "N2oEmissionsFactor": 0.00104027,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.010"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef19"
+                        },
+                        "Name": "(3.2) Freight Hauling - Aircraft - DEFRA 2022",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef5",
+                        "Ch4EmissionsFactor": 0.0204,
+                        "Co2EmissionsFactor": 1.1563,
+                        "EmissionFactorDataSource": "DEFRA. \"Conversion factors 2022: full set\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+                        "EmissionFactorUpdateYear": "2022",
+                        "FreightHaulingMode": "Air",
+                        "N2oEmissionsFactor": 0.0367198,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.012"
+                    },
+                    {
+                        "attributes": {
+                            "type": "FrgtHaulingEmssnFctr",
+                            "referenceId": "FrgtHaulingEmssnFctrRef20"
+                        },
+                        "Name": "(3.2) Freight Hauling - Medium- and Heavy-Duty Truck - DEFRA 2022",
+                        "CurrencyIsoCode": "USD",
+                        "OtherEmssnFctrId": "@OtherEmssnFctrSetRef5",
+                        "Ch4EmissionsFactor": 0.001552,
+                        "Co2EmissionsFactor": 0.21675875,
+                        "EmissionFactorDataSource": "DEFRA. \"Conversion factors 2022: full set\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+                        "EmissionFactorUpdateYear": "2022",
+                        "FreightHaulingMode": "Road",
+                        "N2oEmissionsFactor": 0.00916544,
+                        "Ch4EmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "Co2EmissionsFactorUnit": "KG_PER_TONNE_KM",
+                        "N2oEmissionsFactorUnit": "G_PER_TONNE_KM",
+                        "ShouldLockDtastUpdtForRec": false,
+                        "External_ID__c": "SDO.011"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef6"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2015 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.045"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef7"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2014 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.044"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef8"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2016 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.046"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef9"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2017 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.047"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef10"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2018 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.048"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef11"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2019 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.049"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef12"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2020 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.050"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef13"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2010 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.051"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef14"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2011 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.052"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef15"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2014 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.055"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef16"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2012 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.053"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef17"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Medium Truck - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.018"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef18"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.019"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef19"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2010 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.020"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef20"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2014 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.024"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef21"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2011 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.021"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef22"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2012 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.022"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef23"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2013 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.023"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef24"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2015 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.025"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef25"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2016 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.026"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef26"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2017 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.027"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef27"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2018 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.028"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef28"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2019 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.029"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef29"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2020 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.030"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef30"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2010 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.031"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef31"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2011 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.032"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef32"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2012 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.042"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef33"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.036"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef34"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2013 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.043"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef35"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2013 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.054"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef36"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2015 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.056"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef37"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Electric_Car_Average - DEFRA 2022 3.4",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "CH4 and N20 values are set at '1' as AR4 GWP already applied to DEFRA Emission Factors.  https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "N2oGlblWarmingPot": 1,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 1,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.011"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef38"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Van - DEFRA 2022 3.4",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "CH4 and N20 values are set at '1' as AR4 GWP already applied to DEFRA Emission Factors.  https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "N2oGlblWarmingPot": 1,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 1,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.016"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef39"
+            },
+            "Name": "Mobile Fuel Conversion Factors - HGV - Rigid - DEFRA 2022 3.4",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "CH4 and N20 values are set at '1' as AR4 GWP already applied to DEFRA Emission Factors.  https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "N2oGlblWarmingPot": 1,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 1,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.012"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef40"
+            },
+            "Name": "Mobile Fuel Conversion Factors - HGV - Articulated - DEFRA 2022 3.4",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "CH4 and N20 values are set at '1' as AR4 GWP already applied to DEFRA Emission Factors.  https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "N2oGlblWarmingPot": 1,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 1,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.013"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef41"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Electric_Vans_Average - DEFRA 2022 3.4",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "CH4 and N20 values are set at '1' as AR4 GWP already applied to DEFRA Emission Factors.  https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "N2oGlblWarmingPot": 1,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 1,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.010"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef42"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2016 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.038"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef43"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2017 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.039"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef44"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2018 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.040"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef45"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2019 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.033"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef46"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2020 - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.041"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef47"
+            },
+            "Name": "Stationary Fuel Conversion Factors - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.035"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef48"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck - EPA 2023 4.0",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2023",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 28,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.037"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef49"
+            },
+            "Name": "Mobile Fuel Conversion Factors - DEFRA 2022 3.4",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "CH4 and N20 values are set at '1' as AR4 GWP already applied to DEFRA Emission Factors.  https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "N2oGlblWarmingPot": 1,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 1,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.014"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef50"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car - DEFRA 2022 3.4",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "CH4 and N20 values are set at '1' as AR4 GWP already applied to DEFRA Emission Factors.  https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "N2oGlblWarmingPot": 1,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0.249359521292,
+            "RefrigerantLeakageRtInKgSqft": 0.02316628,
+            "Ch4GlblWarmingPot": 1,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.015"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef51"
+            },
+            "Name": "Other Emissions Factors for Custom Fuels",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.017"
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef52"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-1",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef53"
+            },
+            "Name": "[AR5] Stationary Fuel Conversion Factors - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-2",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef54"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Car - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-3",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef55"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Light Truck - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-4",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef56"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Medium Truck - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-5",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef57"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Heavy Truck - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-6",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef58"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Car 2010 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-7",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef59"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Car 2011 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-8",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef60"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Car 2012 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-9",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef61"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Car 2013 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-10",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef62"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Car 2014 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-11",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef63"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Car 2015 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-12",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef64"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Car 2016 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-13",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef65"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Car 2017 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-14",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef66"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Car 2018 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-15",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef67"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Car 2019 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-16",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef68"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Car 2020 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-17",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef69"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Light Truck 2010 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-18",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef70"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Light Truck 2011 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-19",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef71"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Light Truck 2012 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-20",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef72"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Light Truck 2013 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-21",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef73"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Light Truck 2014 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-22",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef74"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Light Truck 2015 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-23",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef75"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Light Truck 2016 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-24",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef76"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Light Truck 2017 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-25",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef77"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Light Truck 2018 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-26",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef78"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Light Truck 2019 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-27",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef79"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Light Truck 2020 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-28",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef80"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Heavy Truck 2010 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-29",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef81"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Heavy Truck 2011 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-30",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef82"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Heavy Truck 2012 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-31",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef83"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Heavy Truck 2013 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-32",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef84"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Heavy Truck 2014 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-33",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef85"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Heavy Truck 2015 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-34",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef86"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Heavy Truck 2016 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-35",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef87"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Heavy Truck 2017 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-36",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef88"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Heavy Truck 2018 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-37",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef89"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Heavy Truck 2019 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-38",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef90"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Heavy Truck 2020 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-39",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef91"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Buses - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-40",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef92"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Buses 2010 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-41",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef93"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Buses 2011 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-42",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef94"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Buses 2012 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-43",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef95"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Buses 2013 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-44",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef96"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Buses 2014 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-45",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef97"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Buses 2015 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-46",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef98"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Buses 2016 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-47",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef99"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Buses 2017 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-48",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef100"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Buses 2018 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-49",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef101"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Buses 2019 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-50",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef102"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Buses 2020 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-51",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef103"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Car 2021 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-52",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef104"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Light Truck 2021 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-53",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef105"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Heavy Truck 2021 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-54",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef106"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Buses 2021 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-55",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef107"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Car 2022 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-56",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef108"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Light Truck 2022 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-57",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef109"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Heavy Truck 2022 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-58",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef110"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Buses 2022 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-59",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef111"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Motorcycles 1960-1995 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-60",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef112"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Motorcycles 1996-2005 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-61",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef113"
+            },
+            "Name": "[AR5] Mobile Fuel Conversion Factors - Motorcycles 2006-2022 - EPA 2025",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2025",
+            "EmissionFactorDataSource": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2025//NONSGML OEFS-EPA-2025-62",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef114"
+            },
+            "Name": "Mobile Fuel Conversion Factors - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-1",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef115"
+            },
+            "Name": "Stationary Fuel Conversion Factors - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-2",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef116"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-3",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef117"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-4",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef118"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Medium Truck - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-5",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef119"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-6",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef120"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2010 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-7",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef121"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2011 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-8",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef122"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2012 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-9",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef123"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2013 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-10",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef124"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2014 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-11",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef125"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2015 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-12",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef126"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2016 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-13",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef127"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2017 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-14",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef128"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2018 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-15",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef129"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2019 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-16",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef130"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2020 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-17",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef131"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2010 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-18",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef132"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2011 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-19",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef133"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2012 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-20",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef134"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2013 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-21",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef135"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2014 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-22",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef136"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2015 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-23",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef137"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2016 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-24",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef138"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2017 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-25",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef139"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2018 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-26",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef140"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2019 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-27",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef141"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2020 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-28",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef142"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2010 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-29",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef143"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2011 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-30",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef144"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2012 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-31",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef145"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2013 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-32",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef146"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2014 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-33",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef147"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2015 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-34",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef148"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2016 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-35",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef149"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2017 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-36",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef150"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2018 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-37",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef151"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2019 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-38",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef152"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2020 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-39",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef153"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Buses - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-40",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef154"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Buses 2010 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-41",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef155"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Buses 2011 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-42",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef156"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Buses 2012 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-43",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef157"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Buses 2013 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-44",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef158"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Buses 2014 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-45",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef159"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Buses 2015 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-46",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef160"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Buses 2016 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-47",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef161"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Buses 2017 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-48",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef162"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Buses 2018 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-49",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef163"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Buses 2019 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-50",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef164"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Buses 2020 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-51",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef165"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Car 2021 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-52",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef166"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Light Truck 2021 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-53",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef167"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Heavy Truck 2021 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-54",
+            "ShouldLockDtastUpdtForRec": false
+        },
+        {
+            "attributes": {
+                "type": "OtherEmssnFctrSet",
+                "referenceId": "OtherEmssnFctrSetRef168"
+            },
+            "Name": "Mobile Fuel Conversion Factors - Buses 2021 - EPA 2024",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2024",
+            "EmissionFactorDataSource": "https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf",
+            "N2oGlblWarmingPot": 265,
+            "RefrigerantLeakageRtInKgItKwh": 0.00000166,
+            "RefrigerantLeakageRtInKgM2": 0,
+            "RefrigerantLeakageRtInKgSqft": 0,
+            "Ch4GlblWarmingPot": 28,
+            "ExternalIdentifier": "-//NZM OEFS-EPA-2024//NONSGML OEFS-EPA-2024-55",
+            "ShouldLockDtastUpdtForRec": false
+        }
+    ]
+}

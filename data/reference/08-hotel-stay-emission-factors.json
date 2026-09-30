@@ -1,0 +1,641 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef1"
+            },
+            "Name": "Japan - DEFRA 2019",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2019",
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019",
+            "HotelStayEmssnInKgCo2eNight": 71.9,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.008"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef2"
+            },
+            "Name": "Germany - DEFRA 2019",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2019",
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019",
+            "HotelStayEmssnInKgCo2eNight": 20.8,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.007"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef3"
+            },
+            "Name": "Mexico - DEFRA 2019",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2019",
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019",
+            "HotelStayEmssnInKgCo2eNight": 28.5,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.009"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef4"
+            },
+            "Name": "United States - DEFRA 2019",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2019",
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019",
+            "HotelStayEmssnInKgCo2eNight": 21.4,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.010"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef5"
+            },
+            "Name": "Canada - DEFRA 2021",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2021",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2021.\" Last accessed October 25, 2021. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2021",
+            "HotelStayEmssnInKgCo2eNight": 16.1,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.001"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef6"
+            },
+            "Name": "Germany - DEFRA 2021",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2021",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2021.\" Last accessed October 25, 2021. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2021",
+            "HotelStayEmssnInKgCo2eNight": 17,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.002"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef7"
+            },
+            "Name": "Mexico - DEFRA 2021",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2021",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2021.\" Last accessed October 25, 2021. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2021",
+            "HotelStayEmssnInKgCo2eNight": 25.9,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.004"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef8"
+            },
+            "Name": "United States - DEFRA 2021",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2021",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2021.\" Last accessed October 25, 2021. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2021",
+            "HotelStayEmssnInKgCo2eNight": 19.7,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.006"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef9"
+            },
+            "Name": "United States - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 16.1,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.013"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef10"
+            },
+            "Name": "Japan - DEFRA 2021",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2021",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2021.\" Last accessed October 25, 2021. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2021",
+            "HotelStayEmssnInKgCo2eNight": 60.6,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.003"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef11"
+            },
+            "Name": "United Kingdom - DEFRA 2021",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2021",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2021.\" Last accessed October 25, 2021. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2021",
+            "HotelStayEmssnInKgCo2eNight": 13.9,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.005"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef12"
+            },
+            "Name": "Vietnam - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 38.5,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.014"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef13"
+            },
+            "Name": "Turkey - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 32.1,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.011"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef14"
+            },
+            "Name": "United Arab Emirates - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 63.8,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.012"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef15"
+            },
+            "Name": "Global Average - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 39.5,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.015"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef16"
+            },
+            "Name": "Portugal - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 19,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.016"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef17"
+            },
+            "Name": "Qatar - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 86.2,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.017"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef18"
+            },
+            "Name": "Russian Federation - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 24.2,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.018"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef19"
+            },
+            "Name": "Saudi Arabia - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 106.4,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.019"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef20"
+            },
+            "Name": "Singapore - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 24.5,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.020"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef21"
+            },
+            "Name": "South Africa - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 51.4,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.021"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef22"
+            },
+            "Name": "Spain - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 7,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.022"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef23"
+            },
+            "Name": "Switzerland - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 6.6,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.023"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef24"
+            },
+            "Name": "Thailand - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 43.4,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.024"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef25"
+            },
+            "Name": "United Kingdom - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 10.4,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.025"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef26"
+            },
+            "Name": "Australia - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 35,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.026"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef27"
+            },
+            "Name": "Belgium - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 12.2,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.027"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef28"
+            },
+            "Name": "Egypt - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 44.2,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.034"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef29"
+            },
+            "Name": "France - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 6.7,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.035"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef30"
+            },
+            "Name": "Germany - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 13.2,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.036"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef31"
+            },
+            "Name": "Hong Kong, China - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 51.5,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.037"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef32"
+            },
+            "Name": "India - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 58.9,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.038"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef33"
+            },
+            "Name": "Indonesia - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 62.7,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.039"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef34"
+            },
+            "Name": "Italy - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 14.3,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.040"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef35"
+            },
+            "Name": "Japan - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 39,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.041"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef36"
+            },
+            "Name": "Jordan - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 68.9,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.042"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef37"
+            },
+            "Name": "Korea - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 55.8,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.043"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef38"
+            },
+            "Name": "Malaysia - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 61.5,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.044"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef39"
+            },
+            "Name": "Maldives - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 152.2,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.045"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef40"
+            },
+            "Name": "Mexico - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 19.3,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.046"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef41"
+            },
+            "Name": "Netherlands - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 14.8,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.047"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef42"
+            },
+            "Name": "Oman - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 90.3,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.048"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef43"
+            },
+            "Name": "Philippines - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 54.3,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.049"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef44"
+            },
+            "Name": "Canada - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 7.4,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.029"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef45"
+            },
+            "Name": "Brazil - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 8.7,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.028"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef46"
+            },
+            "Name": "Chile - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 27.6,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.030"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef47"
+            },
+            "Name": "China - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 53.5,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.031"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef48"
+            },
+            "Name": "Colombia - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 14.7,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.032"
+        },
+        {
+            "attributes": {
+                "type": "HotelStayEmssnFctr",
+                "referenceId": "HotelStayEmssnFctrRef49"
+            },
+            "Name": "Costa Rica - DEFRA 2022",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2022",
+            "EmissionFactorDataSource": "DEFRA. \"Conversion Factors 2022\" Last accessed June 22, 2022. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2022",
+            "HotelStayEmssnInKgCo2eNight": 4.7,
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.033"
+        }
+    ]
+}

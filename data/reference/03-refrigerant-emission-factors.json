@@ -1,0 +1,2227 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef1"
+            },
+            "Name": "HFC-125 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 3500,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.021"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef2"
+            },
+            "Name": "Halon-1201 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 376,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015). Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.171"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef3"
+            },
+            "Name": "CFC-113 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 6130,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.003"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef4"
+            },
+            "Name": "HFE-134 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 6320,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.041"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef5"
+            },
+            "Name": "Perfluoropropane (PFC-218) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 8830,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.066"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef6"
+            },
+            "Name": "PFC-91-18 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 7500,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.067"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef7"
+            },
+            "Name": "PFPMIE - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 10300,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.068"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef8"
+            },
+            "Name": "R-407C - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1774,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.069"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef9"
+            },
+            "Name": "R-410A - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 2088,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.070"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef10"
+            },
+            "Name": "R-422D - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 2729,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.071"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef11"
+            },
+            "Name": "R1234yf - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.072"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef12"
+            },
+            "Name": "R1234ze - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.073"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef13"
+            },
+            "Name": "R134a - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1430,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.074"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef14"
+            },
+            "Name": "R290 (propane) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 3,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.075"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef15"
+            },
+            "Name": "R403A - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 3124,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.076"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef16"
+            },
+            "Name": "R404A - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 3922,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.077"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef17"
+            },
+            "Name": "R406A - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1943,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.078"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef18"
+            },
+            "Name": "HFE-143a - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 756,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.042"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef19"
+            },
+            "Name": "HFE-236ca12 (HG-10) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 2800,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.043"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef20"
+            },
+            "Name": "HFE-245cb2 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 708,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.044"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef21"
+            },
+            "Name": "HFE-245fa2 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 659,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.045"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef22"
+            },
+            "Name": "HFE-254cb2 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 359,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.046"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef23"
+            },
+            "Name": "HFE-338pcc13 (HG-01) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1500,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.047"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef24"
+            },
+            "Name": "HFE-347mcc3 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 575,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.048"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef25"
+            },
+            "Name": "HFE-347pcf2 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 580,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.049"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef26"
+            },
+            "Name": "HFE-356pcc3 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 110,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.050"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef27"
+            },
+            "Name": "R407A - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 2107,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.079"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef28"
+            },
+            "Name": "R407F - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1825,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.080"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef29"
+            },
+            "Name": "R408A - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 3152,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.081"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef30"
+            },
+            "Name": "CFC-114 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 10000,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.004"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef31"
+            },
+            "Name": "CFC-115 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 7370,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.005"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef32"
+            },
+            "Name": "CFC-12 / R12 (dichlorodifluoromethane) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 10900,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.006"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef33"
+            },
+            "Name": "CFC-13 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 14400,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.007"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef34"
+            },
+            "Name": "Dimethylether - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.008"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef35"
+            },
+            "Name": "Halon-1211 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1890,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.009"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef36"
+            },
+            "Name": "HCFC-225cb - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 525,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.127"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef37"
+            },
+            "Name": "HFC-23 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 12400,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.128"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef38"
+            },
+            "Name": "HFC-32 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 677,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.129"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef39"
+            },
+            "Name": "HFC-134a - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 1300,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.133"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef40"
+            },
+            "Name": "HFC-41 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 116,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.130"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef41"
+            },
+            "Name": "HFC-125 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 3170,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.131"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef42"
+            },
+            "Name": "HFC-134 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 1120,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.132"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef43"
+            },
+            "Name": "HFC-143 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 328,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.134"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef44"
+            },
+            "Name": "HFC-143a - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 4800,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.135"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef45"
+            },
+            "Name": "HFC-152 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 16,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.136"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef46"
+            },
+            "Name": "HFC-152a - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 138,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.137"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef47"
+            },
+            "Name": "HFC-161 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 4,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.138"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef48"
+            },
+            "Name": "HFC-227ea - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 3350,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.139"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef49"
+            },
+            "Name": "HFC-236cb - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 1210,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.140"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef50"
+            },
+            "Name": "HFC-236ea - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 1330,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.141"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef51"
+            },
+            "Name": "HFC-236fa - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 8060,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.142"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef52"
+            },
+            "Name": "HFC-245ca - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 716,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.143"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef53"
+            },
+            "Name": "HFC-245fa - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 858,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.144"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef54"
+            },
+            "Name": "HFC-245ca - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 693,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.034"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef55"
+            },
+            "Name": "HFC-245fa - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1030,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.035"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef56"
+            },
+            "Name": "HCFC-141b - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 782,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.105"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef57"
+            },
+            "Name": "HCFC-142b - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 1980,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.106"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef58"
+            },
+            "Name": "HCFC-225ca - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 127,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.107"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef59"
+            },
+            "Name": "HFC-32 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 675,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.036"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef60"
+            },
+            "Name": "HFC-365mfc - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 794,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.037"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef61"
+            },
+            "Name": "HFE-125 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 14900,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.040"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef62"
+            },
+            "Name": "HFC-41 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 92,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.038"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef63"
+            },
+            "Name": "HFC-43-I0mee - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1640,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.039"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef64"
+            },
+            "Name": "CFC114 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 8590,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.093"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef65"
+            },
+            "Name": "HFE-356pcf3 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 446,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015). Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.126"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef66"
+            },
+            "Name": "CFC-11 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 4660,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.089"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef67"
+            },
+            "Name": "CFC-12 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 10200,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.090"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef68"
+            },
+            "Name": "CFC-13 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 13900,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.091"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef69"
+            },
+            "Name": "CFC-113 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 5820,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.092"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef70"
+            },
+            "Name": "CFC-115 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 7670,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.094"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef71"
+            },
+            "Name": "Halon-1301 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 6290,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.095"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef72"
+            },
+            "Name": "Halon-1211 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 1750,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.096"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef73"
+            },
+            "Name": "Halon-2402 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 1470,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.097"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef74"
+            },
+            "Name": "Carbon tetrachloride - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 1730,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.098"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef75"
+            },
+            "Name": "Methyl bromide - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 2,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.099"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef76"
+            },
+            "Name": "Methyl chloroform - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 160,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.100"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef77"
+            },
+            "Name": "HCFC-21 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 148,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.101"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef78"
+            },
+            "Name": "HCFC-22 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 1760,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.102"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef79"
+            },
+            "Name": "HCFC-123 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 79,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.103"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef80"
+            },
+            "Name": "HCFC-124 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 527,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.104"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef81"
+            },
+            "Name": "HFE-245fa2 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 812,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.164"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef82"
+            },
+            "Name": "HFE 365mcf3 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 1,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015). Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.165"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef83"
+            },
+            "Name": "HFE-374pc2 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 627,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015). Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.166"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef84"
+            },
+            "Name": "PFPMIE - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 9710,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015). Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.167"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef85"
+            },
+            "Name": "Chloroform - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 16,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015). Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.168"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef86"
+            },
+            "Name": "Methylene chloride - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 9,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015). Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.169"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef87"
+            },
+            "Name": "Methyl chloride - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 12,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015). Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.170"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef88"
+            },
+            "Name": "HFC-152 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 53,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.026"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef89"
+            },
+            "Name": "HFC-152a - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 124,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.027"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef90"
+            },
+            "Name": "HFC-161 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 12,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.028"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef91"
+            },
+            "Name": "HFC-227ea - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 3220,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.029"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef92"
+            },
+            "Name": "HFC-23 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 14800,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.030"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef93"
+            },
+            "Name": "HFC-236ea - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1370,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.032"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef94"
+            },
+            "Name": "HFC-236cb - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1340,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.031"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef95"
+            },
+            "Name": "HFC-236fa - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 9810,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.033"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef96"
+            },
+            "Name": "PFC-14 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 6630,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.149"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef97"
+            },
+            "Name": "PFC-116 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 11100,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.150"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef98"
+            },
+            "Name": "PFC-218 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 8900,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.151"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef99"
+            },
+            "Name": "PFC-318 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 9540,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.152"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef100"
+            },
+            "Name": "PFC-31-10 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 9200,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.153"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef101"
+            },
+            "Name": "PFC-41-12 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 8550,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.154"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef102"
+            },
+            "Name": "PFC-51-14 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 7910,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.155"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef103"
+            },
+            "Name": "PCF-91-18 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 7190,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.156"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef104"
+            },
+            "Name": "Trifluoromethyl sulfur pentafluoride - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 17400,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.157"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef105"
+            },
+            "Name": "Perfluorocyclopropane - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 9200,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.158"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef106"
+            },
+            "Name": "HFE-125 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 12400,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.159"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef107"
+            },
+            "Name": "HFE-134 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 5560,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.160"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef108"
+            },
+            "Name": "HFE-143a - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 523,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.161"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef109"
+            },
+            "Name": "HCFE-235da2 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 491,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.162"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef110"
+            },
+            "Name": "HFE-245cb2 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 654,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.163"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef111"
+            },
+            "Name": "HFE-356pcf2 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 719,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015). Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.125"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef112"
+            },
+            "Name": "HFC-365mfc - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 804,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.145"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef113"
+            },
+            "Name": "HFC-43-10mee - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 1650,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.146"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef114"
+            },
+            "Name": "Sulfur hexafluoride  - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 23500,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.147"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef115"
+            },
+            "Name": "Nitrogen trifluoride - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 16100,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.148"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef116"
+            },
+            "Name": "R507A - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 3985,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.084"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef117"
+            },
+            "Name": "R508B - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 13396,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.085"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef118"
+            },
+            "Name": "HFE-347pcf2 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 889,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.109"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef119"
+            },
+            "Name": "R409A - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1585,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.082"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef120"
+            },
+            "Name": "R502 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 4657,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.083"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef121"
+            },
+            "Name": "HFE-347mcc3 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 530,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.108"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef122"
+            },
+            "Name": "HFE-356pcc3  - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 413,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.110"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef123"
+            },
+            "Name": "HFE-449sl (HFE-7100) - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 421,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.111"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef124"
+            },
+            "Name": "HFE-569sf2 (HFE-7200) - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 57,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.112"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef125"
+            },
+            "Name": "HFE-43-10pccc124 (H-Galden 1040x) - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 2820,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.113"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef126"
+            },
+            "Name": "HFE-236ca12 (HG-10) - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 5350,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.114"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef127"
+            },
+            "Name": "HFE-338pcc13 (HG-01) - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 2910,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.115"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef128"
+            },
+            "Name": "HFE-227ea - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 6450,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.116"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef129"
+            },
+            "Name": "HFE-236ea2 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 1790,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.117"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef130"
+            },
+            "Name": "HFE-236fa - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 979,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015) - Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.118"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef131"
+            },
+            "Name": "HFE-245fa1 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 828,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015). Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.119"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef132"
+            },
+            "Name": "HFE 263fb2 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 1,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015). Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.120"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef133"
+            },
+            "Name": "HFE-329mcc2 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 3070,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015). Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.121"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef134"
+            },
+            "Name": "HFE-338mcf2 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 929,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015). Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.122"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef135"
+            },
+            "Name": "HFE-347mcf2 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 854,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015). Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.123"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef136"
+            },
+            "Name": "R600A (isobutane) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 3,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.086"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef137"
+            },
+            "Name": "Sulphur hexafluoride (SF6) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 22800,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.087"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef138"
+            },
+            "Name": "Trifluoromethyl sulphur pentafluoride - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 17700,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.088"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef139"
+            },
+            "Name": "HFE-43-10pccc124 (H-Galden1040x) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1870,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.051"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef140"
+            },
+            "Name": "HFE-449sl (HFE-7100) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 297,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.052"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef141"
+            },
+            "Name": "HFE-569sf2 (HFE-7200) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 59,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.053"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef142"
+            },
+            "Name": "Methyl bromide - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 5,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.054"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef143"
+            },
+            "Name": "Methyl chloride - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 13,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.055"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef144"
+            },
+            "Name": "Methyl chloroform - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 146,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.056"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef145"
+            },
+            "Name": "Methylene chloride - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 8.7,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.057"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef146"
+            },
+            "Name": "Nitrogen trifluoride - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 17200,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.058"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef147"
+            },
+            "Name": "Perfluorobutane (PFC-3-1-10) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 8860,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.059"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef148"
+            },
+            "Name": "Perfluorocyclobutane (PFC-318) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 10300,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.060"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef149"
+            },
+            "Name": "Perfluorocyclopropane - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 17340,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.061"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef150"
+            },
+            "Name": "Perfluoroethane (PFC-116) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 12200,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.062"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef151"
+            },
+            "Name": "HFC-143 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 353,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.024"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef152"
+            },
+            "Name": "Perfluorohexane (PFC-5-1-14) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 9300,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.063"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef153"
+            },
+            "Name": "Perfluoromethane (PFC-14) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 7390,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.064"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef154"
+            },
+            "Name": "Perfluoropentane (PFC-4-1-12) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 9160,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.065"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef155"
+            },
+            "Name": "Carbon tetrachloride - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1400,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.001"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef156"
+            },
+            "Name": "CFC-11 / R11 (trichlorofluoromethane) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 4750,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.002"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef157"
+            },
+            "Name": "Halon-1301 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 7140,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.010"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef158"
+            },
+            "Name": "Halon-2402 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1640,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.011"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef159"
+            },
+            "Name": "HCFC-123 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 77,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.012"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef160"
+            },
+            "Name": "HCFC-124 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 609,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.013"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef161"
+            },
+            "Name": "HCFC-141b - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 725,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.014"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef162"
+            },
+            "Name": "HCFC-142b - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 2310,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.015"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef163"
+            },
+            "Name": "HCFC-21 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 151,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.016"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef164"
+            },
+            "Name": "HCFC-22 / R22 (chlorodifluoromethane) - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1810,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.017"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef165"
+            },
+            "Name": "HCFC-225ca - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 122,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.018"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef166"
+            },
+            "Name": "HCFC-225cb - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 595,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.019"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef167"
+            },
+            "Name": "HCFE-235da2 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 350,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.020"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef168"
+            },
+            "Name": "HFC-134 - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1100,
+            "EmissionFactorDataSource": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2017",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.022"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef169"
+            },
+            "Name": "HFC-134a - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 1430,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.023"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef170"
+            },
+            "Name": "HFC-143a - IPCC AR4 2007",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2007",
+            "GlblWarmingPotInKgCo2eKg": 4470,
+            "EmissionFactorDataSource": "https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.025"
+        },
+        {
+            "attributes": {
+                "type": "RefrigerantEmssnFctr",
+                "referenceId": "RefrigerantEmssnFctrRef171"
+            },
+            "Name": "HFE-356mec3 - IPCC AR5 2014",
+            "CurrencyIsoCode": "USD",
+            "EmissionFactorUpdateYear": "2014",
+            "GlblWarmingPotInKgCo2eKg": 387,
+            "EmissionFactorDataSource": "GHG Protocol - Global Warming Potential Values (May 2015). Last accessed October 25, 2021. https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf",
+            "ShouldLockDtastUpdtForRec": false,
+            "External_ID__c": "SDO.124"
+        }
+    ]
+}

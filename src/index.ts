@@ -18,12 +18,13 @@
  *                       health_check
  *
  * Org/data/metadata/permission/knowledge/status tools are wired to real
- * handlers, as is enable_net_zero_settings (see src/nzc/settings.ts). The
- * remaining three NZC helper tools and the three validation tools are
- * registered (stable names + schemas, so skills/commands can already refer
- * to them) but dispatch to a clear "not yet implemented" stub — their real
- * implementations depend on data/metadata content authored in later
- * milestones (see JOURNEY_MAP.md and the project plan §13, M5/M6).
+ * handlers, as are enable_net_zero_settings (see src/nzc/settings.ts) and
+ * load_reference_data (see src/nzc/reference-data.ts). The remaining two NZC
+ * helper tools and the three validation tools are registered (stable names +
+ * schemas, so skills/commands can already refer to them) but dispatch to a
+ * clear "not yet implemented" stub — their real implementations depend on
+ * data/metadata content authored in later milestones (see JOURNEY_MAP.md and
+ * the project plan §13, M5/M6).
  */
 
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
@@ -43,6 +44,7 @@ import * as permsTools from "./salesforce/perms.js";
 import * as statusTools from "./salesforce/status.js";
 import * as knowledge from "./knowledge-loader.js";
 import * as nzcSettings from "./nzc/settings.js";
+import * as referenceData from "./nzc/reference-data.js";
 
 const SERVER_NAME = "nzc";
 const SERVER_VERSION = "0.1.0";
@@ -266,10 +268,17 @@ const tools: Tool[] = [
   },
   {
     name: "load_reference_data",
-    description: "Load committed reference/emission-factor seed data in dependency order.",
+    description:
+      "Load committed reference/emission-factor seed data (data/reference/*.json) via one sf data import tree --plan call, verify counts, and write a ReferenceDataLoadLog marker. Refuses by default if the target org already has rows in any of these objects, since this is a pure insert, not an upsert — pass force: true only after confirming duplication is intended.",
     inputSchema: {
       type: "object",
-      properties: { confirmProductionWrite: { type: "boolean", description: "Required (true) to write against a production-type org." } },
+      properties: {
+        force: {
+          type: "boolean",
+          description: "Required (true) to proceed when target objects already have rows (would create duplicates).",
+        },
+        confirmProductionWrite: { type: "boolean", description: "Required (true) to write against a production-type org." },
+      },
     },
   },
   {
@@ -371,7 +380,6 @@ const MUTATING_TOOLS = new Set([
 ]);
 
 const PENDING_MILESTONE: Record<string, string> = {
-  load_reference_data: "M5",
   scaffold_sample_data: "M5",
   calculate_footprints: "M5",
   audit_nzc_config: "M6",
@@ -481,9 +489,10 @@ async function dispatch(toolName: string, args: Args): Promise<CallToolResult> {
     // NZC helper tools
     case "enable_net_zero_settings":
       return ok(await nzcSettings.enableNetZeroSettings());
+    case "load_reference_data":
+      return ok(await referenceData.loadReferenceData({ force: args.force as boolean | undefined }));
 
     // NZC helper tools — pending M5
-    case "load_reference_data":
     case "scaffold_sample_data":
     case "calculate_footprints":
       return notImplemented(toolName);

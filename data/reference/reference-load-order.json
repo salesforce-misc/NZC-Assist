@@ -1,0 +1,58 @@
+[
+  {
+    "sobject": "OtherEmssnFctrSet",
+    "files": ["01-other-emission-factor-sets.json"]
+  },
+  {
+    "sobject": "ElectricityEmssnFctrSet",
+    "files": ["02-electricity-emission-factors.json"]
+  },
+  {
+    "sobject": "RefrigerantEmssnFctr",
+    "files": ["03-refrigerant-emission-factors.json"]
+  },
+  {
+    "sobject": "WstDispoEmssnFctrSet",
+    "files": ["04-waste-disposal-emission-factors.json"]
+  },
+  {
+    "sobject": "PcmtEmssnFctrSet",
+    "files": ["05-procurement-emission-factors.json"]
+  },
+  {
+    "sobject": "AirTravelEmssnFctr",
+    "files": ["06-air-travel-emission-factors.json"]
+  },
+  {
+    "sobject": "GroundTravelEmssnFctr",
+    "files": ["07-ground-travel-emission-factors.json"]
+  },
+  {
+    "sobject": "HotelStayEmssnFctr",
+    "files": ["08-hotel-stay-emission-factors.json"]
+  },
+  {
+    "sobject": "InflationRate",
+    "files": ["09-inflation-rates.json"]
+  },
+  {
+    "sobject": "BldgEnrgyIntensity",
+    "files": ["10-building-energy-intensity.json"]
+  },
+  {
+    "sobject": "FuelType",
+    "files": ["11-fuel-type-extensions.json"]
+  },
+  {
+    "sobject": "SustainabilityUom",
+    "files": ["12-sustainability-uom-extensions.json"]
+  },
+  {
+    "sobject": "FuelTypeSustnUom",
+    "files": ["13-fuel-type-uom-extensions.json"]
+  },
+  {
+    "sobject": "CrbnEmssnScopeAlloc",
+    "files": ["14-carbon-scope-allocation.json"]
+  }
+]
