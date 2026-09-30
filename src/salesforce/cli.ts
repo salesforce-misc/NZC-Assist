@@ -132,10 +132,20 @@ export async function describeSObject(name: string): Promise<unknown> {
   return sfJson(withTargetOrg(["sobject", "describe", "--sobject", name, "--json"]));
 }
 
+/**
+ * `sf data get record` has no field-selection flag (confirmed against its real
+ * flag manifest: api-version, record-id, sobject, target-org, use-tooling-api,
+ * where — no --fields). An earlier version of this function passed a guessed
+ * `--fields` flag, which fails with "Nonexistent flag: --fields". Fetch the
+ * full record and filter to the requested keys client-side instead.
+ */
 export async function getRecord(object: string, id: string, fields?: string[]): Promise<unknown> {
   const args = ["data", "get", "record", "--sobject", object, "--record-id", id, "--json"];
-  if (fields?.length) args.push("--fields", fields.join(","));
-  return sfJson(withTargetOrg(args));
+  const record = await sfJson<Record<string, unknown>>(withTargetOrg(args));
+  if (!fields?.length) return record;
+  const picked: Record<string, unknown> = {};
+  for (const f of fields) if (f in record) picked[f] = record[f];
+  return picked;
 }
 
 /**
