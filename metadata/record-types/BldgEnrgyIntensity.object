@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <fullName>Building_Energy_Intensity</fullName>
+        <active>true</active>
+        <description>Use for records created by computing average intensities by using your energy consumption data</description>
+        <label>Building Energy Intensity</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Regional_Building_Energy_Intensity</fullName>
+        <active>true</active>
+        <label>Regional Building Energy Intensity</label>
+    </recordTypes>
+</CustomObject>

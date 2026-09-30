@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Commercial_Building</members>
+        <members>Data_Center</members>
+        <name>StnryAssetEnvSrcCnfg</name>
+    </types>
+    <types>
+        <members>Building_Energy_Intensity</members>
+        <members>Regional_Building_Energy_Intensity</members>
+        <name>BldgEnrgyIntensityCnfg</name>
+    </types>
+    <types>
+        <members>Fleet_Vehicle</members>
+        <members>Private_Jet</members>
+        <name>VehicleAssetEmssnSrcCnfg</name>
+    </types>
+    <version>62.0</version>
+</Package>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>BldgEnrgyIntensity.Building_Energy_Intensity</members>
+        <members>BldgEnrgyIntensity.Regional_Building_Energy_Intensity</members>
+        <members>StnryAssetEnvrSrc.Commercial_Building</members>
+        <members>StnryAssetEnvrSrc.Data_Center</members>
+        <members>VehicleAssetEmssnSrc.Fleet_Vehicle</members>
+        <members>VehicleAssetEmssnSrc.Private_Jet</members>
+        <name>RecordType</name>
+    </types>
+    <version>62.0</version>
+</Package>

@@ -275,6 +275,26 @@ export async function retrieveMetadata(manifestPath: string, targetDir: string):
   return sfJson(withTargetOrg(args));
 }
 
+/**
+ * Retrieves metadata via the given manifest and unzips the result, returning
+ * the extracted `unpackaged/` directory. `--target-metadata-dir` (used by
+ * retrieveMetadata above) leaves a zip file rather than extracting it —
+ * confirmed by inspecting a real retrieve's `result.zipFilePath`, which
+ * pointed at an `unpackaged.zip` with no sibling extracted files. Callers
+ * that need to actually read the retrieved files back (e.g. to verify a
+ * deploy landed) use this instead. Shells out to the system `unzip` binary,
+ * matching this file's existing pattern of shelling out to `sf` rather than
+ * adding a zip-handling dependency for one narrow use.
+ */
+export async function retrieveMetadataExtracted(manifestPath: string, targetDir: string): Promise<string> {
+  const result = (await retrieveMetadata(manifestPath, targetDir)) as { zipFilePath?: string };
+  if (!result.zipFilePath) {
+    throw new SfCliError("Retrieve succeeded but reported no zipFilePath to extract.", { exitCode: -1 });
+  }
+  await execFileAsync("unzip", ["-o", "-q", result.zipFilePath, "-d", targetDir]);
+  return join(targetDir, "unpackaged");
+}
+
 // ───────── Apex ─────────
 
 /**

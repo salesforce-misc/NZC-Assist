@@ -19,3 +19,8 @@ export async function deployMetadata(
 export async function retrieveMetadata(manifestPath: string, targetDir: string): Promise<unknown> {
   return cli.retrieveMetadata(manifestPath, targetDir);
 }
+
+/** Retrieves and unzips, returning the extracted `unpackaged/` directory. See cli.ts for why the plain retrieve alone isn't enough. */
+export async function retrieveMetadataExtracted(manifestPath: string, targetDir: string): Promise<string> {
+  return cli.retrieveMetadataExtracted(manifestPath, targetDir);
+}

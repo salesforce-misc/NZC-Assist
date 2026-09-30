@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IndustriesSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!--
+      Scoped deliberately: Industries.settings is a singleton spanning every
+      Industry Cloud (Health Cloud, FSC, Education Cloud, etc, not just Net
+      Zero Cloud). Deploying a full org's settings dump would forcibly set
+      flags belonging to clouds this plugin knows nothing about. This file
+      lists ONLY the enableSC*/enableNZC* flags relevant to Net Zero Cloud /
+      Sustainability Cloud, confirmed by retrieving the Settings metadata type
+      for Industries from a live, working NZC-provisioned org via the sf CLI's
+      project retrieve command — every flag below was observed true there.
+      Fields omitted from this file are left untouched by the deploy; only
+      the fields listed are set.
+
+      Deliberately EXCLUDED even though observed true in that reference org,
+      because JOURNEY_MAP.md defers these to a later phase (targets/forecast/
+      carbon credits/ESG disclosure are out of v1's "data & config" scope):
+      enableSCTargetSetting, enableSCEmssnsForecasting,
+      enableSCCarbonCreditAlloc, enableNZCMngEsgPgm. Also excluded:
+      enableNZCWithEinstein (an AI feature, not core data/config) and the two
+      flags that were `false` in the reference org (enableNZCENGPTDCHIL,
+      enableNZCMngEnrgyAttrCr — Energy Attribute Certificates).
+
+      enableSCSNGManagement / enableSCSnGAffiliates / enableSCDGF: included
+      because they were true in the working reference org and don't map to
+      any deferred journey, but their exact expansions ("SNG", "DGF") were
+      not confirmed against documentation — flagging that honestly rather
+      than guessing.
+    -->
+    <enableSustainabilityCloud>true</enableSustainabilityCloud>
+    <enableSCCarbonAccounting>true</enableSCCarbonAccounting>
+    <enableNZCENCarbonAccounting>true</enableNZCENCarbonAccounting>
+    <enableSCCreateFootprint>true</enableSCCreateFootprint>
+    <enableSCAssignFootprint>true</enableSCAssignFootprint>
+    <enableSCBEIEnabled>true</enableSCBEIEnabled>
+    <enableSCWasteManagement>true</enableSCWasteManagement>
+    <enableSCWaterManagement>true</enableSCWaterManagement>
+    <enableSCScope3HubEnabled>true</enableSCScope3HubEnabled>
+    <enableNZCENScope3ProcHub>true</enableNZCENScope3ProcHub>
+    <enableSCSNGManagement>true</enableSCSNGManagement>
+    <enableSCSnGAffiliates>true</enableSCSnGAffiliates>
+    <enableSCExpansionUseCase>true</enableSCExpansionUseCase>
+    <enableSCExternalEngMgmt>true</enableSCExternalEngMgmt>
+    <enableSCDGF>true</enableSCDGF>
+</IndustriesSettings>

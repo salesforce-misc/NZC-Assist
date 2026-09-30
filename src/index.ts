@@ -18,7 +18,8 @@
  *                       health_check
  *
  * Org/data/metadata/permission/knowledge/status tools are wired to real
- * handlers. The four NZC helper tools and the three validation tools are
+ * handlers, as is enable_net_zero_settings (see src/nzc/settings.ts). The
+ * remaining three NZC helper tools and the three validation tools are
  * registered (stable names + schemas, so skills/commands can already refer
  * to them) but dispatch to a clear "not yet implemented" stub — their real
  * implementations depend on data/metadata content authored in later
@@ -41,6 +42,7 @@ import * as metadataTools from "./salesforce/metadata.js";
 import * as permsTools from "./salesforce/perms.js";
 import * as statusTools from "./salesforce/status.js";
 import * as knowledge from "./knowledge-loader.js";
+import * as nzcSettings from "./nzc/settings.js";
 
 const SERVER_NAME = "nzc";
 const SERVER_VERSION = "0.1.0";
@@ -369,7 +371,6 @@ const MUTATING_TOOLS = new Set([
 ]);
 
 const PENDING_MILESTONE: Record<string, string> = {
-  enable_net_zero_settings: "M5",
   load_reference_data: "M5",
   scaffold_sample_data: "M5",
   calculate_footprints: "M5",
@@ -477,8 +478,11 @@ async function dispatch(toolName: string, args: Args): Promise<CallToolResult> {
     case "list_permission_sets":
       return ok(await permsTools.listPermissionSets());
 
-    // NZC helper tools — pending M5
+    // NZC helper tools
     case "enable_net_zero_settings":
+      return ok(await nzcSettings.enableNetZeroSettings());
+
+    // NZC helper tools — pending M5
     case "load_reference_data":
     case "scaffold_sample_data":
     case "calculate_footprints":
