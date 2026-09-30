@@ -19,13 +19,14 @@
  *
  * Org/data/metadata/permission/knowledge/status tools are wired to real
  * handlers, as are enable_net_zero_settings (see src/nzc/settings.ts),
- * load_reference_data (see src/nzc/reference-data.ts), and
+ * load_reference_data (see src/nzc/reference-data.ts),
  * scaffold_sample_data (see src/nzc/sample-data.ts — also handles its own
- * teardownId branch). calculate_footprints and the three validation tools
- * are still registered (stable names + schemas, so skills/commands can
- * already refer to them) but dispatch to a clear "not yet implemented" stub
- * — their real implementations depend on data/metadata content authored in
- * later milestones (see JOURNEY_MAP.md and the project plan §13, M5/M6).
+ * teardownId branch), and calculate_footprints (see src/nzc/footprints.ts).
+ * The three validation tools are still registered (stable names + schemas,
+ * so skills/commands can already refer to them) but dispatch to a clear
+ * "not yet implemented" stub — their real implementation depends on the
+ * validation-rules YAML content authored in a later milestone (see
+ * JOURNEY_MAP.md and the project plan §13, M6).
  */
 
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
@@ -47,6 +48,7 @@ import * as knowledge from "./knowledge-loader.js";
 import * as nzcSettings from "./nzc/settings.js";
 import * as referenceData from "./nzc/reference-data.js";
 import * as sampleData from "./nzc/sample-data.js";
+import * as footprints from "./nzc/footprints.js";
 
 const SERVER_NAME = "nzc";
 const SERVER_VERSION = "0.1.0";
@@ -308,13 +310,18 @@ const tools: Tool[] = [
   },
   {
     name: "calculate_footprints",
-    description: "Calculate or load carbon footprints linked to an Annual Emissions Inventory, auto-detecting the DPE vs. coherent-data-load path.",
+    description:
+      "Create/complete the five footprint headers (stationary, vehicle, waste, water, scope3) for a reporting " +
+      "year from already-loaded scaffold_sample_data rows, and roll up illustrative (non-certified) Suppl* CO2e " +
+      "totals plus a light AnnualEmssnInventory rollup. Detects (never invokes) a Data Processing Engine job " +
+      "definition and reports it. Idempotent — safe to re-run for the same year.",
     inputSchema: {
       type: "object",
       properties: {
-        year: { type: "string" },
+        year: { type: "string", description: "4-digit reporting year, e.g. \"2025\". Must match the year scaffold_sample_data was run with." },
         confirmProductionWrite: { type: "boolean", description: "Required (true) to write against a production-type org." },
       },
+      required: ["year"],
     },
   },
   // ───────── Validation tools (stubbed — see plan §13 M6) ─────────
@@ -393,7 +400,6 @@ const MUTATING_TOOLS = new Set([
 ]);
 
 const PENDING_MILESTONE: Record<string, string> = {
-  calculate_footprints: "M5",
   audit_nzc_config: "M6",
   list_validation_groups: "M6",
   diagnose_nzc_issue: "M6",
@@ -513,9 +519,8 @@ async function dispatch(toolName: string, args: Args): Promise<CallToolResult> {
             })
       );
 
-    // NZC helper tools — pending M5
     case "calculate_footprints":
-      return notImplemented(toolName);
+      return ok(await footprints.calculateFootprints({ year: args.year as string }));
 
     // Validation tools — pending M6
     case "audit_nzc_config":

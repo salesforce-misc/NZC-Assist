@@ -248,6 +248,34 @@ export async function bulkUpsertRecords(
   }
 }
 
+/**
+ * Bulk-updates existing records via Bulk API 2.0. Writes rows to a temp CSV
+ * — each row must include an `Id` column identifying the record to update —
+ * then runs `sf data update bulk`. Unlike bulkUpsertRecords, this never
+ * inserts: the job fails the row if its `Id` doesn't already exist. Needed
+ * for backfilling footprint FK / Suppl*Emissions fields onto already-loaded
+ * transactional rows (potentially hundreds) without looping single-record
+ * updateRecord calls.
+ */
+export async function bulkUpdateRecords(
+  object: string,
+  records: Record<string, unknown>[],
+  opts: { wait?: number } = {}
+): Promise<BulkLoadResult> {
+  const dir = await mkdtemp(join(tmpdir(), "nzc-bulk-"));
+  const file = join(dir, `${object}.csv`);
+  try {
+    await writeFile(file, toCsv(records), "utf8");
+    const wait = String(opts.wait ?? 10);
+    const args = ["data", "update", "bulk", "--sobject", object, "--file", file, "--wait", wait, "--json"];
+    const result = await sfJson<{ jobInfo?: { id: string; state: string } }>(withTargetOrg(args));
+    const jobInfo = result.jobInfo;
+    return { jobId: jobInfo?.id ?? "unknown", state: jobInfo?.state ?? "Unknown", raw: result };
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
+}
+
 export async function importTree(planPath: string): Promise<unknown> {
   return sfJson(withTargetOrg(["data", "import", "tree", "--plan", planPath, "--json"]));
 }

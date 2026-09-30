@@ -1,6 +1,6 @@
 /**
  * Data tools: run_soql, describe_sobject, get/create/update/delete_record,
- * bulk_upsert_records, import_tree, export_tree.
+ * bulk_upsert_records, bulk_update_records, import_tree, export_tree.
  *
  * Thin pass-throughs over cli.ts — formatting/interpretation of results for
  * the user happens in the invoking skill/command, not here.
@@ -38,6 +38,14 @@ export async function bulkUpsertRecords(
   opts: { externalId?: string; wait?: number } = {}
 ): Promise<cli.BulkLoadResult> {
   return cli.bulkUpsertRecords(object, records, opts);
+}
+
+export async function bulkUpdateRecords(
+  object: string,
+  records: Record<string, unknown>[],
+  opts: { wait?: number } = {}
+): Promise<cli.BulkLoadResult> {
+  return cli.bulkUpdateRecords(object, records, opts);
 }
 
 export async function importTree(planPath: string): Promise<unknown> {
