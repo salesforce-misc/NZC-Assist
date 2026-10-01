@@ -21,12 +21,9 @@
  * handlers, as are enable_net_zero_settings (see src/nzc/settings.ts),
  * load_reference_data (see src/nzc/reference-data.ts),
  * scaffold_sample_data (see src/nzc/sample-data.ts — also handles its own
- * teardownId branch), and calculate_footprints (see src/nzc/footprints.ts).
- * The three validation tools are still registered (stable names + schemas,
- * so skills/commands can already refer to them) but dispatch to a clear
- * "not yet implemented" stub — their real implementation depends on the
- * validation-rules YAML content authored in a later milestone (see
- * JOURNEY_MAP.md and the project plan §13, M6).
+ * teardownId branch), calculate_footprints (see src/nzc/footprints.ts), and
+ * the three validation tools (see src/validation/rules-executor.ts, which
+ * loads and runs knowledge/validation-rules/*.yaml against the live org).
  */
 
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
@@ -49,6 +46,7 @@ import * as nzcSettings from "./nzc/settings.js";
 import * as referenceData from "./nzc/reference-data.js";
 import * as sampleData from "./nzc/sample-data.js";
 import * as footprints from "./nzc/footprints.js";
+import * as validation from "./validation/index.js";
 
 const SERVER_NAME = "nzc";
 const SERVER_VERSION = "0.1.0";
@@ -324,21 +322,26 @@ const tools: Tool[] = [
       required: ["year"],
     },
   },
-  // ───────── Validation tools (stubbed — see plan §13 M6) ─────────
+  // ───────── Validation tools ─────────
   {
     name: "audit_nzc_config",
     description: "Run validation rules against the connected org. Groups: foundation | reference-data | data-integrity | all.",
-    inputSchema: { type: "object", properties: { group: { type: "string" } } },
+    inputSchema: {
+      type: "object",
+      properties: {
+        group: { type: "string", description: "Rule group to filter to (foundation | reference-data | data-integrity). Omit or pass \"all\" to run every rule." },
+      },
+    },
   },
   {
     name: "list_validation_groups",
-    description: "List available validation rule groups.",
+    description: "List available validation rule groups and how many rules are in each.",
     inputSchema: { type: "object", properties: {} },
   },
   {
     name: "diagnose_nzc_issue",
-    description: "Find validation rules / known issues matching a specific error message or symptom.",
-    inputSchema: { type: "object", properties: { query: { type: "string" } }, required: ["query"] },
+    description: "Find validation rules matching a specific error message or symptom, and run just those rules live against the connected org.",
+    inputSchema: { type: "object", properties: { query: { type: "string", description: "Free-text error message or symptom to match against rule descriptions/remediations." } }, required: ["query"] },
   },
   // ───────── Knowledge / status tools ─────────
   {
@@ -399,12 +402,6 @@ const MUTATING_TOOLS = new Set([
   "calculate_footprints",
 ]);
 
-const PENDING_MILESTONE: Record<string, string> = {
-  audit_nzc_config: "M6",
-  list_validation_groups: "M6",
-  diagnose_nzc_issue: "M6",
-};
-
 function ok(value: unknown): CallToolResult {
   const text = typeof value === "string" ? value : JSON.stringify(value, null, 2);
   return { content: [{ type: "text", text }] };
@@ -413,20 +410,6 @@ function ok(value: unknown): CallToolResult {
 function errorResult(err: unknown): CallToolResult {
   const message = err instanceof Error ? err.message : String(err);
   return { content: [{ type: "text", text: message }], isError: true };
-}
-
-function notImplemented(toolName: string): CallToolResult {
-  const milestone = PENDING_MILESTONE[toolName] ?? "a later milestone";
-  return {
-    content: [
-      {
-        type: "text",
-        text:
-          `Tool "${toolName}" is registered (stable name + schema) but not yet implemented — planned for ${milestone}. ` +
-          `See JOURNEY_MAP.md and the project plan for its intended behavior.`,
-      },
-    ],
-  };
 }
 
 /** Refuses a mutating call against a production-type org unless the caller explicitly set confirmProductionWrite: true. */
@@ -522,11 +505,13 @@ async function dispatch(toolName: string, args: Args): Promise<CallToolResult> {
     case "calculate_footprints":
       return ok(await footprints.calculateFootprints({ year: args.year as string }));
 
-    // Validation tools — pending M6
+    // Validation tools
     case "audit_nzc_config":
+      return ok(await validation.auditNzcConfig(args.group as string | undefined));
     case "list_validation_groups":
+      return ok(await validation.listValidationGroups());
     case "diagnose_nzc_issue":
-      return notImplemented(toolName);
+      return ok(await validation.diagnoseNzcIssue(args.query as string));
 
     // Knowledge / status tools
     case "list_nzc_modules":

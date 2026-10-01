@@ -1,11 +1,13 @@
 # Foundation rules — licensing, PSLs, permission sets, settings, and the
 # record-type splits every downstream domain depends on.
 #
-# NOTE: `industries-setting` flag names below (`enableSC*`) are the plugin's
-# design-time best guess at the Industries.settings field names. Confirm the
-# exact field name against the connected org (e.g. via `sf org list metadata`
-# or a settings retrieve) before trusting a failure from this file — see
-# `CLAUDE.md` § "Always describe_sobject" for the general principle.
+# `industries-setting` flag names below are confirmed real field names on
+# Industries.settings, verified against a live metadata retrieve of a
+# Net-Zero-Cloud-enabled org (not a design-time guess) — see
+# `metadata/settings/Industries.settings`. If a future org version renames or
+# drops one of these, `audit_nzc_config` will report it as a normal rule
+# failure, not a silent false negative — but re-confirm via a settings
+# retrieve before assuming the rule itself is stale.
 ---
 id: nzc-license-provisioned
 group: foundation
@@ -63,23 +65,43 @@ docs: skills/nzc-foundation-licensing/SKILL.md
 ---
 id: sustainability-cloud-enabled
 group: foundation
-description: The core Sustainability Cloud / stationary-assets settings flag is enabled
+description: The core Sustainability Cloud settings flag is enabled
 severity: error
 check:
   type: industries-setting
-  flag: enableSCStationaryAssets
+  flag: enableSustainabilityCloud
 remediation: Deploy metadata/settings/ via /nzc:enable-net-zero
 docs: skills/nzc-foundation-licensing/SKILL.md
 ---
 id: carbon-accounting-enabled
 group: foundation
-description: The Scope 3 carbon-accounting settings flag is enabled
+description: The carbon-accounting settings flag is enabled
 severity: warning
 check:
   type: industries-setting
-  flag: enableSCScope3
+  flag: enableSCCarbonAccounting
 remediation: Deploy metadata/settings/ via /nzc:enable-net-zero
 docs: skills/nzc-foundation-licensing/SKILL.md
+---
+id: waste-management-enabled
+group: foundation
+description: The waste-management settings flag is enabled
+severity: warning
+check:
+  type: industries-setting
+  flag: enableSCWasteManagement
+remediation: Deploy metadata/settings/ via /nzc:enable-net-zero
+docs: skills/nzc-waste/SKILL.md
+---
+id: water-management-enabled
+group: foundation
+description: The water-management settings flag is enabled
+severity: warning
+check:
+  type: industries-setting
+  flag: enableSCWaterManagement
+remediation: Deploy metadata/settings/ via /nzc:enable-net-zero
+docs: skills/nzc-water/SKILL.md
 ---
 id: stationary-source-record-types
 group: foundation
