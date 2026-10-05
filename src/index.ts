@@ -3,7 +3,8 @@
  * MCP server for Salesforce Net Zero Cloud (`nzc`).
  *
  * Tool catalog (see JOURNEY_MAP.md / CLAUDE.md / the project plan §8):
- *   - Org tools:        check_nzc_setup, list_sf_orgs, set_target_org, open_org
+ *   - Org tools:        check_nzc_setup, list_sf_orgs, set_target_org, open_org,
+ *                       create_scratch_org, delete_scratch_org
  *   - Data tools:       run_soql, describe_sobject, get_record, create_record,
  *                       update_record, delete_record, bulk_upsert_records,
  *                       import_tree, export_tree
@@ -46,6 +47,7 @@ import * as nzcSettings from "./nzc/settings.js";
 import * as referenceData from "./nzc/reference-data.js";
 import * as sampleData from "./nzc/sample-data.js";
 import * as footprints from "./nzc/footprints.js";
+import * as scratchOrg from "./nzc/scratch-org.js";
 import * as validation from "./validation/index.js";
 
 const SERVER_NAME = "nzc";
@@ -76,6 +78,43 @@ const tools: Tool[] = [
     inputSchema: {
       type: "object",
       properties: { path: { type: "string", description: "Optional path, e.g. '/lightning/setup/SetupOneHome/home'" } },
+    },
+  },
+  {
+    name: "create_scratch_org",
+    description:
+      "Create a disposable, non-production scratch org from config/project-scratch-def.json, which bakes in Net " +
+      "Zero Cloud licensing (SustainabilityApp feature + industriesSettings.enableSC* flags) so the org is already " +
+      "licensed the moment it exists. Sets it as the target org and confirms the license landed via describe_sobject. " +
+      "Requires an authenticated DevHub (sf org login web --set-default-dev-hub). Does not assign PSLs/permission " +
+      "sets or deploy Industries settings metadata itself — chain enable_net_zero_settings / assign_permset[_license] " +
+      "afterward, same as any other org.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        alias: { type: "string", description: "Alias for the new scratch org." },
+        devHub: { type: "string", description: "DevHub alias to create against. Omit to use the configured default DevHub." },
+        durationDays: { type: "number", description: "Scratch org lifetime in days (1-30). Default 7." },
+        setAsTarget: { type: "boolean", default: true, description: "Set this org as the current target org after creation." },
+        confirm: {
+          type: "boolean",
+          description:
+            "Required (true) to proceed — this creates a real org against a DevHub and consumes its scratch-org quota. Confirm with the user first.",
+        },
+      },
+      required: ["alias"],
+    },
+  },
+  {
+    name: "delete_scratch_org",
+    description: "Permanently delete a scratch org and free its DevHub quota slot.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        alias: { type: "string" },
+        confirm: { type: "boolean", description: "Required (true) — this permanently destroys the org and all its data." },
+      },
+      required: ["alias"],
     },
   },
   // ───────── Data tools ─────────
@@ -438,6 +477,18 @@ async function dispatch(toolName: string, args: Args): Promise<CallToolResult> {
       return ok(authTools.setTargetOrg(args.alias as string));
     case "open_org":
       return ok(await authTools.openOrg(args.path as string | undefined));
+    case "create_scratch_org":
+      return ok(
+        await scratchOrg.createNzcScratchOrg({
+          alias: args.alias as string,
+          devHub: args.devHub as string | undefined,
+          durationDays: args.durationDays as number | undefined,
+          setAsTarget: args.setAsTarget as boolean | undefined,
+          confirm: args.confirm as boolean | undefined,
+        })
+      );
+    case "delete_scratch_org":
+      return ok(await scratchOrg.deleteNzcScratchOrg(args.alias as string, args.confirm as boolean | undefined));
 
     // Data tools
     case "run_soql":

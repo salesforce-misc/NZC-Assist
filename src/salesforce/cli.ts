@@ -342,6 +342,45 @@ export async function runApex(code: string): Promise<unknown> {
   }
 }
 
+// ───────── Scratch orgs ─────────
+
+/**
+ * Creates a new scratch org against a DevHub from a definition file (not
+ * `withTargetOrg` — there is no target org yet; this call creates one).
+ * `--target-dev-hub` is optional: `sf` falls back to the configured default
+ * DevHub when omitted, erroring clearly if none is set.
+ *
+ * `org create scratch` has no `--no-prompt` flag (confirmed against its real
+ * flag manifest — unlike `org delete scratch`, it never prompts in the first
+ * place, so there's nothing to suppress).
+ */
+export async function createScratchOrg(
+  definitionFile: string,
+  alias: string,
+  opts: { devHub?: string; durationDays?: number; setDefault?: boolean } = {}
+): Promise<unknown> {
+  const args = [
+    "org",
+    "create",
+    "scratch",
+    "--definition-file",
+    definitionFile,
+    "--alias",
+    alias,
+    "--duration-days",
+    String(opts.durationDays ?? 7),
+    "--json",
+  ];
+  if (opts.devHub) args.push("--target-dev-hub", opts.devHub);
+  if (opts.setDefault) args.push("--set-default");
+  return sfJson(args);
+}
+
+/** Deletes a scratch org and frees its DevHub quota slot. --no-prompt skips the interactive confirmation (this process has no stdin to answer it). */
+export async function deleteScratchOrg(alias: string): Promise<unknown> {
+  return sfJson(["org", "delete", "scratch", "--target-org", alias, "--no-prompt", "--json"]);
+}
+
 // ───────── Permissions ─────────
 
 export async function assignPermset(name: string): Promise<unknown> {

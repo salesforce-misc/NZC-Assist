@@ -12,8 +12,10 @@ Net Zero Cloud objects and settings fields **do not exist** in an org without th
 | Tier | What it is | Names (design-time — confirm via SOQL) |
 |---|---|---|
 | 1. License | Provisioned by Salesforce; no self-service path either direction | Detect via `describe_sobject StnryAssetEnvrSrc` |
-| 2. Permission Set Licenses (PSLs) | Gate feature visibility org-wide | `NetZeroCloudUserPsl`, `DataProcessingEnginePsl`, `TCRMforSustainabilityPsl` |
-| 3. Permission sets | Object/field-level CRUD layered on top of PSLs | `NetZeroManager`, `DataProcessingEngineUser`, `TCRMforSustainabilityAdmin`, `TCRMforSustainabilityUser` |
+| 2. Permission Set Licenses (PSLs) | Gate feature visibility org-wide | `NetZeroCloudUserPsl`, `DataProcessingEnginePsl`, `TCRMforSustainabilityPsl` (design-time — see note below) |
+| 3. Permission sets | Object/field-level CRUD layered on top of PSLs | `NetZeroManager`, `DataProcessingEngineUser`, `TCRMforSustainabilityAdmin`, `TCRMforSustainabilityUser` (design-time — see note below) |
+
+**A scratch org provisioned via the `nzc-scratch-org` skill's scratch-def does NOT grant the TCRM-for-Sustainability PSL/permission sets** — live-verified instead: `ManufacturingAdvancedAccountForecastPsl`, `EinsteinNetZeroCloudPsl` PSLs and `NetZeroAdmin`, `NetZeroAuditor`, `EinsteinNetZeroCloudUser` permission sets, alongside the `NetZeroCloudUserPsl`/`DataProcessingEnginePsl`/`NetZeroManager`/`DataProcessingEngineUser` common to both lists. TCRM may still apply to differently-licensed production/sandbox orgs — always confirm via SOQL (step 2 below) rather than trusting either list.
 
 **A PSL alone does not grant CRUD.** A user can have the `NetZeroCloudUserPsl` and still see nothing without the matching permission set.
 

@@ -83,6 +83,7 @@ See **`JOURNEY_MAP.md`** for the canonical 16-row journey map and 15-step depend
 | `nzc-sample-data` | Orchestrates the hybrid seed + runtime-generation sample-data build (reference seed → structural seed → generated transactional data → footprints) |
 | `nzc-testing-validation` | Validation-rule authoring/execution, audit interpretation, fixture teardown |
 | `nzc-troubleshoot` | Diagnoses and resolves Net Zero Cloud configuration and data issues |
+| `nzc-scratch-org` | Creating/tearing down disposable, pre-licensed scratch orgs for safe non-production testing |
 | `salesforce-query` | Helps construct and execute SOQL queries |
 
 ### Commands (User-invoked with `/nzc:command`)
@@ -90,6 +91,7 @@ See **`JOURNEY_MAP.md`** for the canonical 16-row journey map and 15-step depend
 | Command | Description |
 |---------|-------------|
 | `/nzc:setup-plugin` | Check plugin status and connect to a Salesforce org |
+| `/nzc:create-scratch-org` | Create a disposable, non-production scratch org pre-licensed for Net Zero Cloud |
 | `/nzc:getting-started` | Interactive onboarding |
 | `/nzc:status` | Dashboard view of the connected Net Zero Cloud org |
 | `/nzc:open-org` | Open the connected org in the browser |

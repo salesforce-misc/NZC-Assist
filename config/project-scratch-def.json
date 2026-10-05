@@ -1,0 +1,12 @@
+{
+  "orgName": "NZC-Assist Scratch Org",
+  "edition": "Enterprise",
+  "features": ["EnableSetPasswordInApi", "SustainabilityApp", "RecordTypes"],
+  "settings": {
+    "industriesSettings": {
+      "enableSustainabilityCloud": true,
+      "enableSCCarbonAccounting": true,
+      "enableSCSNGManagement": true
+    }
+  }
+}
