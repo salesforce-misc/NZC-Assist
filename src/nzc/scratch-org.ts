@@ -21,7 +21,12 @@ import * as cli from "../salesforce/cli.js";
 import * as dataTools from "../salesforce/data.js";
 import { pluginPath } from "../paths.js";
 
-const SCRATCH_DEF = pluginPath("config", "project-scratch-def.json");
+const SCRATCH_DEFS = {
+  nzc: pluginPath("config", "project-scratch-def.json"),
+  dch: pluginPath("config", "dch-scratch-def.json"),
+} as const;
+
+export type ScratchDefinition = keyof typeof SCRATCH_DEFS;
 
 interface SfOrgListResult {
   devHubs?: { alias?: string; username: string }[];
@@ -44,6 +49,8 @@ export async function createNzcScratchOrg(opts: {
   devHub?: string;
   durationDays?: number;
   setAsTarget?: boolean;
+  /** Which bundled scratch-def to use: "nzc" (default) or "dch" (adds OmniStudio/DocGen/DisclosureFramework). */
+  definitionFile?: ScratchDefinition;
 }): Promise<CreateScratchOrgResult> {
   if (opts.confirm !== true) {
     throw new Error(
@@ -60,7 +67,7 @@ export async function createNzcScratchOrg(opts: {
     );
   }
 
-  const createResult = await cli.createScratchOrg(SCRATCH_DEF, opts.alias, {
+  const createResult = await cli.createScratchOrg(SCRATCH_DEFS[opts.definitionFile ?? "nzc"], opts.alias, {
     devHub: opts.devHub,
     durationDays: opts.durationDays,
     setDefault: false,

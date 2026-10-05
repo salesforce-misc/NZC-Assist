@@ -1,0 +1,44 @@
+[
+  {
+    "framework": "cdp",
+    "title": "CDP Standards Assessment Responses Template V2",
+    "file": "CDP Standards Assessment Responses Template V2.docx",
+    "omniProcessName": "CDP2023"
+  },
+  {
+    "framework": "esrs",
+    "title": "ESRS Standards Assessment Responses Template V1",
+    "file": "ESRS Standards Assessment Responses Template V1.docx",
+    "omniProcessName": "ESRS2023"
+  },
+  {
+    "framework": "gri",
+    "title": "GRI Standards Assessment Responses Template V2",
+    "file": "GRI Standards Assessment Responses Template V2.docx",
+    "omniProcessName": "GRI2023"
+  },
+  {
+    "framework": "sasb",
+    "title": "SASB Standards Consumer Goods Sector Template V1",
+    "file": "SASB Standards Consumer Goods Sector Template V1.docx",
+    "omniProcessName": "Consumer Goods Sector"
+  },
+  {
+    "framework": "sasb",
+    "title": "SASB Standards Financials Sector Template V1",
+    "file": "SASB Standards Financials Sector Template V1.docx",
+    "omniProcessName": "Financials Sector"
+  },
+  {
+    "framework": "sasb",
+    "title": "SASB Standards Services Sector Template V1",
+    "file": "SASB Standards Services Sector Template V1.docx",
+    "omniProcessName": "Services Sector"
+  },
+  {
+    "framework": "sasb",
+    "title": "SASB Standards T_C Sector Template V1",
+    "file": "SASB Standards T_C Sector Template V1.docx",
+    "omniProcessName": "Technology and Communications Sector"
+  }
+]

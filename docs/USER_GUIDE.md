@@ -111,6 +111,8 @@ Commands are explicit actions you invoke by typing a slash command in Claude Cod
 | `/nzc:calculate-footprints` | Calculate/load carbon footprints linked to the annual inventory |
 | `/nzc:docs` | Quick-access links to official Net Zero Cloud documentation |
 
+**Disclosure & Compliance Hub:** `/nzc:setup-dch` sets up DCH (OmniStudio/DocGen foundation plus GRI, ESRS, CDP, SASB), `/nzc:setup-dch-framework` sets up one framework, and `/nzc:dch-status` reports what is installed. Build a suitable scratch org with `create_scratch_org` and `definitionFile: "dch"`. Package installs are hard to reverse — use a non-production org.
+
 ### Agents (Persona-Driven Assistants)
 
 Agents combine skills and commands into persona-focused workflows. Each agent understands the typical tasks, priorities, and concerns of a specific role.
@@ -131,6 +133,7 @@ The plugin includes a local MCP (Model Context Protocol) server that provides di
 - **Metadata describe/deploy/retrieve** — inspect objects and deploy settings/record-type metadata
 - **Bulk + tree data load** — commit reference seed data and generate transactional sample data
 - **Permission set + PSL assignment** — including an anonymous-Apex fallback for PSL assignment
+- **Disclosure & Compliance Hub setup** — `setup_dch`, `setup_dch_foundation`, `setup_dch_framework`, `install_dch_package`, `load_dch_templates`, read-only `dch_status`
 - **Audit framework** — automated checks against the validation-rule library
 
 ---

@@ -46,9 +46,13 @@ Then in Claude Code:
 - `knowledge/data-model.md` / `knowledge/setup-order.md` — the reference → source → energy use → footprint → inventory pipeline, in prose
 - `documentation/` — curated links into the official Net Zero Cloud Developer Guide (source of truth; no PDFs, no personal paths)
 
+## Disclosure & Compliance Hub (DCH)
+
+`/nzc:setup-dch` installs and configures DCH on a Net Zero Cloud org: the OmniStudio + DocGen foundation, then the GRI, ESRS, CDP and SASB framework packages with their Word report templates. Use a scratch org built with `create_scratch_org` and `definitionFile: "dch"`. The optional DocGen sample packs need the `vlocity` CLI (`npm install -g vlocity`); without it that step is skipped. Content is derived from an internal DCH setup project — see `metadata/dch/NOTICE.md`.
+
 ## Status
 
-`v0.1.0` — scaffold in progress. See `JOURNEY_MAP.md` for the implementation phasing.
+`v0.2.0` — adds Disclosure & Compliance Hub (DCH) setup: `/nzc:setup-dch`, `/nzc:dch-status`, and `create_scratch_org` with `definitionFile: "dch"`. Scaffold otherwise in progress. See `JOURNEY_MAP.md` for the implementation phasing.
 
 ## Open Source Governance
 

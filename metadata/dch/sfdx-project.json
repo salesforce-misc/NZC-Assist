@@ -1,0 +1,41 @@
+{
+  "packageDirectories": [
+    {
+      "path": "cdp",
+      "default": true
+    },
+    {
+      "path": "document-generation-settings"
+    },
+    {
+      "path": "esrs"
+    },
+    {
+      "path": "esrs-disclosure"
+    },
+    {
+      "path": "gri"
+    },
+    {
+      "path": "gri-disclosure"
+    },
+    {
+      "path": "layouts"
+    },
+    {
+      "path": "omni-interaction-config"
+    },
+    {
+      "path": "sasb"
+    },
+    {
+      "path": "sasb-action-flows"
+    },
+    {
+      "path": "settings"
+    }
+  ],
+  "name": "nzc-dch",
+  "namespace": "",
+  "sourceApiVersion": "58.0"
+}

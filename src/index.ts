@@ -5,6 +5,8 @@
  * Tool catalog (see JOURNEY_MAP.md / CLAUDE.md / the project plan §8):
  *   - Org tools:        check_nzc_setup, list_sf_orgs, set_target_org, open_org,
  *                       create_scratch_org, delete_scratch_org
+ *   - DCH tools:        setup_dch, setup_dch_foundation, setup_dch_framework, install_dch_package,
+ *                       load_dch_templates, dch_status (see src/dch/)
  *   - Data tools:       run_soql, describe_sobject, get_record, create_record,
  *                       update_record, delete_record, bulk_upsert_records,
  *                       import_tree, export_tree
@@ -48,10 +50,16 @@ import * as referenceData from "./nzc/reference-data.js";
 import * as sampleData from "./nzc/sample-data.js";
 import * as footprints from "./nzc/footprints.js";
 import * as scratchOrg from "./nzc/scratch-org.js";
+import * as dchFoundation from "./dch/foundation.js";
+import * as dchPackages from "./dch/packages.js";
+import * as dchFrameworks from "./dch/frameworks.js";
+import * as dchTemplates from "./dch/templates.js";
+import * as dchSetup from "./dch/setup.js";
+import * as dchStatus from "./dch/status.js";
 import * as validation from "./validation/index.js";
 
 const SERVER_NAME = "nzc";
-const SERVER_VERSION = "0.1.0";
+const SERVER_VERSION = "0.2.0";
 
 type Args = Record<string, unknown>;
 
@@ -96,6 +104,12 @@ const tools: Tool[] = [
         devHub: { type: "string", description: "DevHub alias to create against. Omit to use the configured default DevHub." },
         durationDays: { type: "number", description: "Scratch org lifetime in days (1-30). Default 7." },
         setAsTarget: { type: "boolean", default: true, description: "Set this org as the current target org after creation." },
+        definitionFile: {
+          type: "string",
+          enum: ["nzc", "dch"],
+          default: "nzc",
+          description: "Bundled scratch definition: \"nzc\" (Net Zero Cloud) or \"dch\" (adds OmniStudio, DocGen, Clause Management and Disclosure Framework for Disclosure & Compliance Hub).",
+        },
         confirm: {
           type: "boolean",
           description:
@@ -361,6 +375,63 @@ const tools: Tool[] = [
       required: ["year"],
     },
   },
+  // ───────── Disclosure & Compliance Hub (DCH) tools ─────────
+  {
+    name: "setup_dch",
+    description:
+      "Run the full Disclosure & Compliance Hub setup: foundation (PSLs/permission sets, OmniStudio + DocGen) then the GRI, ESRS, CDP and SASB frameworks. Stops at the first failed step and returns a per-step report. Safe to re-run — installed packages, assigned permissions and linked templates are skipped.",
+    inputSchema: { type: "object", properties: {
+        confirm: { type: "boolean", description: "Required (true) to proceed — installs managed packages and deploys metadata. Confirm the target org with the user first." },
+        confirmProductionWrite: { type: "boolean", description: "Required (true) to write against a production-type org." },
+    }, required: ["confirm"] },
+  },
+  {
+    name: "setup_dch_foundation",
+    description:
+      "DCH foundation: assign DCH PSLs/permission sets (names absent from the org are skipped and reported), install the OmniStudio package, deploy the OmniStudio remote site settings, Industries settings, DocGen settings and OmniInteractionConfig, run the DocGen post-install Apex, and deploy the DocGen sample packs with the vlocity CLI (skipped with guidance if vlocity is not installed).",
+    inputSchema: { type: "object", properties: {
+      omnistudioVersion: { type: "string", description: "OmniStudio package version to install. Default 250.7." },
+        confirm: { type: "boolean", description: "Required (true) to proceed — installs managed packages and deploys metadata. Confirm the target org with the user first." },
+        confirmProductionWrite: { type: "boolean", description: "Required (true) to write against a production-type org." },
+    }, required: ["confirm"] },
+  },
+  {
+    name: "setup_dch_framework",
+    description:
+      "Set up one DCH framework: install its package, deploy its OmniStudio resources and page layouts, then upload and link its Word report templates. Run setup_dch_foundation first.",
+    inputSchema: { type: "object", properties: {
+      framework: { type: "string", enum: ["gri", "esrs", "cdp", "sasb"] },
+      packageVersion: { type: "string", description: "Framework package version override (defaults: GRI 244.1, ESRS 244.0, CDP 244.0, SASB 244.1)." },
+        confirm: { type: "boolean", description: "Required (true) to proceed — installs managed packages and deploys metadata. Confirm the target org with the user first." },
+        confirmProductionWrite: { type: "boolean", description: "Required (true) to write against a production-type org." },
+    }, required: ["framework", "confirm"] },
+  },
+  {
+    name: "install_dch_package",
+    description:
+      "Install one DCH managed package by namespace + version via an InstalledPackage metadata deploy (no 04t ID needed). Skips if that version or newer is already installed. Retries while a new version is still propagating.",
+    inputSchema: { type: "object", properties: {
+      package: { type: "string", enum: ["omnistudio", "gri", "esrs", "cdp", "sasb"] },
+      version: { type: "string", description: "Version to install, e.g. 244.1. Defaults to the pinned DCH version." },
+        confirm: { type: "boolean", description: "Required (true) to proceed — installs managed packages and deploys metadata. Confirm the target org with the user first." },
+        confirmProductionWrite: { type: "boolean", description: "Required (true) to write against a production-type org." },
+    }, required: ["package", "confirm"] },
+  },
+  {
+    name: "load_dch_templates",
+    description:
+      "Upload the DCH Word report templates (data/dch/templates) as files and link each to its framework's active OmniProcess. Requires the framework's OmniStudio resources to be deployed and active. Omit framework to load all.",
+    inputSchema: { type: "object", properties: {
+      framework: { type: "string", enum: ["gri", "esrs", "cdp", "sasb"] },
+        confirm: { type: "boolean", description: "Required (true) to proceed — installs managed packages and deploys metadata. Confirm the target org with the user first." },
+        confirmProductionWrite: { type: "boolean", description: "Required (true) to write against a production-type org." },
+    }, required: ["confirm"] },
+  },
+  {
+    name: "dch_status",
+    description: "Read-only DCH status: installed vs wanted package versions, which DCH PSLs exist in the org, and which report templates are linked to their OmniProcess.",
+    inputSchema: { type: "object", properties: {} },
+  },
   // ───────── Validation tools ─────────
   {
     name: "audit_nzc_config",
@@ -439,6 +510,11 @@ const MUTATING_TOOLS = new Set([
   "load_reference_data",
   "scaffold_sample_data",
   "calculate_footprints",
+  "setup_dch",
+  "setup_dch_foundation",
+  "setup_dch_framework",
+  "install_dch_package",
+  "load_dch_templates",
 ]);
 
 function ok(value: unknown): CallToolResult {
@@ -484,6 +560,7 @@ async function dispatch(toolName: string, args: Args): Promise<CallToolResult> {
           devHub: args.devHub as string | undefined,
           durationDays: args.durationDays as number | undefined,
           setAsTarget: args.setAsTarget as boolean | undefined,
+          definitionFile: args.definitionFile as scratchOrg.ScratchDefinition | undefined,
           confirm: args.confirm as boolean | undefined,
         })
       );
@@ -555,6 +632,40 @@ async function dispatch(toolName: string, args: Args): Promise<CallToolResult> {
 
     case "calculate_footprints":
       return ok(await footprints.calculateFootprints({ year: args.year as string }));
+
+    // DCH tools
+    case "setup_dch":
+      return ok(await dchSetup.setupDch({ confirm: args.confirm as boolean | undefined }));
+    case "setup_dch_foundation":
+      return ok(
+        await dchFoundation.setupDchFoundation({
+          confirm: args.confirm as boolean | undefined,
+          omnistudioVersion: args.omnistudioVersion as string | undefined,
+        })
+      );
+    case "setup_dch_framework":
+      return ok(
+        await dchFrameworks.setupDchFramework(args.framework as dchTemplates.DchFramework, {
+          confirm: args.confirm as boolean | undefined,
+          packageVersion: args.packageVersion as string | undefined,
+        })
+      );
+    case "install_dch_package":
+      return ok(
+        await (async () => {
+          if (args.confirm !== true) throw new Error("Refusing to install a package without confirm: true — package installs are hard to reverse. Confirm the target org with the user first.");
+          return dchPackages.installDchPackage(args.package as dchPackages.DchPackageKey, { version: args.version as string | undefined });
+        })()
+      );
+    case "load_dch_templates":
+      return ok(
+        await (async () => {
+          if (args.confirm !== true) throw new Error("Refusing to load templates without confirm: true. Confirm the target org with the user first.");
+          return dchTemplates.loadDchTemplates(args.framework as dchTemplates.DchFramework | undefined);
+        })()
+      );
+    case "dch_status":
+      return ok(await dchStatus.getDchStatus());
 
     // Validation tools
     case "audit_nzc_config":
