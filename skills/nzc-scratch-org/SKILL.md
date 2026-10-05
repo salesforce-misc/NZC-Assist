@@ -13,7 +13,8 @@ A scratch org is the only org type every write tool in this plugin treats as saf
    ```
    sf org login web --set-default-dev-hub --alias <alias>
    ```
-2. **This plugin's `config/project-scratch-def.json`** — already committed, no setup needed. It bakes Net Zero Cloud licensing into the org **at creation time**:
+2. **For Disclosure & Compliance Hub, pass `definitionFile: "dch"`** to `create_scratch_org` — it uses `config/dch-scratch-def.json` (adds OmniStudio, DocGen, Clause Management, Disclosure Framework); see the `nzc-dch` skill.
+3. **This plugin's `config/project-scratch-def.json`** — already committed, no setup needed. It bakes Net Zero Cloud licensing into the org **at creation time**:
    ```json
    {
      "features": ["EnableSetPasswordInApi", "SustainabilityApp", "RecordTypes"],

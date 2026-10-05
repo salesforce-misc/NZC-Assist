@@ -65,6 +65,13 @@ describe("createNzcScratchOrg", () => {
     expect(result.alias).toBe("test-org");
   });
 
+  it("uses the DCH scratch definition when asked, and the NZC one by default", async () => {
+    await createNzcScratchOrg({ alias: "dch-org", confirm: true, definitionFile: "dch" });
+    expect(createScratchOrgMock).toHaveBeenLastCalledWith(expect.stringContaining("dch-scratch-def.json"), "dch-org", expect.anything());
+    await createNzcScratchOrg({ alias: "nzc-org", confirm: true });
+    expect(createScratchOrgMock).toHaveBeenLastCalledWith(expect.stringContaining("project-scratch-def.json"), "nzc-org", expect.anything());
+  });
+
   it("does not set the org as target when setAsTarget is false", async () => {
     await createNzcScratchOrg({ alias: "test-org", confirm: true, setAsTarget: false });
     expect(setTargetOrgMock).not.toHaveBeenCalled();

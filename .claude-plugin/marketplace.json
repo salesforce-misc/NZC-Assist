@@ -9,7 +9,7 @@
       "name": "nzc",
       "source": ".",
       "description": "Salesforce Net Zero Cloud — knowledge, skills, commands, agents, and Salesforce org tools for sustainability and carbon-accounting implementations",
-      "version": "0.1.0"
+      "version": "0.2.0"
     }
   ]
 }

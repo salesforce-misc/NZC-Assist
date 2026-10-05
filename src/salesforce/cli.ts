@@ -59,6 +59,7 @@ function withTargetOrg(args: string[], opts: { required?: boolean } = {}): strin
 interface SfExecOpts {
   maxBuffer?: number;
   timeout?: number;
+  cwd?: string;
 }
 
 /** Low-level `sf` invocation. Returns raw stdout. Throws SfCliError on non-zero exit. */
@@ -67,6 +68,7 @@ export async function sf(args: string[], opts: SfExecOpts = {}): Promise<string>
     const { stdout } = await execFileAsync("sf", args, {
       maxBuffer: opts.maxBuffer ?? 50 * 1024 * 1024,
       timeout: opts.timeout,
+      cwd: opts.cwd,
     });
     return stdout;
   } catch (err) {
@@ -112,6 +114,11 @@ export async function version(): Promise<string> {
 
 export async function listOrgs(): Promise<unknown> {
   return sfJson(["org", "list", "--json"]);
+}
+
+/** Connection details for the selected org (instanceUrl, username, id, ...). */
+export async function orgDisplay(): Promise<{ instanceUrl: string; username?: string; id?: string }> {
+  return sfJson(withTargetOrg(["org", "display", "--json"]));
 }
 
 export async function openOrg(path?: string): Promise<unknown> {
@@ -298,6 +305,18 @@ export async function deployMetadata(
   return sfJson(withTargetOrg(args));
 }
 
+/**
+ * Deploys a directory of source-format metadata (`*-meta.xml` files). `sf` only accepts
+ * `--source-dir` paths that sit inside a package directory of the sfdx-project.json found
+ * in the working directory, so callers pass `projectDir` — the folder holding that
+ * sfdx-project.json — and `sourceDir` relative to it.
+ */
+export async function deploySourceDir(sourceDir: string, projectDir: string, opts: { dryRun?: boolean } = {}): Promise<unknown> {
+  const args = ["project", "deploy", "start", "--source-dir", sourceDir, "--json"];
+  if (opts.dryRun) args.push("--dry-run");
+  return sfJson(withTargetOrg(args), { cwd: projectDir });
+}
+
 export async function retrieveMetadata(manifestPath: string, targetDir: string): Promise<unknown> {
   const args = ["project", "retrieve", "start", "--manifest", manifestPath, "--target-metadata-dir", targetDir, "--json"];
   return sfJson(withTargetOrg(args));
@@ -379,6 +398,42 @@ export async function createScratchOrg(
 /** Deletes a scratch org and frees its DevHub quota slot. --no-prompt skips the interactive confirmation (this process has no stdin to answer it). */
 export async function deleteScratchOrg(alias: string): Promise<unknown> {
   return sfJson(["org", "delete", "scratch", "--target-org", alias, "--no-prompt", "--json"]);
+}
+
+// ───────── Files ─────────
+
+/** Uploads a local file as a new ContentDocument (`sf data create file`), optionally retitled. Returns the raw CLI result. */
+export async function uploadFile(filePath: string, title?: string): Promise<unknown> {
+  const args = ["data", "create", "file", "--file", filePath, "--json"];
+  if (title) args.push("--title", title);
+  return sfJson(withTargetOrg(args));
+}
+
+// ───────── Vlocity Build Tools ─────────
+
+/**
+ * Runs `vlocity packDeploy` for a job file against the selected org. Returns
+ * { installed: false } when the `vlocity` binary isn't on PATH instead of throwing, so
+ * callers can skip the step with guidance. The CLI drops a `vlocity-temp` folder in its
+ * working directory, so callers pass a throwaway `cwd`.
+ */
+export async function vlocityPackDeploy(
+  jobFile: string,
+  cwd: string
+): Promise<{ installed: boolean; stdout?: string }> {
+  const org = state.targetOrg;
+  if (!org) throw new SfCliError("No target org selected. Call set_target_org (or check_nzc_setup) first.", { exitCode: -1 });
+  try {
+    const { stdout } = await execFileAsync("vlocity", ["-sfdx.username", org, "-job", jobFile, "packDeploy"], {
+      cwd,
+      maxBuffer: 50 * 1024 * 1024,
+    });
+    return { installed: true, stdout };
+  } catch (err) {
+    const e = err as { code?: string | number; stdout?: string; stderr?: string; message: string };
+    if (e.code === "ENOENT") return { installed: false };
+    throw new SfCliError(e.stderr || e.stdout || e.message, { exitCode: typeof e.code === "number" ? e.code : -1, raw: e.stdout });
+  }
 }
 
 // ───────── Permissions ─────────
