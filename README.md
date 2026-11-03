@@ -19,7 +19,7 @@ For a full walkthrough of capabilities, installation steps, and available comman
 ## Quick start
 
 ```bash
-npm install
+npm ci   # installs from the public npm registry; no Nexus login needed
 npm run build
 claude --plugin-dir /path/to/NZC-Assist
 ```
